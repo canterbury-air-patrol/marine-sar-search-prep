@@ -1,0 +1,24 @@
+{
+  "name": "marine-sar-search-prep",
+  "version": "0.0.1",
+  "description": "Marine Search Pattern Preparation Tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canterbury-air-patrol/marine-sar-search-prep.git"
+  },
+  "keywords": [
+    "marine",
+    "sar",
+    "search"
+  ],
+  "author": "Canterbury Air Patrol Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/canterbury-air-patrol/marine-sar-search-prep/issues"
+  },
+  "homepage": "https://github.com/canterbury-air-patrol/marine-sar-search-prep#readme"
+}
