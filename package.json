@@ -2,8 +2,11 @@
   "name": "marine-sar-search-prep",
   "version": "0.0.1",
   "description": "Marine Search Pattern Preparation Tool",
-  "main": "index.js",
+  "main": "marine-search-prep.js",
   "scripts": {
+    "build": "esbuild example.js --bundle --loader:.js=jsx --outdir=out",
+    "check": "eslint *.js",
+    "start": "http-server -a localhost -p 8000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +23,16 @@
   "bugs": {
     "url": "https://github.com/canterbury-air-patrol/marine-sar-search-prep/issues"
   },
-  "homepage": "https://github.com/canterbury-air-patrol/marine-sar-search-prep#readme"
+  "homepage": "https://github.com/canterbury-air-patrol/marine-sar-search-prep#readme",
+  "dependencies": {
+    "@canterbury-air-patrol/marine-sweep-width-data": "^0.1.0",
+    "bootstrap": "^5.3.3",
+    "esbuild": "^0.23.1",
+    "eslint": "^9.11.0",
+    "http-server": "^14.1.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.4",
+    "react-dom": "^18.3.1"
+  }
 }
