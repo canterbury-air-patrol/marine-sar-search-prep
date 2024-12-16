@@ -28,7 +28,7 @@
     "@canterbury-air-patrol/marine-sweep-width-data": "^0.1.0",
     "bootstrap": "^5.3.3",
     "esbuild": "^0.24.0",
-    "eslint": "^9.16.0",
+    "eslint": "^9.17.0",
     "http-server": "^14.1.1",
     "prop-types": "^15.8.1",
     "react": "^19.0.0",
