@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/canterbury-air-patrol/marine-sar-search-prep#readme",
   "dependencies": {
-    "@canterbury-air-patrol/marine-sweep-width-data": "^0.1.0",
+    "@canterbury-air-patrol/marine-sweep-width-data": "^0.2.0",
     "bootstrap": "^5.3.3",
     "esbuild": "^0.24.0",
     "eslint": "^9.17.0",
