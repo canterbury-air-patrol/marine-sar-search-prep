@@ -25,8 +25,8 @@ class TargetTypeSelector extends React.Component<
   }
 
   handleChange(event: React.ChangeEvent<HTMLSelectElement>) {
-    const target = event.target;
-    const value = target.value;
+    const { target } = event;
+    const { value } = target;
 
     this.props.targetTypeChange(value);
   }
@@ -65,8 +65,8 @@ class AssetTypeSelector extends React.Component<AssetTypeSelectorProps, never> {
   }
 
   handleChange(event: React.ChangeEvent<HTMLSelectElement>) {
-    const target = event.target;
-    const value = target.value;
+    const { target } = event;
+    const { value } = target;
 
     this.props.assetTypeChange(value);
   }
@@ -108,8 +108,8 @@ class AssetHeightSelector extends React.Component<
   }
 
   handleChange(event: React.ChangeEvent<HTMLSelectElement>) {
-    const target = event.target;
-    const value = target.value;
+    const { target } = event;
+    const { value } = target;
 
     this.props.heightChange(value);
   }
@@ -188,17 +188,17 @@ class MarineSearchPrep extends React.Component<object, MarineSearchPrepState> {
   }
 
   windSpeedChange(event: React.ChangeEvent<HTMLInputElement>) {
-    const target = event.target;
+    const { target } = event;
     this.setState({ windSpeed: Number(target.value) });
   }
 
   visibilityChange(event: React.ChangeEvent<HTMLInputElement>) {
-    const target = event.target;
+    const { target } = event;
     this.setState({ visibility: Number(target.value) });
   }
 
   waveHeightChange(event: React.ChangeEvent<HTMLInputElement>) {
-    const target = event.target;
+    const { target } = event;
     this.setState({ waveHeight: parseFloat(target.value) });
   }
 
