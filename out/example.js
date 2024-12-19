@@ -1,3 +1,4 @@
+"use strict";
 (() => {
   var __create = Object.create;
   var __defProp = Object.defineProperty;
@@ -19288,6 +19289,13315 @@
     }
   });
 
+  // node_modules/@canterbury-air-patrol/marine-sweep-width-data/dist/marine-sweep-width-data.js
+  var require_marine_sweep_width_data = __commonJS({
+    "node_modules/@canterbury-air-patrol/marine-sweep-width-data/dist/marine-sweep-width-data.js"(exports, module) {
+      "use strict";
+      var __defProp2 = Object.defineProperty;
+      var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
+      var __getOwnPropNames2 = Object.getOwnPropertyNames;
+      var __hasOwnProp2 = Object.prototype.hasOwnProperty;
+      var __export2 = (target, all) => {
+        for (var name in all)
+          __defProp2(target, name, { get: all[name], enumerable: true });
+      };
+      var __copyProps2 = (to, from, except, desc) => {
+        if (from && typeof from === "object" || typeof from === "function") {
+          for (let key of __getOwnPropNames2(from))
+            if (!__hasOwnProp2.call(to, key) && key !== except)
+              __defProp2(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc2(from, key)) || desc.enumerable });
+        }
+        return to;
+      };
+      var __toCommonJS = (mod) => __copyProps2(__defProp2({}, "__esModule", { value: true }), mod);
+      var marine_sweep_width_data_exports = {};
+      __export2(marine_sweep_width_data_exports, {
+        marine_sweep_width_weather_corrections: () => marine_sweep_width_weather_corrections,
+        marine_sweep_widths: () => marine_sweep_widths
+      });
+      module.exports = __toCommonJS(marine_sweep_width_data_exports);
+      var marine_sweep_widths = {
+        "Person in Water": {
+          "weather_corrections": "small",
+          "speed_corrections": {
+            "Aircraft": [
+              {
+                "speed": 150,
+                "correction": 1.2
+              },
+              {
+                "speed": 180,
+                "correction": 1
+              },
+              {
+                "speed": 210,
+                "correction": 0.9
+              }
+            ],
+            "Helicopter": [
+              {
+                "speed": 60,
+                "correction": 1.5
+              },
+              {
+                "speed": 90,
+                "correction": 1
+              },
+              {
+                "speed": 120,
+                "correction": 0.8
+              },
+              {
+                "speed": 140,
+                "correction": 0.7
+              }
+            ]
+          },
+          "Aircraft": {
+            "500ft": [
+              {
+                "sw": 0,
+                "vis": 1
+              },
+              {
+                "sw": 0.1,
+                "vis": 3
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.1,
+                "vis": 1
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0,
+                "vis": 1
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0,
+                "vis": 1
+              },
+              {
+                "sw": 0.1,
+                "vis": 20
+              }
+            ],
+            "2500ft": [
+              {
+                "sw": 0,
+                "vis": 1
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0,
+                "vis": 1
+              },
+              {
+                "sw": 0.1,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0,
+                "vis": 1
+              },
+              {
+                "sw": 0.1,
+                "vis": 3
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.1,
+                "vis": 1
+              }
+            ]
+          },
+          "Helicopter": {
+            "2500ft": [
+              {
+                "sw": 0,
+                "vis": 1
+              },
+              {
+                "sw": 0.1,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0,
+                "vis": 1
+              },
+              {
+                "sw": 0.1,
+                "vis": 10
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0,
+                "vis": 1
+              },
+              {
+                "sw": 0.1,
+                "vis": 3
+              }
+            ],
+            "500ft": [
+              {
+                "sw": 0,
+                "vis": 1
+              },
+              {
+                "sw": 0.1,
+                "vis": 3
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.1,
+                "vis": 1
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0,
+                "vis": 1
+              },
+              {
+                "sw": 0.1,
+                "vis": 3
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0,
+                "vis": 1
+              },
+              {
+                "sw": 0.1,
+                "vis": 20
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0,
+                "vis": 1
+              }
+            ]
+          },
+          "Boat": {
+            "8ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 0.3,
+                "vis": 5
+              }
+            ],
+            "14ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 0.4,
+                "vis": 3
+              },
+              {
+                "sw": 0.5,
+                "vis": 5
+              }
+            ]
+          }
+        },
+        "Raft 1 person": {
+          "weather_corrections": "small",
+          "speed_corrections": {
+            "Aircraft": [
+              {
+                "speed": 150,
+                "correction": 1.1
+              },
+              {
+                "speed": 180,
+                "correction": 1
+              },
+              {
+                "speed": 210,
+                "correction": 0.9
+              }
+            ],
+            "Helicopter": [
+              {
+                "speed": 60,
+                "correction": 1.3
+              },
+              {
+                "speed": 90,
+                "correction": 1
+              },
+              {
+                "speed": 120,
+                "correction": 0.9
+              },
+              {
+                "speed": 140,
+                "correction": 0.8
+              }
+            ]
+          },
+          "Aircraft": {
+            "500ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 0.7,
+                "vis": 3
+              },
+              {
+                "sw": 0.9,
+                "vis": 5
+              },
+              {
+                "sw": 1.2,
+                "vis": 10
+              },
+              {
+                "sw": 1.4,
+                "vis": 15
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 0.7,
+                "vis": 3
+              },
+              {
+                "sw": 0.9,
+                "vis": 5
+              },
+              {
+                "sw": 1.2,
+                "vis": 10
+              },
+              {
+                "sw": 1.3,
+                "vis": 15
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.1,
+                "vis": 1
+              },
+              {
+                "sw": 0.5,
+                "vis": 3
+              },
+              {
+                "sw": 0.8,
+                "vis": 5
+              },
+              {
+                "sw": 1.1,
+                "vis": 10
+              },
+              {
+                "sw": 1.3,
+                "vis": 15
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 0.7,
+                "vis": 3
+              },
+              {
+                "sw": 0.9,
+                "vis": 5
+              },
+              {
+                "sw": 1.3,
+                "vis": 10
+              },
+              {
+                "sw": 1.4,
+                "vis": 15
+              }
+            ],
+            "2500ft": [
+              {
+                "sw": 0.1,
+                "vis": 1
+              },
+              {
+                "sw": 0.5,
+                "vis": 3
+              },
+              {
+                "sw": 0.8,
+                "vis": 5
+              },
+              {
+                "sw": 1.2,
+                "vis": 10
+              },
+              {
+                "sw": 1.4,
+                "vis": 15
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.1,
+                "vis": 1
+              },
+              {
+                "sw": 0.6,
+                "vis": 3
+              },
+              {
+                "sw": 0.9,
+                "vis": 5
+              },
+              {
+                "sw": 1.2,
+                "vis": 10
+              },
+              {
+                "sw": 1.4,
+                "vis": 15
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 0.7,
+                "vis": 3
+              },
+              {
+                "sw": 0.9,
+                "vis": 5
+              },
+              {
+                "sw": 1.2,
+                "vis": 10
+              },
+              {
+                "sw": 1.4,
+                "vis": 15
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 0.7,
+                "vis": 3
+              },
+              {
+                "sw": 0.9,
+                "vis": 5
+              },
+              {
+                "sw": 1.2,
+                "vis": 10
+              },
+              {
+                "sw": 1.4,
+                "vis": 15
+              }
+            ]
+          },
+          "Helicopter": {
+            "2500ft": [
+              {
+                "sw": 0.1,
+                "vis": 1
+              },
+              {
+                "sw": 0.8,
+                "vis": 3
+              },
+              {
+                "sw": 1.1,
+                "vis": 5
+              },
+              {
+                "sw": 1.6,
+                "vis": 10
+              },
+              {
+                "sw": 1.8,
+                "vis": 15
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 0.9,
+                "vis": 3
+              },
+              {
+                "sw": 1.2,
+                "vis": 5
+              },
+              {
+                "sw": 1.6,
+                "vis": 10
+              },
+              {
+                "sw": 1.8,
+                "vis": 15
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 0.9,
+                "vis": 3
+              },
+              {
+                "sw": 1.2,
+                "vis": 5
+              },
+              {
+                "sw": 1.6,
+                "vis": 10
+              },
+              {
+                "sw": 1.7,
+                "vis": 15
+              },
+              {
+                "sw": 1.8,
+                "vis": 20
+              }
+            ],
+            "500ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 0.9,
+                "vis": 3
+              },
+              {
+                "sw": 1.2,
+                "vis": 5
+              },
+              {
+                "sw": 1.6,
+                "vis": 10
+              },
+              {
+                "sw": 1.8,
+                "vis": 15
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 0.9,
+                "vis": 3
+              },
+              {
+                "sw": 1.2,
+                "vis": 5
+              },
+              {
+                "sw": 1.5,
+                "vis": 10
+              },
+              {
+                "sw": 1.7,
+                "vis": 15
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 0.9,
+                "vis": 3
+              },
+              {
+                "sw": 1.2,
+                "vis": 5
+              },
+              {
+                "sw": 1.6,
+                "vis": 10
+              },
+              {
+                "sw": 1.8,
+                "vis": 15
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 0.8,
+                "vis": 3
+              },
+              {
+                "sw": 1.2,
+                "vis": 5
+              },
+              {
+                "sw": 1.6,
+                "vis": 10
+              },
+              {
+                "sw": 1.8,
+                "vis": 15
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.1,
+                "vis": 1
+              },
+              {
+                "sw": 0.7,
+                "vis": 3
+              },
+              {
+                "sw": 1,
+                "vis": 5
+              },
+              {
+                "sw": 1.5,
+                "vis": 10
+              },
+              {
+                "sw": 1.8,
+                "vis": 15
+              }
+            ]
+          },
+          "Boat": {
+            "8ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 1.3,
+                "vis": 3
+              },
+              {
+                "sw": 1.7,
+                "vis": 5
+              },
+              {
+                "sw": 2.3,
+                "vis": 10
+              },
+              {
+                "sw": 2.6,
+                "vis": 15
+              },
+              {
+                "sw": 2.7,
+                "vis": 20
+              }
+            ],
+            "14ft": [
+              {
+                "sw": 0.9,
+                "vis": 1
+              },
+              {
+                "sw": 1.8,
+                "vis": 3
+              },
+              {
+                "sw": 2.3,
+                "vis": 5
+              },
+              {
+                "sw": 3.1,
+                "vis": 10
+              },
+              {
+                "sw": 3.4,
+                "vis": 15
+              },
+              {
+                "sw": 3.7,
+                "vis": 20
+              }
+            ]
+          }
+        },
+        "Raft 4 person": {
+          "weather_corrections": "small",
+          "speed_corrections": {
+            "Aircraft": [
+              {
+                "speed": 150,
+                "correction": 1.1
+              },
+              {
+                "speed": 180,
+                "correction": 1
+              },
+              {
+                "speed": 210,
+                "correction": 0.9
+              }
+            ],
+            "Helicopter": [
+              {
+                "speed": 60,
+                "correction": 1.3
+              },
+              {
+                "speed": 90,
+                "correction": 1
+              },
+              {
+                "speed": 120,
+                "correction": 0.9
+              },
+              {
+                "speed": 140,
+                "correction": 0.8
+              }
+            ]
+          },
+          "Aircraft": {
+            "500ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1,
+                "vis": 3
+              },
+              {
+                "sw": 1.3,
+                "vis": 5
+              },
+              {
+                "sw": 1.8,
+                "vis": 10
+              },
+              {
+                "sw": 2,
+                "vis": 15
+              },
+              {
+                "sw": 2.2,
+                "vis": 20
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 0.9,
+                "vis": 3
+              },
+              {
+                "sw": 1.3,
+                "vis": 5
+              },
+              {
+                "sw": 1.7,
+                "vis": 10
+              },
+              {
+                "sw": 2,
+                "vis": 15
+              },
+              {
+                "sw": 2.2,
+                "vis": 20
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.1,
+                "vis": 1
+              },
+              {
+                "sw": 0.7,
+                "vis": 3
+              },
+              {
+                "sw": 1.2,
+                "vis": 5
+              },
+              {
+                "sw": 1.8,
+                "vis": 10
+              },
+              {
+                "sw": 2.1,
+                "vis": 15
+              },
+              {
+                "sw": 2.3,
+                "vis": 20
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 1,
+                "vis": 3
+              },
+              {
+                "sw": 1.3,
+                "vis": 5
+              },
+              {
+                "sw": 1.9,
+                "vis": 10
+              },
+              {
+                "sw": 2.1,
+                "vis": 15
+              },
+              {
+                "sw": 2.3,
+                "vis": 20
+              }
+            ],
+            "2500ft": [
+              {
+                "sw": 0.1,
+                "vis": 1
+              },
+              {
+                "sw": 0.8,
+                "vis": 3
+              },
+              {
+                "sw": 1.3,
+                "vis": 5
+              },
+              {
+                "sw": 1.8,
+                "vis": 10
+              },
+              {
+                "sw": 2.2,
+                "vis": 15
+              },
+              {
+                "sw": 2.4,
+                "vis": 20
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 0.9,
+                "vis": 3
+              },
+              {
+                "sw": 1.3,
+                "vis": 5
+              },
+              {
+                "sw": 1.9,
+                "vis": 10
+              },
+              {
+                "sw": 2.2,
+                "vis": 15
+              },
+              {
+                "sw": 2.3,
+                "vis": 20
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 1,
+                "vis": 3
+              },
+              {
+                "sw": 1.3,
+                "vis": 5
+              },
+              {
+                "sw": 1.8,
+                "vis": 10
+              },
+              {
+                "sw": 2.1,
+                "vis": 15
+              },
+              {
+                "sw": 2.3,
+                "vis": 20
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1,
+                "vis": 3
+              },
+              {
+                "sw": 1.3,
+                "vis": 5
+              },
+              {
+                "sw": 1.8,
+                "vis": 10
+              },
+              {
+                "sw": 2.1,
+                "vis": 15
+              },
+              {
+                "sw": 2.2,
+                "vis": 20
+              }
+            ]
+          },
+          "Helicopter": {
+            "2500ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 1.1,
+                "vis": 3
+              },
+              {
+                "sw": 1.6,
+                "vis": 5
+              },
+              {
+                "sw": 2.3,
+                "vis": 10
+              },
+              {
+                "sw": 2.7,
+                "vis": 15
+              },
+              {
+                "sw": 3,
+                "vis": 20
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.2,
+                "vis": 3
+              },
+              {
+                "sw": 1.7,
+                "vis": 5
+              },
+              {
+                "sw": 2.3,
+                "vis": 10
+              },
+              {
+                "sw": 2.7,
+                "vis": 15
+              },
+              {
+                "sw": 2.9,
+                "vis": 20
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.2,
+                "vis": 3
+              },
+              {
+                "sw": 1.7,
+                "vis": 5
+              },
+              {
+                "sw": 2.3,
+                "vis": 10
+              },
+              {
+                "sw": 2.6,
+                "vis": 15
+              },
+              {
+                "sw": 2.8,
+                "vis": 20
+              }
+            ],
+            "500ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.2,
+                "vis": 3
+              },
+              {
+                "sw": 1.6,
+                "vis": 5
+              },
+              {
+                "sw": 2.2,
+                "vis": 10
+              },
+              {
+                "sw": 2.6,
+                "vis": 15
+              },
+              {
+                "sw": 2.8,
+                "vis": 20
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.2,
+                "vis": 3
+              },
+              {
+                "sw": 1.6,
+                "vis": 5
+              },
+              {
+                "sw": 2.2,
+                "vis": 10
+              },
+              {
+                "sw": 2.5,
+                "vis": 15
+              },
+              {
+                "sw": 2.7,
+                "vis": 20
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.2,
+                "vis": 3
+              },
+              {
+                "sw": 1.7,
+                "vis": 5
+              },
+              {
+                "sw": 2.3,
+                "vis": 10
+              },
+              {
+                "sw": 2.6,
+                "vis": 15
+              },
+              {
+                "sw": 2.9,
+                "vis": 20
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 1.2,
+                "vis": 3
+              },
+              {
+                "sw": 1.7,
+                "vis": 5
+              },
+              {
+                "sw": 2.3,
+                "vis": 10
+              },
+              {
+                "sw": 2.7,
+                "vis": 15
+              },
+              {
+                "sw": 3,
+                "vis": 20
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.1,
+                "vis": 1
+              },
+              {
+                "sw": 1,
+                "vis": 3
+              },
+              {
+                "sw": 1.6,
+                "vis": 5
+              },
+              {
+                "sw": 2.3,
+                "vis": 10
+              },
+              {
+                "sw": 2.7,
+                "vis": 15
+              },
+              {
+                "sw": 3,
+                "vis": 20
+              }
+            ]
+          },
+          "Boat": {
+            "8ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 1.7,
+                "vis": 3
+              },
+              {
+                "sw": 2.2,
+                "vis": 5
+              },
+              {
+                "sw": 3.1,
+                "vis": 10
+              },
+              {
+                "sw": 3.5,
+                "vis": 15
+              },
+              {
+                "sw": 3.9,
+                "vis": 20
+              }
+            ],
+            "14ft": [
+              {
+                "sw": 1,
+                "vis": 1
+              },
+              {
+                "sw": 2.2,
+                "vis": 3
+              },
+              {
+                "sw": 3,
+                "vis": 5
+              },
+              {
+                "sw": 4,
+                "vis": 10
+              },
+              {
+                "sw": 4.6,
+                "vis": 15
+              },
+              {
+                "sw": 5,
+                "vis": 20
+              }
+            ]
+          }
+        },
+        "Raft 6 person": {
+          "weather_corrections": "small",
+          "speed_corrections": {
+            "Aircraft": [
+              {
+                "speed": 150,
+                "correction": 1.1
+              },
+              {
+                "speed": 180,
+                "correction": 1
+              },
+              {
+                "speed": 210,
+                "correction": 0.9
+              }
+            ],
+            "Helicopter": [
+              {
+                "speed": 60,
+                "correction": 1.2
+              },
+              {
+                "speed": 90,
+                "correction": 1
+              },
+              {
+                "speed": 120,
+                "correction": 0.9
+              },
+              {
+                "speed": 140,
+                "correction": 0.8
+              }
+            ]
+          },
+          "Aircraft": {
+            "500ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.1,
+                "vis": 3
+              },
+              {
+                "sw": 1.5,
+                "vis": 5
+              },
+              {
+                "sw": 2.2,
+                "vis": 10
+              },
+              {
+                "sw": 2.5,
+                "vis": 15
+              },
+              {
+                "sw": 2.8,
+                "vis": 20
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.1,
+                "vis": 3
+              },
+              {
+                "sw": 1.5,
+                "vis": 5
+              },
+              {
+                "sw": 2.1,
+                "vis": 10
+              },
+              {
+                "sw": 2.5,
+                "vis": 15
+              },
+              {
+                "sw": 2.7,
+                "vis": 20
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.1,
+                "vis": 1
+              },
+              {
+                "sw": 0.9,
+                "vis": 3
+              },
+              {
+                "sw": 1.5,
+                "vis": 5
+              },
+              {
+                "sw": 2.2,
+                "vis": 10
+              },
+              {
+                "sw": 2.7,
+                "vis": 15
+              },
+              {
+                "sw": 2.9,
+                "vis": 20
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 1.1,
+                "vis": 3
+              },
+              {
+                "sw": 1.6,
+                "vis": 5
+              },
+              {
+                "sw": 2.3,
+                "vis": 10
+              },
+              {
+                "sw": 2.6,
+                "vis": 15
+              },
+              {
+                "sw": 2.9,
+                "vis": 20
+              }
+            ],
+            "2500ft": [
+              {
+                "sw": 0.1,
+                "vis": 1
+              },
+              {
+                "sw": 1,
+                "vis": 3
+              },
+              {
+                "sw": 1.5,
+                "vis": 5
+              },
+              {
+                "sw": 2.3,
+                "vis": 10
+              },
+              {
+                "sw": 2.7,
+                "vis": 15
+              },
+              {
+                "sw": 2.9,
+                "vis": 20
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 1.1,
+                "vis": 3
+              },
+              {
+                "sw": 1.6,
+                "vis": 5
+              },
+              {
+                "sw": 2.3,
+                "vis": 10
+              },
+              {
+                "sw": 2.7,
+                "vis": 15
+              },
+              {
+                "sw": 2.9,
+                "vis": 20
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.1,
+                "vis": 3
+              },
+              {
+                "sw": 1.6,
+                "vis": 5
+              },
+              {
+                "sw": 2.2,
+                "vis": 10
+              },
+              {
+                "sw": 2.6,
+                "vis": 15
+              },
+              {
+                "sw": 2.8,
+                "vis": 20
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.1,
+                "vis": 3
+              },
+              {
+                "sw": 1.6,
+                "vis": 5
+              },
+              {
+                "sw": 2.2,
+                "vis": 10
+              },
+              {
+                "sw": 2.6,
+                "vis": 15
+              },
+              {
+                "sw": 2.8,
+                "vis": 20
+              }
+            ]
+          },
+          "Helicopter": {
+            "2500ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 1.3,
+                "vis": 3
+              },
+              {
+                "sw": 1.9,
+                "vis": 5
+              },
+              {
+                "sw": 2.8,
+                "vis": 10
+              },
+              {
+                "sw": 3.3,
+                "vis": 15
+              },
+              {
+                "sw": 3.7,
+                "vis": 20
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.4,
+                "vis": 3
+              },
+              {
+                "sw": 2,
+                "vis": 5
+              },
+              {
+                "sw": 2.8,
+                "vis": 10
+              },
+              {
+                "sw": 3.3,
+                "vis": 15
+              },
+              {
+                "sw": 3.6,
+                "vis": 20
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.4,
+                "vis": 3
+              },
+              {
+                "sw": 2,
+                "vis": 5
+              },
+              {
+                "sw": 2.7,
+                "vis": 10
+              },
+              {
+                "sw": 3.2,
+                "vis": 15
+              },
+              {
+                "sw": 3.5,
+                "vis": 20
+              }
+            ],
+            "500ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.4,
+                "vis": 3
+              },
+              {
+                "sw": 1.9,
+                "vis": 5
+              },
+              {
+                "sw": 2.7,
+                "vis": 10
+              },
+              {
+                "sw": 3.2,
+                "vis": 15
+              },
+              {
+                "sw": 3.5,
+                "vis": 20
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.4,
+                "vis": 3
+              },
+              {
+                "sw": 1.9,
+                "vis": 5
+              },
+              {
+                "sw": 2.7,
+                "vis": 10
+              },
+              {
+                "sw": 3.1,
+                "vis": 15
+              },
+              {
+                "sw": 3.4,
+                "vis": 20
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.4,
+                "vis": 3
+              },
+              {
+                "sw": 2,
+                "vis": 5
+              },
+              {
+                "sw": 2.8,
+                "vis": 10
+              },
+              {
+                "sw": 3.2,
+                "vis": 15
+              },
+              {
+                "sw": 3.5,
+                "vis": 20
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 1.4,
+                "vis": 3
+              },
+              {
+                "sw": 2,
+                "vis": 5
+              },
+              {
+                "sw": 2.8,
+                "vis": 10
+              },
+              {
+                "sw": 3.3,
+                "vis": 15
+              },
+              {
+                "sw": 3.6,
+                "vis": 20
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.1,
+                "vis": 1
+              },
+              {
+                "sw": 1.2,
+                "vis": 3
+              },
+              {
+                "sw": 1.9,
+                "vis": 5
+              },
+              {
+                "sw": 2.8,
+                "vis": 10
+              },
+              {
+                "sw": 3.3,
+                "vis": 15
+              },
+              {
+                "sw": 3.7,
+                "vis": 20
+              }
+            ]
+          },
+          "Boat": {
+            "8ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 1.9,
+                "vis": 3
+              },
+              {
+                "sw": 2.6,
+                "vis": 5
+              },
+              {
+                "sw": 3.6,
+                "vis": 10
+              },
+              {
+                "sw": 4.3,
+                "vis": 15
+              },
+              {
+                "sw": 4.7,
+                "vis": 20
+              }
+            ],
+            "14ft": [
+              {
+                "sw": 1.1,
+                "vis": 1
+              },
+              {
+                "sw": 2.5,
+                "vis": 3
+              },
+              {
+                "sw": 3.4,
+                "vis": 5
+              },
+              {
+                "sw": 4.7,
+                "vis": 10
+              },
+              {
+                "sw": 5.5,
+                "vis": 15
+              },
+              {
+                "sw": 6,
+                "vis": 20
+              }
+            ]
+          }
+        },
+        "Raft 8 person": {
+          "weather_corrections": "small",
+          "speed_corrections": {
+            "Aircraft": [
+              {
+                "speed": 150,
+                "correction": 1.1
+              },
+              {
+                "speed": 180,
+                "correction": 1
+              },
+              {
+                "speed": 210,
+                "correction": 0.9
+              }
+            ],
+            "Helicopter": [
+              {
+                "speed": 60,
+                "correction": 1.2
+              },
+              {
+                "speed": 90,
+                "correction": 1
+              },
+              {
+                "speed": 120,
+                "correction": 0.9
+              },
+              {
+                "speed": 140,
+                "correction": 0.8
+              }
+            ]
+          },
+          "Aircraft": {
+            "500ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.2,
+                "vis": 3
+              },
+              {
+                "sw": 1.6,
+                "vis": 5
+              },
+              {
+                "sw": 2.3,
+                "vis": 10
+              },
+              {
+                "sw": 2.7,
+                "vis": 15
+              },
+              {
+                "sw": 2.9,
+                "vis": 20
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.2,
+                "vis": 3
+              },
+              {
+                "sw": 1.6,
+                "vis": 5
+              },
+              {
+                "sw": 2.3,
+                "vis": 10
+              },
+              {
+                "sw": 2.6,
+                "vis": 15
+              },
+              {
+                "sw": 2.9,
+                "vis": 20
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.1,
+                "vis": 1
+              },
+              {
+                "sw": 1,
+                "vis": 3
+              },
+              {
+                "sw": 1.6,
+                "vis": 5
+              },
+              {
+                "sw": 2.5,
+                "vis": 10
+              },
+              {
+                "sw": 2.9,
+                "vis": 15
+              },
+              {
+                "sw": 3.2,
+                "vis": 20
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 1.2,
+                "vis": 3
+              },
+              {
+                "sw": 1.7,
+                "vis": 5
+              },
+              {
+                "sw": 2.4,
+                "vis": 10
+              },
+              {
+                "sw": 2.8,
+                "vis": 15
+              },
+              {
+                "sw": 3.1,
+                "vis": 20
+              }
+            ],
+            "2500ft": [
+              {
+                "sw": 0.1,
+                "vis": 1
+              },
+              {
+                "sw": 1.1,
+                "vis": 3
+              },
+              {
+                "sw": 1.7,
+                "vis": 5
+              },
+              {
+                "sw": 2.5,
+                "vis": 10
+              },
+              {
+                "sw": 2.9,
+                "vis": 15
+              },
+              {
+                "sw": 3.2,
+                "vis": 20
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 1.2,
+                "vis": 3
+              },
+              {
+                "sw": 1.7,
+                "vis": 5
+              },
+              {
+                "sw": 2.5,
+                "vis": 10
+              },
+              {
+                "sw": 2.9,
+                "vis": 15
+              },
+              {
+                "sw": 3.2,
+                "vis": 20
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.2,
+                "vis": 3
+              },
+              {
+                "sw": 1.7,
+                "vis": 5
+              },
+              {
+                "sw": 2.4,
+                "vis": 10
+              },
+              {
+                "sw": 2.8,
+                "vis": 15
+              },
+              {
+                "sw": 3,
+                "vis": 20
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.2,
+                "vis": 3
+              },
+              {
+                "sw": 1.7,
+                "vis": 5
+              },
+              {
+                "sw": 2.3,
+                "vis": 10
+              },
+              {
+                "sw": 2.7,
+                "vis": 15
+              },
+              {
+                "sw": 3,
+                "vis": 20
+              }
+            ]
+          },
+          "Helicopter": {
+            "2500ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 1.4,
+                "vis": 3
+              },
+              {
+                "sw": 2.1,
+                "vis": 5
+              },
+              {
+                "sw": 3.1,
+                "vis": 10
+              },
+              {
+                "sw": 3.6,
+                "vis": 15
+              },
+              {
+                "sw": 4,
+                "vis": 20
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.5,
+                "vis": 3
+              },
+              {
+                "sw": 2.1,
+                "vis": 5
+              },
+              {
+                "sw": 3,
+                "vis": 10
+              },
+              {
+                "sw": 3.5,
+                "vis": 15
+              },
+              {
+                "sw": 3.9,
+                "vis": 20
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.5,
+                "vis": 3
+              },
+              {
+                "sw": 2.1,
+                "vis": 5
+              },
+              {
+                "sw": 2.9,
+                "vis": 10
+              },
+              {
+                "sw": 3.4,
+                "vis": 15
+              },
+              {
+                "sw": 3.7,
+                "vis": 20
+              }
+            ],
+            "500ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 1.5,
+                "vis": 3
+              },
+              {
+                "sw": 2,
+                "vis": 5
+              },
+              {
+                "sw": 2.8,
+                "vis": 10
+              },
+              {
+                "sw": 3.3,
+                "vis": 15
+              },
+              {
+                "sw": 3.7,
+                "vis": 20
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 1.4,
+                "vis": 3
+              },
+              {
+                "sw": 2,
+                "vis": 5
+              },
+              {
+                "sw": 2.8,
+                "vis": 10
+              },
+              {
+                "sw": 3.3,
+                "vis": 15
+              },
+              {
+                "sw": 3.6,
+                "vis": 20
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.5,
+                "vis": 3
+              },
+              {
+                "sw": 2.1,
+                "vis": 5
+              },
+              {
+                "sw": 2.9,
+                "vis": 10
+              },
+              {
+                "sw": 3.4,
+                "vis": 15
+              },
+              {
+                "sw": 3.8,
+                "vis": 20
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 1.5,
+                "vis": 3
+              },
+              {
+                "sw": 2.1,
+                "vis": 5
+              },
+              {
+                "sw": 3,
+                "vis": 10
+              },
+              {
+                "sw": 3.6,
+                "vis": 15
+              },
+              {
+                "sw": 3.9,
+                "vis": 20
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.1,
+                "vis": 1
+              },
+              {
+                "sw": 1.3,
+                "vis": 3
+              },
+              {
+                "sw": 2.1,
+                "vis": 5
+              },
+              {
+                "sw": 3.1,
+                "vis": 10
+              },
+              {
+                "sw": 3.6,
+                "vis": 15
+              },
+              {
+                "sw": 4,
+                "vis": 20
+              }
+            ]
+          },
+          "Boat": {
+            "8ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 2,
+                "vis": 3
+              },
+              {
+                "sw": 2.7,
+                "vis": 5
+              },
+              {
+                "sw": 3.8,
+                "vis": 10
+              },
+              {
+                "sw": 4.4,
+                "vis": 15
+              },
+              {
+                "sw": 4.9,
+                "vis": 20
+              }
+            ],
+            "14ft": [
+              {
+                "sw": 1.1,
+                "vis": 1
+              },
+              {
+                "sw": 2.5,
+                "vis": 3
+              },
+              {
+                "sw": 3.5,
+                "vis": 5
+              },
+              {
+                "sw": 4.8,
+                "vis": 10
+              },
+              {
+                "sw": 5.7,
+                "vis": 15
+              },
+              {
+                "sw": 6.2,
+                "vis": 20
+              }
+            ]
+          }
+        },
+        "Raft 10 person": {
+          "weather_corrections": "small",
+          "speed_corrections": {
+            "Aircraft": [
+              {
+                "speed": 150,
+                "correction": 1.1
+              },
+              {
+                "speed": 180,
+                "correction": 1
+              },
+              {
+                "speed": 210,
+                "correction": 0.9
+              }
+            ],
+            "Helicopter": [
+              {
+                "speed": 60,
+                "correction": 1.2
+              },
+              {
+                "speed": 90,
+                "correction": 1
+              },
+              {
+                "speed": 120,
+                "correction": 0.9
+              },
+              {
+                "speed": 140,
+                "correction": 0.8
+              }
+            ]
+          },
+          "Aircraft": {
+            "500ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.2,
+                "vis": 3
+              },
+              {
+                "sw": 1.7,
+                "vis": 5
+              },
+              {
+                "sw": 2.5,
+                "vis": 10
+              },
+              {
+                "sw": 2.9,
+                "vis": 15
+              },
+              {
+                "sw": 3.2,
+                "vis": 20
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.2,
+                "vis": 3
+              },
+              {
+                "sw": 1.7,
+                "vis": 5
+              },
+              {
+                "sw": 2.4,
+                "vis": 10
+              },
+              {
+                "sw": 2.9,
+                "vis": 15
+              },
+              {
+                "sw": 3.2,
+                "vis": 20
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.1,
+                "vis": 1
+              },
+              {
+                "sw": 1.1,
+                "vis": 3
+              },
+              {
+                "sw": 1.8,
+                "vis": 5
+              },
+              {
+                "sw": 2.7,
+                "vis": 10
+              },
+              {
+                "sw": 3.2,
+                "vis": 15
+              },
+              {
+                "sw": 3.5,
+                "vis": 20
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 1.3,
+                "vis": 3
+              },
+              {
+                "sw": 1.8,
+                "vis": 5
+              },
+              {
+                "sw": 2.6,
+                "vis": 10
+              },
+              {
+                "sw": 3.1,
+                "vis": 15
+              },
+              {
+                "sw": 3.4,
+                "vis": 20
+              }
+            ],
+            "2500ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 1.2,
+                "vis": 3
+              },
+              {
+                "sw": 1.8,
+                "vis": 5
+              },
+              {
+                "sw": 2.7,
+                "vis": 10
+              },
+              {
+                "sw": 3.2,
+                "vis": 15
+              },
+              {
+                "sw": 3.5,
+                "vis": 20
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 1.2,
+                "vis": 3
+              },
+              {
+                "sw": 1.8,
+                "vis": 5
+              },
+              {
+                "sw": 2.7,
+                "vis": 10
+              },
+              {
+                "sw": 3.1,
+                "vis": 15
+              },
+              {
+                "sw": 3.5,
+                "vis": 20
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.3,
+                "vis": 3
+              },
+              {
+                "sw": 1.8,
+                "vis": 5
+              },
+              {
+                "sw": 2.6,
+                "vis": 10
+              },
+              {
+                "sw": 3,
+                "vis": 15
+              },
+              {
+                "sw": 3.3,
+                "vis": 20
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.3,
+                "vis": 3
+              },
+              {
+                "sw": 1.8,
+                "vis": 5
+              },
+              {
+                "sw": 2.5,
+                "vis": 10
+              },
+              {
+                "sw": 3,
+                "vis": 15
+              },
+              {
+                "sw": 3.3,
+                "vis": 20
+              }
+            ]
+          },
+          "Helicopter": {
+            "2500ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 1.5,
+                "vis": 3
+              },
+              {
+                "sw": 2.2,
+                "vis": 5
+              },
+              {
+                "sw": 3.3,
+                "vis": 10
+              },
+              {
+                "sw": 3.9,
+                "vis": 15
+              },
+              {
+                "sw": 4.3,
+                "vis": 20
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.6,
+                "vis": 3
+              },
+              {
+                "sw": 2.2,
+                "vis": 5
+              },
+              {
+                "sw": 3.2,
+                "vis": 10
+              },
+              {
+                "sw": 3.8,
+                "vis": 15
+              },
+              {
+                "sw": 4.2,
+                "vis": 20
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 1.6,
+                "vis": 3
+              },
+              {
+                "sw": 2.2,
+                "vis": 5
+              },
+              {
+                "sw": 3.1,
+                "vis": 10
+              },
+              {
+                "sw": 3.7,
+                "vis": 15
+              },
+              {
+                "sw": 4,
+                "vis": 20
+              }
+            ],
+            "500ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 1.6,
+                "vis": 3
+              },
+              {
+                "sw": 2.2,
+                "vis": 5
+              },
+              {
+                "sw": 3.1,
+                "vis": 10
+              },
+              {
+                "sw": 3.6,
+                "vis": 15
+              },
+              {
+                "sw": 4,
+                "vis": 20
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 1.5,
+                "vis": 3
+              },
+              {
+                "sw": 2.1,
+                "vis": 5
+              },
+              {
+                "sw": 3,
+                "vis": 10
+              },
+              {
+                "sw": 3.6,
+                "vis": 15
+              },
+              {
+                "sw": 3.9,
+                "vis": 20
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.6,
+                "vis": 3
+              },
+              {
+                "sw": 2.2,
+                "vis": 5
+              },
+              {
+                "sw": 3.2,
+                "vis": 10
+              },
+              {
+                "sw": 3.7,
+                "vis": 15
+              },
+              {
+                "sw": 4.1,
+                "vis": 20
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 1.6,
+                "vis": 3
+              },
+              {
+                "sw": 2.3,
+                "vis": 5
+              },
+              {
+                "sw": 3.3,
+                "vis": 10
+              },
+              {
+                "sw": 3.9,
+                "vis": 15
+              },
+              {
+                "sw": 4.2,
+                "vis": 20
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.1,
+                "vis": 1
+              },
+              {
+                "sw": 1.4,
+                "vis": 3
+              },
+              {
+                "sw": 2.2,
+                "vis": 5
+              },
+              {
+                "sw": 3.3,
+                "vis": 10
+              },
+              {
+                "sw": 3.9,
+                "vis": 15
+              },
+              {
+                "sw": 4.3,
+                "vis": 20
+              }
+            ]
+          },
+          "Boat": {
+            "8ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 2,
+                "vis": 3
+              },
+              {
+                "sw": 2.8,
+                "vis": 5
+              },
+              {
+                "sw": 4,
+                "vis": 10
+              },
+              {
+                "sw": 4.8,
+                "vis": 15
+              },
+              {
+                "sw": 5.3,
+                "vis": 20
+              }
+            ],
+            "14ft": [
+              {
+                "sw": 1.1,
+                "vis": 1
+              },
+              {
+                "sw": 2.6,
+                "vis": 3
+              },
+              {
+                "sw": 3.6,
+                "vis": 5
+              },
+              {
+                "sw": 5.1,
+                "vis": 10
+              },
+              {
+                "sw": 6.1,
+                "vis": 15
+              },
+              {
+                "sw": 6.7,
+                "vis": 20
+              }
+            ]
+          }
+        },
+        "Raft 15 person": {
+          "weather_corrections": "small",
+          "speed_corrections": {
+            "Aircraft": [
+              {
+                "speed": 150,
+                "correction": 1.1
+              },
+              {
+                "speed": 180,
+                "correction": 1
+              },
+              {
+                "speed": 210,
+                "correction": 0.9
+              }
+            ],
+            "Helicopter": [
+              {
+                "speed": 60,
+                "correction": 1.2
+              },
+              {
+                "speed": 90,
+                "correction": 1
+              },
+              {
+                "speed": 120,
+                "correction": 0.9
+              },
+              {
+                "speed": 140,
+                "correction": 0.8
+              }
+            ]
+          },
+          "Aircraft": {
+            "500ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.3,
+                "vis": 3
+              },
+              {
+                "sw": 1.9,
+                "vis": 5
+              },
+              {
+                "sw": 2.7,
+                "vis": 10
+              },
+              {
+                "sw": 3.3,
+                "vis": 15
+              },
+              {
+                "sw": 3.6,
+                "vis": 20
+              },
+              {
+                "sw": 4,
+                "vis": 30
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.3,
+                "vis": 3
+              },
+              {
+                "sw": 1.9,
+                "vis": 5
+              },
+              {
+                "sw": 2.7,
+                "vis": 10
+              },
+              {
+                "sw": 3.2,
+                "vis": 15
+              },
+              {
+                "sw": 3.5,
+                "vis": 20
+              },
+              {
+                "sw": 4,
+                "vis": 30
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.1,
+                "vis": 1
+              },
+              {
+                "sw": 1.2,
+                "vis": 3
+              },
+              {
+                "sw": 2,
+                "vis": 5
+              },
+              {
+                "sw": 3,
+                "vis": 10
+              },
+              {
+                "sw": 3.6,
+                "vis": 15
+              },
+              {
+                "sw": 4,
+                "vis": 20
+              },
+              {
+                "sw": 4.5,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 1.4,
+                "vis": 3
+              },
+              {
+                "sw": 2,
+                "vis": 5
+              },
+              {
+                "sw": 2.9,
+                "vis": 10
+              },
+              {
+                "sw": 3.4,
+                "vis": 15
+              },
+              {
+                "sw": 3.8,
+                "vis": 20
+              },
+              {
+                "sw": 4.3,
+                "vis": 30
+              }
+            ],
+            "2500ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 1.3,
+                "vis": 3
+              },
+              {
+                "sw": 2,
+                "vis": 5
+              },
+              {
+                "sw": 3,
+                "vis": 10
+              },
+              {
+                "sw": 3.6,
+                "vis": 15
+              },
+              {
+                "sw": 4,
+                "vis": 20
+              },
+              {
+                "sw": 4.5,
+                "vis": 30
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 1.4,
+                "vis": 3
+              },
+              {
+                "sw": 2,
+                "vis": 5
+              },
+              {
+                "sw": 3,
+                "vis": 10
+              },
+              {
+                "sw": 3.5,
+                "vis": 15
+              },
+              {
+                "sw": 3.9,
+                "vis": 20
+              },
+              {
+                "sw": 4.4,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.4,
+                "vis": 3
+              },
+              {
+                "sw": 2,
+                "vis": 5
+              },
+              {
+                "sw": 2.8,
+                "vis": 10
+              },
+              {
+                "sw": 3.4,
+                "vis": 15
+              },
+              {
+                "sw": 3.7,
+                "vis": 20
+              },
+              {
+                "sw": 4.2,
+                "vis": 30
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.4,
+                "vis": 3
+              },
+              {
+                "sw": 1.9,
+                "vis": 5
+              },
+              {
+                "sw": 2.8,
+                "vis": 10
+              },
+              {
+                "sw": 3.3,
+                "vis": 15
+              },
+              {
+                "sw": 3.7,
+                "vis": 20
+              },
+              {
+                "sw": 4.1,
+                "vis": 30
+              }
+            ]
+          },
+          "Helicopter": {
+            "2500ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 1.7,
+                "vis": 3
+              },
+              {
+                "sw": 2.5,
+                "vis": 5
+              },
+              {
+                "sw": 3.6,
+                "vis": 10
+              },
+              {
+                "sw": 4.3,
+                "vis": 15
+              },
+              {
+                "sw": 4.8,
+                "vis": 20
+              },
+              {
+                "sw": 5.4,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.7,
+                "vis": 3
+              },
+              {
+                "sw": 2.4,
+                "vis": 5
+              },
+              {
+                "sw": 3.5,
+                "vis": 10
+              },
+              {
+                "sw": 4.2,
+                "vis": 15
+              },
+              {
+                "sw": 4.6,
+                "vis": 20
+              },
+              {
+                "sw": 5.2,
+                "vis": 30
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 1.7,
+                "vis": 3
+              },
+              {
+                "sw": 2.4,
+                "vis": 5
+              },
+              {
+                "sw": 3.4,
+                "vis": 10
+              },
+              {
+                "sw": 4,
+                "vis": 15
+              },
+              {
+                "sw": 4.5,
+                "vis": 20
+              },
+              {
+                "sw": 5,
+                "vis": 30
+              }
+            ],
+            "500ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 1.7,
+                "vis": 3
+              },
+              {
+                "sw": 2.3,
+                "vis": 5
+              },
+              {
+                "sw": 3.3,
+                "vis": 10
+              },
+              {
+                "sw": 4,
+                "vis": 15
+              },
+              {
+                "sw": 4.4,
+                "vis": 20
+              },
+              {
+                "sw": 5,
+                "vis": 30
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 1.6,
+                "vis": 3
+              },
+              {
+                "sw": 2.3,
+                "vis": 5
+              },
+              {
+                "sw": 3.3,
+                "vis": 10
+              },
+              {
+                "sw": 3.9,
+                "vis": 15
+              },
+              {
+                "sw": 4.3,
+                "vis": 20
+              },
+              {
+                "sw": 4.9,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 1.7,
+                "vis": 3
+              },
+              {
+                "sw": 2.4,
+                "vis": 5
+              },
+              {
+                "sw": 3.5,
+                "vis": 10
+              },
+              {
+                "sw": 4.1,
+                "vis": 15
+              },
+              {
+                "sw": 4.5,
+                "vis": 20
+              },
+              {
+                "sw": 5.1,
+                "vis": 30
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 1.7,
+                "vis": 3
+              },
+              {
+                "sw": 2.5,
+                "vis": 5
+              },
+              {
+                "sw": 3.6,
+                "vis": 10
+              },
+              {
+                "sw": 4.3,
+                "vis": 15
+              },
+              {
+                "sw": 4.7,
+                "vis": 20
+              },
+              {
+                "sw": 5.3,
+                "vis": 30
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 1.6,
+                "vis": 3
+              },
+              {
+                "sw": 2.4,
+                "vis": 5
+              },
+              {
+                "sw": 3.7,
+                "vis": 10
+              },
+              {
+                "sw": 4.4,
+                "vis": 15
+              },
+              {
+                "sw": 4.9,
+                "vis": 20
+              },
+              {
+                "sw": 5.5,
+                "vis": 30
+              }
+            ]
+          },
+          "Boat": {
+            "8ft": [
+              {
+                "sw": 0.9,
+                "vis": 1
+              },
+              {
+                "sw": 2.2,
+                "vis": 3
+              },
+              {
+                "sw": 3,
+                "vis": 5
+              },
+              {
+                "sw": 4.3,
+                "vis": 10
+              },
+              {
+                "sw": 5.1,
+                "vis": 15
+              },
+              {
+                "sw": 5.7,
+                "vis": 20
+              }
+            ],
+            "14ft": [
+              {
+                "sw": 1.1,
+                "vis": 1
+              },
+              {
+                "sw": 2.8,
+                "vis": 3
+              },
+              {
+                "sw": 3.8,
+                "vis": 5
+              },
+              {
+                "sw": 5.5,
+                "vis": 10
+              },
+              {
+                "sw": 6.5,
+                "vis": 15
+              },
+              {
+                "sw": 7.2,
+                "vis": 20
+              }
+            ]
+          }
+        },
+        "Raft 20 person": {
+          "weather_corrections": "small",
+          "speed_corrections": {
+            "Aircraft": [
+              {
+                "speed": 150,
+                "correction": 1.1
+              },
+              {
+                "speed": 180,
+                "correction": 1
+              },
+              {
+                "speed": 210,
+                "correction": 0.9
+              }
+            ],
+            "Helicopter": [
+              {
+                "speed": 60,
+                "correction": 1.2
+              },
+              {
+                "speed": 90,
+                "correction": 1
+              },
+              {
+                "speed": 120,
+                "correction": 0.9
+              },
+              {
+                "speed": 140,
+                "correction": 0.8
+              }
+            ]
+          },
+          "Aircraft": {
+            "500ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.5,
+                "vis": 3
+              },
+              {
+                "sw": 2.1,
+                "vis": 5
+              },
+              {
+                "sw": 3.2,
+                "vis": 10
+              },
+              {
+                "sw": 3.8,
+                "vis": 15
+              },
+              {
+                "sw": 4.2,
+                "vis": 20
+              },
+              {
+                "sw": 4.8,
+                "vis": 30
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.4,
+                "vis": 3
+              },
+              {
+                "sw": 2.1,
+                "vis": 5
+              },
+              {
+                "sw": 3.1,
+                "vis": 10
+              },
+              {
+                "sw": 3.7,
+                "vis": 15
+              },
+              {
+                "sw": 4.2,
+                "vis": 20
+              },
+              {
+                "sw": 4.8,
+                "vis": 30
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.1,
+                "vis": 1
+              },
+              {
+                "sw": 1.4,
+                "vis": 3
+              },
+              {
+                "sw": 2.2,
+                "vis": 5
+              },
+              {
+                "sw": 3.4,
+                "vis": 10
+              },
+              {
+                "sw": 4.1,
+                "vis": 15
+              },
+              {
+                "sw": 4.6,
+                "vis": 20
+              },
+              {
+                "sw": 5.3,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.5,
+                "vis": 3
+              },
+              {
+                "sw": 2.2,
+                "vis": 5
+              },
+              {
+                "sw": 3.3,
+                "vis": 10
+              },
+              {
+                "sw": 4,
+                "vis": 15
+              },
+              {
+                "sw": 4.4,
+                "vis": 20
+              },
+              {
+                "sw": 5.1,
+                "vis": 30
+              }
+            ],
+            "2500ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 1.4,
+                "vis": 3
+              },
+              {
+                "sw": 2.2,
+                "vis": 5
+              },
+              {
+                "sw": 3.4,
+                "vis": 10
+              },
+              {
+                "sw": 4.1,
+                "vis": 15
+              },
+              {
+                "sw": 4.6,
+                "vis": 20
+              },
+              {
+                "sw": 5.2,
+                "vis": 30
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.5,
+                "vis": 3
+              },
+              {
+                "sw": 2.2,
+                "vis": 5
+              },
+              {
+                "sw": 3.4,
+                "vis": 10
+              },
+              {
+                "sw": 4,
+                "vis": 15
+              },
+              {
+                "sw": 4.5,
+                "vis": 20
+              },
+              {
+                "sw": 5.1,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.5,
+                "vis": 3
+              },
+              {
+                "sw": 2.2,
+                "vis": 5
+              },
+              {
+                "sw": 3.2,
+                "vis": 10
+              },
+              {
+                "sw": 3.9,
+                "vis": 15
+              },
+              {
+                "sw": 4.3,
+                "vis": 20
+              },
+              {
+                "sw": 4.9,
+                "vis": 30
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.5,
+                "vis": 3
+              },
+              {
+                "sw": 2.2,
+                "vis": 5
+              },
+              {
+                "sw": 3.2,
+                "vis": 10
+              },
+              {
+                "sw": 3.8,
+                "vis": 15
+              },
+              {
+                "sw": 4.3,
+                "vis": 20
+              },
+              {
+                "sw": 4.9,
+                "vis": 30
+              }
+            ]
+          },
+          "Helicopter": {
+            "2500ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 1.8,
+                "vis": 3
+              },
+              {
+                "sw": 2.7,
+                "vis": 5
+              },
+              {
+                "sw": 4.1,
+                "vis": 10
+              },
+              {
+                "sw": 4.9,
+                "vis": 15
+              },
+              {
+                "sw": 5.5,
+                "vis": 20
+              },
+              {
+                "sw": 6.3,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.9,
+                "vis": 3
+              },
+              {
+                "sw": 2.7,
+                "vis": 5
+              },
+              {
+                "sw": 4,
+                "vis": 10
+              },
+              {
+                "sw": 4.8,
+                "vis": 15
+              },
+              {
+                "sw": 5.3,
+                "vis": 20
+              },
+              {
+                "sw": 6.1,
+                "vis": 30
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 1.8,
+                "vis": 3
+              },
+              {
+                "sw": 2.6,
+                "vis": 5
+              },
+              {
+                "sw": 3.9,
+                "vis": 10
+              },
+              {
+                "sw": 4.6,
+                "vis": 15
+              },
+              {
+                "sw": 5.2,
+                "vis": 20
+              },
+              {
+                "sw": 5.9,
+                "vis": 30
+              }
+            ],
+            "500ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 1.8,
+                "vis": 3
+              },
+              {
+                "sw": 2.6,
+                "vis": 5
+              },
+              {
+                "sw": 3.8,
+                "vis": 10
+              },
+              {
+                "sw": 4.6,
+                "vis": 15
+              },
+              {
+                "sw": 5.1,
+                "vis": 20
+              },
+              {
+                "sw": 5.9,
+                "vis": 30
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 1.8,
+                "vis": 3
+              },
+              {
+                "sw": 2.6,
+                "vis": 5
+              },
+              {
+                "sw": 3.8,
+                "vis": 10
+              },
+              {
+                "sw": 4.5,
+                "vis": 15
+              },
+              {
+                "sw": 5.1,
+                "vis": 20
+              },
+              {
+                "sw": 5.8,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 1.8,
+                "vis": 3
+              },
+              {
+                "sw": 2.7,
+                "vis": 5
+              },
+              {
+                "sw": 3.9,
+                "vis": 10
+              },
+              {
+                "sw": 4.7,
+                "vis": 15
+              },
+              {
+                "sw": 5.2,
+                "vis": 20
+              },
+              {
+                "sw": 6,
+                "vis": 30
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.8,
+                "vis": 3
+              },
+              {
+                "sw": 2.7,
+                "vis": 5
+              },
+              {
+                "sw": 4,
+                "vis": 10
+              },
+              {
+                "sw": 4.9,
+                "vis": 15
+              },
+              {
+                "sw": 5.4,
+                "vis": 20
+              },
+              {
+                "sw": 6.2,
+                "vis": 30
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 1.7,
+                "vis": 3
+              },
+              {
+                "sw": 2.7,
+                "vis": 5
+              },
+              {
+                "sw": 4.1,
+                "vis": 10
+              },
+              {
+                "sw": 5,
+                "vis": 15
+              },
+              {
+                "sw": 5.6,
+                "vis": 20
+              },
+              {
+                "sw": 6.3,
+                "vis": 30
+              }
+            ]
+          },
+          "Boat": {
+            "8ft": [
+              {
+                "sw": 0.9,
+                "vis": 1
+              },
+              {
+                "sw": 2.3,
+                "vis": 3
+              },
+              {
+                "sw": 3.3,
+                "vis": 5
+              },
+              {
+                "sw": 4.9,
+                "vis": 10
+              },
+              {
+                "sw": 5.8,
+                "vis": 15
+              },
+              {
+                "sw": 6.5,
+                "vis": 20
+              }
+            ],
+            "14ft": [
+              {
+                "sw": 1.2,
+                "vis": 1
+              },
+              {
+                "sw": 3,
+                "vis": 3
+              },
+              {
+                "sw": 4.1,
+                "vis": 5
+              },
+              {
+                "sw": 6.1,
+                "vis": 10
+              },
+              {
+                "sw": 7.3,
+                "vis": 15
+              },
+              {
+                "sw": 8.1,
+                "vis": 20
+              }
+            ]
+          }
+        },
+        "Raft 25 person": {
+          "weather_corrections": "small",
+          "speed_corrections": {
+            "Aircraft": [
+              {
+                "speed": 150,
+                "correction": 1.1
+              },
+              {
+                "speed": 180,
+                "correction": 1
+              },
+              {
+                "speed": 210,
+                "correction": 0.9
+              }
+            ],
+            "Helicopter": [
+              {
+                "speed": 60,
+                "correction": 1.2
+              },
+              {
+                "speed": 90,
+                "correction": 1
+              },
+              {
+                "speed": 120,
+                "correction": 0.9
+              },
+              {
+                "speed": 140,
+                "correction": 0.8
+              }
+            ]
+          },
+          "Aircraft": {
+            "500ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.6,
+                "vis": 3
+              },
+              {
+                "sw": 2.3,
+                "vis": 5
+              },
+              {
+                "sw": 3.4,
+                "vis": 10
+              },
+              {
+                "sw": 4.1,
+                "vis": 15
+              },
+              {
+                "sw": 4.6,
+                "vis": 20
+              },
+              {
+                "sw": 5.3,
+                "vis": 30
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.5,
+                "vis": 3
+              },
+              {
+                "sw": 2.2,
+                "vis": 5
+              },
+              {
+                "sw": 3.4,
+                "vis": 10
+              },
+              {
+                "sw": 4.1,
+                "vis": 15
+              },
+              {
+                "sw": 4.6,
+                "vis": 20
+              },
+              {
+                "sw": 5.2,
+                "vis": 30
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.1,
+                "vis": 1
+              },
+              {
+                "sw": 1.5,
+                "vis": 3
+              },
+              {
+                "sw": 2.4,
+                "vis": 5
+              },
+              {
+                "sw": 3.7,
+                "vis": 10
+              },
+              {
+                "sw": 4.5,
+                "vis": 15
+              },
+              {
+                "sw": 5.1,
+                "vis": 20
+              },
+              {
+                "sw": 5.8,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.6,
+                "vis": 3
+              },
+              {
+                "sw": 2.4,
+                "vis": 5
+              },
+              {
+                "sw": 3.6,
+                "vis": 10
+              },
+              {
+                "sw": 4.3,
+                "vis": 15
+              },
+              {
+                "sw": 4.8,
+                "vis": 20
+              },
+              {
+                "sw": 5.6,
+                "vis": 30
+              }
+            ],
+            "2500ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 1.5,
+                "vis": 3
+              },
+              {
+                "sw": 2.4,
+                "vis": 5
+              },
+              {
+                "sw": 3.7,
+                "vis": 10
+              },
+              {
+                "sw": 4.5,
+                "vis": 15
+              },
+              {
+                "sw": 5,
+                "vis": 20
+              },
+              {
+                "sw": 5.7,
+                "vis": 30
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 1.6,
+                "vis": 3
+              },
+              {
+                "sw": 2.4,
+                "vis": 5
+              },
+              {
+                "sw": 3.6,
+                "vis": 10
+              },
+              {
+                "sw": 4.4,
+                "vis": 15
+              },
+              {
+                "sw": 4.9,
+                "vis": 20
+              },
+              {
+                "sw": 5.7,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.6,
+                "vis": 3
+              },
+              {
+                "sw": 2.3,
+                "vis": 5
+              },
+              {
+                "sw": 3.5,
+                "vis": 10
+              },
+              {
+                "sw": 4.2,
+                "vis": 15
+              },
+              {
+                "sw": 4.7,
+                "vis": 20
+              },
+              {
+                "sw": 5.4,
+                "vis": 30
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.6,
+                "vis": 3
+              },
+              {
+                "sw": 2.3,
+                "vis": 5
+              },
+              {
+                "sw": 3.5,
+                "vis": 10
+              },
+              {
+                "sw": 4.2,
+                "vis": 15
+              },
+              {
+                "sw": 4.7,
+                "vis": 20
+              },
+              {
+                "sw": 5.4,
+                "vis": 30
+              }
+            ]
+          },
+          "Helicopter": {
+            "2500ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 1.9,
+                "vis": 3
+              },
+              {
+                "sw": 2.9,
+                "vis": 5
+              },
+              {
+                "sw": 4.4,
+                "vis": 10
+              },
+              {
+                "sw": 5.3,
+                "vis": 15
+              },
+              {
+                "sw": 6,
+                "vis": 20
+              },
+              {
+                "sw": 6.9,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 2,
+                "vis": 3
+              },
+              {
+                "sw": 2.9,
+                "vis": 5
+              },
+              {
+                "sw": 4.3,
+                "vis": 10
+              },
+              {
+                "sw": 5.2,
+                "vis": 15
+              },
+              {
+                "sw": 5.8,
+                "vis": 20
+              },
+              {
+                "sw": 6.7,
+                "vis": 30
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 1.9,
+                "vis": 3
+              },
+              {
+                "sw": 2.8,
+                "vis": 5
+              },
+              {
+                "sw": 4.2,
+                "vis": 10
+              },
+              {
+                "sw": 5,
+                "vis": 15
+              },
+              {
+                "sw": 5.6,
+                "vis": 20
+              },
+              {
+                "sw": 6.5,
+                "vis": 30
+              }
+            ],
+            "500ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 1.9,
+                "vis": 3
+              },
+              {
+                "sw": 2.7,
+                "vis": 5
+              },
+              {
+                "sw": 4.1,
+                "vis": 10
+              },
+              {
+                "sw": 5,
+                "vis": 15
+              },
+              {
+                "sw": 5.6,
+                "vis": 20
+              },
+              {
+                "sw": 6.4,
+                "vis": 30
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 1.9,
+                "vis": 3
+              },
+              {
+                "sw": 2.7,
+                "vis": 5
+              },
+              {
+                "sw": 4.1,
+                "vis": 10
+              },
+              {
+                "sw": 4.9,
+                "vis": 15
+              },
+              {
+                "sw": 5.5,
+                "vis": 20
+              },
+              {
+                "sw": 6.3,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 1.9,
+                "vis": 3
+              },
+              {
+                "sw": 2.8,
+                "vis": 5
+              },
+              {
+                "sw": 4.2,
+                "vis": 10
+              },
+              {
+                "sw": 5.1,
+                "vis": 15
+              },
+              {
+                "sw": 5.7,
+                "vis": 20
+              },
+              {
+                "sw": 6.5,
+                "vis": 30
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.9,
+                "vis": 3
+              },
+              {
+                "sw": 2.9,
+                "vis": 5
+              },
+              {
+                "sw": 4.3,
+                "vis": 10
+              },
+              {
+                "sw": 5.3,
+                "vis": 15
+              },
+              {
+                "sw": 5.9,
+                "vis": 20
+              },
+              {
+                "sw": 6.8,
+                "vis": 30
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 1.9,
+                "vis": 3
+              },
+              {
+                "sw": 2.9,
+                "vis": 5
+              },
+              {
+                "sw": 4.4,
+                "vis": 10
+              },
+              {
+                "sw": 5.4,
+                "vis": 15
+              },
+              {
+                "sw": 6,
+                "vis": 20
+              },
+              {
+                "sw": 6.9,
+                "vis": 30
+              }
+            ]
+          },
+          "Boat": {
+            "8ft": [
+              {
+                "sw": 0.9,
+                "vis": 1
+              },
+              {
+                "sw": 2.4,
+                "vis": 3
+              },
+              {
+                "sw": 3.5,
+                "vis": 5
+              },
+              {
+                "sw": 5.2,
+                "vis": 10
+              },
+              {
+                "sw": 6.3,
+                "vis": 15
+              },
+              {
+                "sw": 7,
+                "vis": 20
+              }
+            ],
+            "14ft": [
+              {
+                "sw": 1.2,
+                "vis": 1
+              },
+              {
+                "sw": 3.1,
+                "vis": 3
+              },
+              {
+                "sw": 4.3,
+                "vis": 5
+              },
+              {
+                "sw": 6.4,
+                "vis": 10
+              },
+              {
+                "sw": 7.8,
+                "vis": 15
+              },
+              {
+                "sw": 8.7,
+                "vis": 20
+              }
+            ]
+          }
+        },
+        "Power Boat \u2264 15ft": {
+          "weather_corrections": "small",
+          "speed_corrections": {
+            "Aircraft": [
+              {
+                "speed": 150,
+                "correction": 1.1
+              },
+              {
+                "speed": 180,
+                "correction": 1
+              },
+              {
+                "speed": 210,
+                "correction": 0.9
+              }
+            ],
+            "Helicopter": [
+              {
+                "speed": 60,
+                "correction": 1.2
+              },
+              {
+                "speed": 90,
+                "correction": 1
+              },
+              {
+                "speed": 120,
+                "correction": 0.9
+              },
+              {
+                "speed": 140,
+                "correction": 0.8
+              }
+            ]
+          },
+          "Aircraft": {
+            "500ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 0.9,
+                "vis": 3
+              },
+              {
+                "sw": 1.2,
+                "vis": 5
+              },
+              {
+                "sw": 1.5,
+                "vis": 10
+              },
+              {
+                "sw": 1.7,
+                "vis": 15
+              },
+              {
+                "sw": 1.8,
+                "vis": 20
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 0.8,
+                "vis": 3
+              },
+              {
+                "sw": 1.1,
+                "vis": 5
+              },
+              {
+                "sw": 1.4,
+                "vis": 10
+              },
+              {
+                "sw": 1.6,
+                "vis": 15
+              },
+              {
+                "sw": 1.7,
+                "vis": 20
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.1,
+                "vis": 1
+              },
+              {
+                "sw": 0.8,
+                "vis": 3
+              },
+              {
+                "sw": 1.3,
+                "vis": 5
+              },
+              {
+                "sw": 1.8,
+                "vis": 10
+              },
+              {
+                "sw": 2.1,
+                "vis": 15
+              },
+              {
+                "sw": 2.3,
+                "vis": 20
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 1,
+                "vis": 3
+              },
+              {
+                "sw": 1.3,
+                "vis": 5
+              },
+              {
+                "sw": 1.7,
+                "vis": 10
+              },
+              {
+                "sw": 2,
+                "vis": 15
+              },
+              {
+                "sw": 2.1,
+                "vis": 20
+              }
+            ],
+            "2500ft": [
+              {
+                "sw": 0.1,
+                "vis": 1
+              },
+              {
+                "sw": 0.9,
+                "vis": 3
+              },
+              {
+                "sw": 1.3,
+                "vis": 5
+              },
+              {
+                "sw": 1.8,
+                "vis": 10
+              },
+              {
+                "sw": 2.1,
+                "vis": 15
+              },
+              {
+                "sw": 2.2,
+                "vis": 20
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 1,
+                "vis": 3
+              },
+              {
+                "sw": 1.3,
+                "vis": 5
+              },
+              {
+                "sw": 1.8,
+                "vis": 10
+              },
+              {
+                "sw": 2,
+                "vis": 15
+              },
+              {
+                "sw": 2.2,
+                "vis": 20
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1,
+                "vis": 3
+              },
+              {
+                "sw": 1.3,
+                "vis": 5
+              },
+              {
+                "sw": 1.7,
+                "vis": 10
+              },
+              {
+                "sw": 1.8,
+                "vis": 15
+              },
+              {
+                "sw": 2,
+                "vis": 20
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 0.9,
+                "vis": 3
+              },
+              {
+                "sw": 1.2,
+                "vis": 5
+              },
+              {
+                "sw": 1.6,
+                "vis": 10
+              },
+              {
+                "sw": 1.8,
+                "vis": 15
+              },
+              {
+                "sw": 1.9,
+                "vis": 20
+              }
+            ]
+          },
+          "Helicopter": {
+            "2500ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 1.2,
+                "vis": 3
+              },
+              {
+                "sw": 1.7,
+                "vis": 5
+              },
+              {
+                "sw": 2.3,
+                "vis": 10
+              },
+              {
+                "sw": 2.6,
+                "vis": 15
+              },
+              {
+                "sw": 2.8,
+                "vis": 20
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.3,
+                "vis": 3
+              },
+              {
+                "sw": 1.7,
+                "vis": 5
+              },
+              {
+                "sw": 2.2,
+                "vis": 10
+              },
+              {
+                "sw": 2.5,
+                "vis": 15
+              },
+              {
+                "sw": 2.6,
+                "vis": 20
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.2,
+                "vis": 3
+              },
+              {
+                "sw": 1.6,
+                "vis": 5
+              },
+              {
+                "sw": 2,
+                "vis": 10
+              },
+              {
+                "sw": 2.3,
+                "vis": 15
+              },
+              {
+                "sw": 2.4,
+                "vis": 20
+              }
+            ],
+            "500ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.2,
+                "vis": 3
+              },
+              {
+                "sw": 1.5,
+                "vis": 5
+              },
+              {
+                "sw": 1.9,
+                "vis": 10
+              },
+              {
+                "sw": 2.2,
+                "vis": 15
+              },
+              {
+                "sw": 2.3,
+                "vis": 20
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.1,
+                "vis": 3
+              },
+              {
+                "sw": 1.4,
+                "vis": 5
+              },
+              {
+                "sw": 1.9,
+                "vis": 10
+              },
+              {
+                "sw": 2.1,
+                "vis": 15
+              },
+              {
+                "sw": 2.2,
+                "vis": 20
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.2,
+                "vis": 3
+              },
+              {
+                "sw": 1.6,
+                "vis": 5
+              },
+              {
+                "sw": 2.1,
+                "vis": 10
+              },
+              {
+                "sw": 2.3,
+                "vis": 15
+              },
+              {
+                "sw": 2.5,
+                "vis": 20
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 1.3,
+                "vis": 3
+              },
+              {
+                "sw": 1.7,
+                "vis": 5
+              },
+              {
+                "sw": 2.3,
+                "vis": 10
+              },
+              {
+                "sw": 2.6,
+                "vis": 15
+              },
+              {
+                "sw": 2.7,
+                "vis": 20
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.1,
+                "vis": 1
+              },
+              {
+                "sw": 1.1,
+                "vis": 3
+              },
+              {
+                "sw": 1.7,
+                "vis": 5
+              },
+              {
+                "sw": 2.3,
+                "vis": 10
+              },
+              {
+                "sw": 2.7,
+                "vis": 15
+              },
+              {
+                "sw": 2.9,
+                "vis": 20
+              }
+            ]
+          },
+          "Boat": {
+            "8ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 0.8,
+                "vis": 3
+              },
+              {
+                "sw": 1.1,
+                "vis": 5
+              },
+              {
+                "sw": 1.5,
+                "vis": 10
+              },
+              {
+                "sw": 1.6,
+                "vis": 15
+              },
+              {
+                "sw": 1.8,
+                "vis": 20
+              }
+            ],
+            "14ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.1,
+                "vis": 3
+              },
+              {
+                "sw": 1.4,
+                "vis": 5
+              },
+              {
+                "sw": 1.9,
+                "vis": 10
+              },
+              {
+                "sw": 2.1,
+                "vis": 15
+              },
+              {
+                "sw": 2.3,
+                "vis": 20
+              }
+            ]
+          }
+        },
+        "Power Boat 20ft": {
+          "weather_corrections": "small",
+          "speed_corrections": {
+            "Aircraft": [
+              {
+                "speed": 150,
+                "correction": 1.1
+              },
+              {
+                "speed": 180,
+                "correction": 1
+              },
+              {
+                "speed": 210,
+                "correction": 0.9
+              }
+            ],
+            "Helicopter": [
+              {
+                "speed": 60,
+                "correction": 1.2
+              },
+              {
+                "speed": 90,
+                "correction": 1
+              },
+              {
+                "speed": 120,
+                "correction": 0.9
+              },
+              {
+                "speed": 140,
+                "correction": 0.8
+              }
+            ]
+          },
+          "Aircraft": {
+            "500ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.7,
+                "vis": 3
+              },
+              {
+                "sw": 2.4,
+                "vis": 5
+              },
+              {
+                "sw": 3.6,
+                "vis": 10
+              },
+              {
+                "sw": 4.3,
+                "vis": 15
+              },
+              {
+                "sw": 4.8,
+                "vis": 20
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.6,
+                "vis": 3
+              },
+              {
+                "sw": 2.4,
+                "vis": 5
+              },
+              {
+                "sw": 3.5,
+                "vis": 10
+              },
+              {
+                "sw": 4.3,
+                "vis": 15
+              },
+              {
+                "sw": 4.8,
+                "vis": 20
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.1,
+                "vis": 1
+              },
+              {
+                "sw": 1.6,
+                "vis": 3
+              },
+              {
+                "sw": 2.5,
+                "vis": 5
+              },
+              {
+                "sw": 3.9,
+                "vis": 10
+              },
+              {
+                "sw": 4.7,
+                "vis": 15
+              },
+              {
+                "sw": 5.3,
+                "vis": 20
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.7,
+                "vis": 3
+              },
+              {
+                "sw": 2.5,
+                "vis": 5
+              },
+              {
+                "sw": 3.7,
+                "vis": 10
+              },
+              {
+                "sw": 4.5,
+                "vis": 15
+              },
+              {
+                "sw": 5.1,
+                "vis": 20
+              }
+            ],
+            "2500ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 1.6,
+                "vis": 3
+              },
+              {
+                "sw": 2.5,
+                "vis": 5
+              },
+              {
+                "sw": 3.8,
+                "vis": 10
+              },
+              {
+                "sw": 4.6,
+                "vis": 15
+              },
+              {
+                "sw": 5.2,
+                "vis": 20
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 1.7,
+                "vis": 3
+              },
+              {
+                "sw": 2.5,
+                "vis": 5
+              },
+              {
+                "sw": 3.8,
+                "vis": 10
+              },
+              {
+                "sw": 4.6,
+                "vis": 15
+              },
+              {
+                "sw": 5.1,
+                "vis": 20
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.7,
+                "vis": 3
+              },
+              {
+                "sw": 2.5,
+                "vis": 5
+              },
+              {
+                "sw": 3.7,
+                "vis": 10
+              },
+              {
+                "sw": 4.4,
+                "vis": 15
+              },
+              {
+                "sw": 5,
+                "vis": 20
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.7,
+                "vis": 3
+              },
+              {
+                "sw": 2.4,
+                "vis": 5
+              },
+              {
+                "sw": 3.6,
+                "vis": 10
+              },
+              {
+                "sw": 4.4,
+                "vis": 15
+              },
+              {
+                "sw": 4.9,
+                "vis": 20
+              }
+            ]
+          },
+          "Helicopter": {
+            "2500ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 2,
+                "vis": 3
+              },
+              {
+                "sw": 3,
+                "vis": 5
+              },
+              {
+                "sw": 4.6,
+                "vis": 10
+              },
+              {
+                "sw": 5.5,
+                "vis": 15
+              },
+              {
+                "sw": 6.2,
+                "vis": 20
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.1,
+                "vis": 3
+              },
+              {
+                "sw": 3,
+                "vis": 5
+              },
+              {
+                "sw": 4.5,
+                "vis": 10
+              },
+              {
+                "sw": 5.4,
+                "vis": 15
+              },
+              {
+                "sw": 6.1,
+                "vis": 20
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 2,
+                "vis": 3
+              },
+              {
+                "sw": 2.9,
+                "vis": 5
+              },
+              {
+                "sw": 4.4,
+                "vis": 10
+              },
+              {
+                "sw": 5.3,
+                "vis": 15
+              },
+              {
+                "sw": 5.9,
+                "vis": 20
+              }
+            ],
+            "500ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 2,
+                "vis": 3
+              },
+              {
+                "sw": 2.9,
+                "vis": 5
+              },
+              {
+                "sw": 4.3,
+                "vis": 10
+              },
+              {
+                "sw": 5.2,
+                "vis": 15
+              },
+              {
+                "sw": 5.8,
+                "vis": 20
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 2,
+                "vis": 3
+              },
+              {
+                "sw": 2.9,
+                "vis": 5
+              },
+              {
+                "sw": 4.3,
+                "vis": 10
+              },
+              {
+                "sw": 5.2,
+                "vis": 15
+              },
+              {
+                "sw": 5.8,
+                "vis": 20
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 2.1,
+                "vis": 3
+              },
+              {
+                "sw": 3,
+                "vis": 5
+              },
+              {
+                "sw": 4.4,
+                "vis": 10
+              },
+              {
+                "sw": 5.3,
+                "vis": 15
+              },
+              {
+                "sw": 5.9,
+                "vis": 20
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 2.1,
+                "vis": 3
+              },
+              {
+                "sw": 3,
+                "vis": 5
+              },
+              {
+                "sw": 4.5,
+                "vis": 10
+              },
+              {
+                "sw": 5.5,
+                "vis": 15
+              },
+              {
+                "sw": 6.1,
+                "vis": 20
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 2,
+                "vis": 3
+              },
+              {
+                "sw": 3,
+                "vis": 5
+              },
+              {
+                "sw": 4.6,
+                "vis": 10
+              },
+              {
+                "sw": 5.6,
+                "vis": 15
+              },
+              {
+                "sw": 6.3,
+                "vis": 20
+              }
+            ]
+          },
+          "Boat": {
+            "8ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 1.5,
+                "vis": 3
+              },
+              {
+                "sw": 2.2,
+                "vis": 5
+              },
+              {
+                "sw": 3.3,
+                "vis": 10
+              },
+              {
+                "sw": 4,
+                "vis": 15
+              },
+              {
+                "sw": 4.5,
+                "vis": 20
+              }
+            ],
+            "14ft": [
+              {
+                "sw": 1,
+                "vis": 1
+              },
+              {
+                "sw": 2,
+                "vis": 3
+              },
+              {
+                "sw": 2.9,
+                "vis": 5
+              },
+              {
+                "sw": 4.3,
+                "vis": 10
+              },
+              {
+                "sw": 5.2,
+                "vis": 15
+              },
+              {
+                "sw": 5.8,
+                "vis": 20
+              }
+            ]
+          }
+        },
+        "Power Boat 33ft": {
+          "weather_corrections": "large",
+          "speed_corrections": {
+            "Aircraft": [
+              {
+                "speed": 150,
+                "correction": 1.1
+              },
+              {
+                "speed": 180,
+                "correction": 1
+              },
+              {
+                "speed": 210,
+                "correction": 0.9
+              }
+            ],
+            "Helicopter": [
+              {
+                "speed": 60,
+                "correction": 1.1
+              },
+              {
+                "speed": 90,
+                "correction": 1
+              },
+              {
+                "speed": 120,
+                "correction": 0.9
+              }
+            ]
+          },
+          "Aircraft": {
+            "500ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.1,
+                "vis": 3
+              },
+              {
+                "sw": 3.3,
+                "vis": 5
+              },
+              {
+                "sw": 5.3,
+                "vis": 10
+              },
+              {
+                "sw": 6.7,
+                "vis": 15
+              },
+              {
+                "sw": 7.7,
+                "vis": 20
+              },
+              {
+                "sw": 9.1,
+                "vis": 30
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.1,
+                "vis": 3
+              },
+              {
+                "sw": 3.3,
+                "vis": 5
+              },
+              {
+                "sw": 5.3,
+                "vis": 10
+              },
+              {
+                "sw": 6.6,
+                "vis": 15
+              },
+              {
+                "sw": 7.6,
+                "vis": 20
+              },
+              {
+                "sw": 9.1,
+                "vis": 30
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 2.1,
+                "vis": 3
+              },
+              {
+                "sw": 3.4,
+                "vis": 5
+              },
+              {
+                "sw": 5.6,
+                "vis": 10
+              },
+              {
+                "sw": 7.1,
+                "vis": 15
+              },
+              {
+                "sw": 8.1,
+                "vis": 20
+              },
+              {
+                "sw": 9.7,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 2.2,
+                "vis": 3
+              },
+              {
+                "sw": 3.4,
+                "vis": 5
+              },
+              {
+                "sw": 5.5,
+                "vis": 10
+              },
+              {
+                "sw": 6.8,
+                "vis": 15
+              },
+              {
+                "sw": 7.9,
+                "vis": 20
+              },
+              {
+                "sw": 9.4,
+                "vis": 30
+              }
+            ],
+            "2500ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 2.1,
+                "vis": 3
+              },
+              {
+                "sw": 3.4,
+                "vis": 5
+              },
+              {
+                "sw": 5.6,
+                "vis": 10
+              },
+              {
+                "sw": 7,
+                "vis": 15
+              },
+              {
+                "sw": 8.1,
+                "vis": 20
+              },
+              {
+                "sw": 9.6,
+                "vis": 30
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 2.2,
+                "vis": 3
+              },
+              {
+                "sw": 3.4,
+                "vis": 5
+              },
+              {
+                "sw": 5.5,
+                "vis": 10
+              },
+              {
+                "sw": 6.9,
+                "vis": 15
+              },
+              {
+                "sw": 8,
+                "vis": 20
+              },
+              {
+                "sw": 9.5,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 2.2,
+                "vis": 3
+              },
+              {
+                "sw": 3.4,
+                "vis": 5
+              },
+              {
+                "sw": 5.4,
+                "vis": 10
+              },
+              {
+                "sw": 6.8,
+                "vis": 15
+              },
+              {
+                "sw": 7.8,
+                "vis": 20
+              },
+              {
+                "sw": 9.3,
+                "vis": 30
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.1,
+                "vis": 3
+              },
+              {
+                "sw": 3.3,
+                "vis": 5
+              },
+              {
+                "sw": 5.3,
+                "vis": 10
+              },
+              {
+                "sw": 6.7,
+                "vis": 15
+              },
+              {
+                "sw": 7.7,
+                "vis": 20
+              },
+              {
+                "sw": 9.2,
+                "vis": 30
+              }
+            ]
+          },
+          "Helicopter": {
+            "2500ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 2.5,
+                "vis": 3
+              },
+              {
+                "sw": 4,
+                "vis": 5
+              },
+              {
+                "sw": 6.5,
+                "vis": 10
+              },
+              {
+                "sw": 8.1,
+                "vis": 15
+              },
+              {
+                "sw": 9.3,
+                "vis": 20
+              },
+              {
+                "sw": 11.1,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.6,
+                "vis": 3
+              },
+              {
+                "sw": 4,
+                "vis": 5
+              },
+              {
+                "sw": 6.3,
+                "vis": 10
+              },
+              {
+                "sw": 7.9,
+                "vis": 15
+              },
+              {
+                "sw": 9.2,
+                "vis": 20
+              },
+              {
+                "sw": 10.9,
+                "vis": 30
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 2.5,
+                "vis": 3
+              },
+              {
+                "sw": 3.9,
+                "vis": 5
+              },
+              {
+                "sw": 6.2,
+                "vis": 10
+              },
+              {
+                "sw": 7.8,
+                "vis": 15
+              },
+              {
+                "sw": 9,
+                "vis": 20
+              },
+              {
+                "sw": 10.7,
+                "vis": 30
+              }
+            ],
+            "500ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 2.5,
+                "vis": 3
+              },
+              {
+                "sw": 3.9,
+                "vis": 5
+              },
+              {
+                "sw": 6.2,
+                "vis": 10
+              },
+              {
+                "sw": 7.8,
+                "vis": 15
+              },
+              {
+                "sw": 9,
+                "vis": 20
+              },
+              {
+                "sw": 10.7,
+                "vis": 30
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 2.5,
+                "vis": 3
+              },
+              {
+                "sw": 3.8,
+                "vis": 5
+              },
+              {
+                "sw": 6.1,
+                "vis": 10
+              },
+              {
+                "sw": 7.7,
+                "vis": 15
+              },
+              {
+                "sw": 8.9,
+                "vis": 20
+              },
+              {
+                "sw": 10.6,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 2.6,
+                "vis": 3
+              },
+              {
+                "sw": 3.9,
+                "vis": 5
+              },
+              {
+                "sw": 6.3,
+                "vis": 10
+              },
+              {
+                "sw": 7.9,
+                "vis": 15
+              },
+              {
+                "sw": 9.1,
+                "vis": 20
+              },
+              {
+                "sw": 10.8,
+                "vis": 30
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 2.6,
+                "vis": 3
+              },
+              {
+                "sw": 4,
+                "vis": 5
+              },
+              {
+                "sw": 6.4,
+                "vis": 10
+              },
+              {
+                "sw": 8,
+                "vis": 15
+              },
+              {
+                "sw": 9.3,
+                "vis": 20
+              },
+              {
+                "sw": 11,
+                "vis": 30
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 2.5,
+                "vis": 3
+              },
+              {
+                "sw": 4,
+                "vis": 5
+              },
+              {
+                "sw": 6.5,
+                "vis": 10
+              },
+              {
+                "sw": 8.2,
+                "vis": 15
+              },
+              {
+                "sw": 9.4,
+                "vis": 20
+              },
+              {
+                "sw": 11.2,
+                "vis": 30
+              }
+            ]
+          },
+          "Boat": {
+            "8ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 1.9,
+                "vis": 3
+              },
+              {
+                "sw": 2.9,
+                "vis": 5
+              },
+              {
+                "sw": 4.7,
+                "vis": 10
+              },
+              {
+                "sw": 5.9,
+                "vis": 15
+              },
+              {
+                "sw": 6.8,
+                "vis": 20
+              }
+            ],
+            "14ft": [
+              {
+                "sw": 1.1,
+                "vis": 1
+              },
+              {
+                "sw": 2.5,
+                "vis": 3
+              },
+              {
+                "sw": 3.8,
+                "vis": 5
+              },
+              {
+                "sw": 6.1,
+                "vis": 10
+              },
+              {
+                "sw": 7.7,
+                "vis": 15
+              },
+              {
+                "sw": 8.8,
+                "vis": 20
+              }
+            ]
+          }
+        },
+        "Power Boat 53ft": {
+          "weather_corrections": "large",
+          "speed_corrections": {
+            "Aircraft": [
+              {
+                "speed": 150,
+                "correction": 1.1
+              },
+              {
+                "speed": 180,
+                "correction": 1
+              }
+            ],
+            "Helicopter": [
+              {
+                "speed": 60,
+                "correction": 1.1
+              },
+              {
+                "speed": 90,
+                "correction": 1
+              },
+              {
+                "speed": 120,
+                "correction": 0.9
+              }
+            ]
+          },
+          "Aircraft": {
+            "500ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.7,
+                "vis": 3
+              },
+              {
+                "sw": 4.5,
+                "vis": 5
+              },
+              {
+                "sw": 8.1,
+                "vis": 10
+              },
+              {
+                "sw": 10.9,
+                "vis": 15
+              },
+              {
+                "sw": 13.1,
+                "vis": 20
+              },
+              {
+                "sw": 16.5,
+                "vis": 30
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.6,
+                "vis": 3
+              },
+              {
+                "sw": 4.5,
+                "vis": 5
+              },
+              {
+                "sw": 8.1,
+                "vis": 10
+              },
+              {
+                "sw": 10.9,
+                "vis": 15
+              },
+              {
+                "sw": 13.1,
+                "vis": 20
+              },
+              {
+                "sw": 16.4,
+                "vis": 30
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 2.5,
+                "vis": 3
+              },
+              {
+                "sw": 4.5,
+                "vis": 5
+              },
+              {
+                "sw": 8.3,
+                "vis": 10
+              },
+              {
+                "sw": 11.1,
+                "vis": 15
+              },
+              {
+                "sw": 13.4,
+                "vis": 20
+              },
+              {
+                "sw": 16.8,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 2.6,
+                "vis": 3
+              },
+              {
+                "sw": 4.5,
+                "vis": 5
+              },
+              {
+                "sw": 8.2,
+                "vis": 10
+              },
+              {
+                "sw": 11,
+                "vis": 15
+              },
+              {
+                "sw": 13.2,
+                "vis": 20
+              },
+              {
+                "sw": 16.6,
+                "vis": 30
+              }
+            ],
+            "2500ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 2.6,
+                "vis": 3
+              },
+              {
+                "sw": 4.5,
+                "vis": 5
+              },
+              {
+                "sw": 8.3,
+                "vis": 10
+              },
+              {
+                "sw": 11.3,
+                "vis": 15
+              },
+              {
+                "sw": 13.3,
+                "vis": 20
+              },
+              {
+                "sw": 16.7,
+                "vis": 30
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 2.6,
+                "vis": 3
+              },
+              {
+                "sw": 4.5,
+                "vis": 5
+              },
+              {
+                "sw": 8.3,
+                "vis": 10
+              },
+              {
+                "sw": 11,
+                "vis": 15
+              },
+              {
+                "sw": 13.3,
+                "vis": 20
+              },
+              {
+                "sw": 16.7,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.7,
+                "vis": 3
+              },
+              {
+                "sw": 4.5,
+                "vis": 5
+              },
+              {
+                "sw": 8.2,
+                "vis": 10
+              },
+              {
+                "sw": 10.9,
+                "vis": 15
+              },
+              {
+                "sw": 13.1,
+                "vis": 20
+              },
+              {
+                "sw": 16.6,
+                "vis": 30
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.7,
+                "vis": 3
+              },
+              {
+                "sw": 4.5,
+                "vis": 5
+              },
+              {
+                "sw": 8.2,
+                "vis": 10
+              },
+              {
+                "sw": 10.9,
+                "vis": 15
+              },
+              {
+                "sw": 13.1,
+                "vis": 20
+              },
+              {
+                "sw": 16.5,
+                "vis": 30
+              }
+            ]
+          },
+          "Helicopter": {
+            "2500ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 3,
+                "vis": 3
+              },
+              {
+                "sw": 5.2,
+                "vis": 5
+              },
+              {
+                "sw": 9.3,
+                "vis": 10
+              },
+              {
+                "sw": 12.4,
+                "vis": 15
+              },
+              {
+                "sw": 14.9,
+                "vis": 20
+              },
+              {
+                "sw": 18.8,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 3.1,
+                "vis": 3
+              },
+              {
+                "sw": 5.2,
+                "vis": 5
+              },
+              {
+                "sw": 9.3,
+                "vis": 10
+              },
+              {
+                "sw": 12.4,
+                "vis": 15
+              },
+              {
+                "sw": 14.8,
+                "vis": 20
+              },
+              {
+                "sw": 18.6,
+                "vis": 30
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.1,
+                "vis": 3
+              },
+              {
+                "sw": 5.1,
+                "vis": 5
+              },
+              {
+                "sw": 9.2,
+                "vis": 10
+              },
+              {
+                "sw": 12.3,
+                "vis": 15
+              },
+              {
+                "sw": 14.7,
+                "vis": 20
+              },
+              {
+                "sw": 18.5,
+                "vis": 30
+              }
+            ],
+            "500ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.1,
+                "vis": 3
+              },
+              {
+                "sw": 5.1,
+                "vis": 5
+              },
+              {
+                "sw": 9.2,
+                "vis": 10
+              },
+              {
+                "sw": 12.3,
+                "vis": 15
+              },
+              {
+                "sw": 14.7,
+                "vis": 20
+              },
+              {
+                "sw": 18.5,
+                "vis": 30
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.1,
+                "vis": 3
+              },
+              {
+                "sw": 5.1,
+                "vis": 5
+              },
+              {
+                "sw": 9.2,
+                "vis": 10
+              },
+              {
+                "sw": 12.2,
+                "vis": 15
+              },
+              {
+                "sw": 14.7,
+                "vis": 20
+              },
+              {
+                "sw": 18.5,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 3.1,
+                "vis": 3
+              },
+              {
+                "sw": 5.2,
+                "vis": 5
+              },
+              {
+                "sw": 9.2,
+                "vis": 10
+              },
+              {
+                "sw": 12.3,
+                "vis": 15
+              },
+              {
+                "sw": 14.8,
+                "vis": 20
+              },
+              {
+                "sw": 18.6,
+                "vis": 30
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 3,
+                "vis": 3
+              },
+              {
+                "sw": 5.2,
+                "vis": 5
+              },
+              {
+                "sw": 9.3,
+                "vis": 10
+              },
+              {
+                "sw": 12.4,
+                "vis": 15
+              },
+              {
+                "sw": 14.9,
+                "vis": 20
+              },
+              {
+                "sw": 18.7,
+                "vis": 30
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 3,
+                "vis": 3
+              },
+              {
+                "sw": 5.2,
+                "vis": 5
+              },
+              {
+                "sw": 9.3,
+                "vis": 10
+              },
+              {
+                "sw": 12.5,
+                "vis": 15
+              },
+              {
+                "sw": 15,
+                "vis": 20
+              },
+              {
+                "sw": 18.8,
+                "vis": 30
+              }
+            ]
+          },
+          "Boat": {
+            "8ft": [
+              {
+                "sw": 0.9,
+                "vis": 1
+              },
+              {
+                "sw": 2.4,
+                "vis": 3
+              },
+              {
+                "sw": 3.9,
+                "vis": 5
+              },
+              {
+                "sw": 7,
+                "vis": 10
+              },
+              {
+                "sw": 9.3,
+                "vis": 15
+              },
+              {
+                "sw": 11.1,
+                "vis": 20
+              }
+            ],
+            "14ft": [
+              {
+                "sw": 1.2,
+                "vis": 1
+              },
+              {
+                "sw": 3.1,
+                "vis": 3
+              },
+              {
+                "sw": 5.1,
+                "vis": 5
+              },
+              {
+                "sw": 9.1,
+                "vis": 10
+              },
+              {
+                "sw": 12.1,
+                "vis": 15
+              },
+              {
+                "sw": 14.4,
+                "vis": 20
+              }
+            ]
+          }
+        },
+        "Power Boat 78ft": {
+          "weather_corrections": "large",
+          "speed_corrections": {
+            "Aircraft": [
+              {
+                "speed": 150,
+                "correction": 1.1
+              },
+              {
+                "speed": 180,
+                "correction": 1
+              }
+            ],
+            "Helicopter": [
+              {
+                "speed": 60,
+                "correction": 1.1
+              },
+              {
+                "speed": 90,
+                "correction": 1
+              },
+              {
+                "speed": 140,
+                "correction": 0.9
+              }
+            ]
+          },
+          "Aircraft": {
+            "500ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.8,
+                "vis": 3
+              },
+              {
+                "sw": 5,
+                "vis": 5
+              },
+              {
+                "sw": 9.8,
+                "vis": 10
+              },
+              {
+                "sw": 13.5,
+                "vis": 15
+              },
+              {
+                "sw": 16.7,
+                "vis": 20
+              },
+              {
+                "sw": 21.7,
+                "vis": 30
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.8,
+                "vis": 3
+              },
+              {
+                "sw": 5,
+                "vis": 5
+              },
+              {
+                "sw": 9.7,
+                "vis": 10
+              },
+              {
+                "sw": 13.5,
+                "vis": 15
+              },
+              {
+                "sw": 16.6,
+                "vis": 20
+              },
+              {
+                "sw": 21.6,
+                "vis": 30
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 2.7,
+                "vis": 3
+              },
+              {
+                "sw": 5,
+                "vis": 5
+              },
+              {
+                "sw": 9.9,
+                "vis": 10
+              },
+              {
+                "sw": 13.7,
+                "vis": 15
+              },
+              {
+                "sw": 16.8,
+                "vis": 20
+              },
+              {
+                "sw": 21.9,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 2.8,
+                "vis": 3
+              },
+              {
+                "sw": 5.1,
+                "vis": 5
+              },
+              {
+                "sw": 9.8,
+                "vis": 10
+              },
+              {
+                "sw": 13.6,
+                "vis": 15
+              },
+              {
+                "sw": 16.7,
+                "vis": 20
+              },
+              {
+                "sw": 21.8,
+                "vis": 30
+              }
+            ],
+            "2500ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 2.7,
+                "vis": 3
+              },
+              {
+                "sw": 5,
+                "vis": 5
+              },
+              {
+                "sw": 9.8,
+                "vis": 10
+              },
+              {
+                "sw": 13.6,
+                "vis": 15
+              },
+              {
+                "sw": 16.8,
+                "vis": 20
+              },
+              {
+                "sw": 21.9,
+                "vis": 30
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 2.8,
+                "vis": 3
+              },
+              {
+                "sw": 5,
+                "vis": 5
+              },
+              {
+                "sw": 9.8,
+                "vis": 10
+              },
+              {
+                "sw": 13.6,
+                "vis": 15
+              },
+              {
+                "sw": 16.8,
+                "vis": 20
+              },
+              {
+                "sw": 21.8,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.8,
+                "vis": 3
+              },
+              {
+                "sw": 5.1,
+                "vis": 5
+              },
+              {
+                "sw": 9.8,
+                "vis": 10
+              },
+              {
+                "sw": 13.6,
+                "vis": 15
+              },
+              {
+                "sw": 16.7,
+                "vis": 20
+              },
+              {
+                "sw": 21.7,
+                "vis": 30
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.8,
+                "vis": 3
+              },
+              {
+                "sw": 5,
+                "vis": 5
+              },
+              {
+                "sw": 9.8,
+                "vis": 10
+              },
+              {
+                "sw": 13.5,
+                "vis": 15
+              },
+              {
+                "sw": 16.7,
+                "vis": 20
+              },
+              {
+                "sw": 21.7,
+                "vis": 30
+              }
+            ]
+          },
+          "Helicopter": {
+            "2500ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 3.2,
+                "vis": 3
+              },
+              {
+                "sw": 5.7,
+                "vis": 5
+              },
+              {
+                "sw": 10.9,
+                "vis": 10
+              },
+              {
+                "sw": 15.1,
+                "vis": 15
+              },
+              {
+                "sw": 18.6,
+                "vis": 20
+              },
+              {
+                "sw": 24.1,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 3.2,
+                "vis": 3
+              },
+              {
+                "sw": 5.7,
+                "vis": 5
+              },
+              {
+                "sw": 10.9,
+                "vis": 10
+              },
+              {
+                "sw": 15.1,
+                "vis": 15
+              },
+              {
+                "sw": 18.5,
+                "vis": 20
+              },
+              {
+                "sw": 24,
+                "vis": 30
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.3,
+                "vis": 3
+              },
+              {
+                "sw": 5.7,
+                "vis": 5
+              },
+              {
+                "sw": 10.9,
+                "vis": 10
+              },
+              {
+                "sw": 15,
+                "vis": 15
+              },
+              {
+                "sw": 18.4,
+                "vis": 20
+              },
+              {
+                "sw": 23.9,
+                "vis": 30
+              }
+            ],
+            "500ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.3,
+                "vis": 3
+              },
+              {
+                "sw": 5.7,
+                "vis": 5
+              },
+              {
+                "sw": 10.8,
+                "vis": 10
+              },
+              {
+                "sw": 15,
+                "vis": 15
+              },
+              {
+                "sw": 18.4,
+                "vis": 20
+              },
+              {
+                "sw": 23.9,
+                "vis": 30
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.3,
+                "vis": 3
+              },
+              {
+                "sw": 5.7,
+                "vis": 5
+              },
+              {
+                "sw": 10.8,
+                "vis": 10
+              },
+              {
+                "sw": 15,
+                "vis": 15
+              },
+              {
+                "sw": 18.4,
+                "vis": 20
+              },
+              {
+                "sw": 23.9,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.3,
+                "vis": 3
+              },
+              {
+                "sw": 5.7,
+                "vis": 5
+              },
+              {
+                "sw": 10.9,
+                "vis": 10
+              },
+              {
+                "sw": 15,
+                "vis": 15
+              },
+              {
+                "sw": 18.5,
+                "vis": 20
+              },
+              {
+                "sw": 23.9,
+                "vis": 30
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 3.2,
+                "vis": 3
+              },
+              {
+                "sw": 5.7,
+                "vis": 5
+              },
+              {
+                "sw": 10.9,
+                "vis": 10
+              },
+              {
+                "sw": 15.1,
+                "vis": 15
+              },
+              {
+                "sw": 18.5,
+                "vis": 20
+              },
+              {
+                "sw": 24,
+                "vis": 30
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 3.1,
+                "vis": 3
+              },
+              {
+                "sw": 5.7,
+                "vis": 5
+              },
+              {
+                "sw": 10.9,
+                "vis": 10
+              },
+              {
+                "sw": 15.1,
+                "vis": 15
+              },
+              {
+                "sw": 18.6,
+                "vis": 20
+              },
+              {
+                "sw": 24.1,
+                "vis": 30
+              }
+            ]
+          },
+          "Boat": {
+            "8ft": [
+              {
+                "sw": 0.9,
+                "vis": 1
+              },
+              {
+                "sw": 2.5,
+                "vis": 3
+              },
+              {
+                "sw": 4.3,
+                "vis": 5
+              },
+              {
+                "sw": 8.3,
+                "vis": 10
+              },
+              {
+                "sw": 11.4,
+                "vis": 15
+              },
+              {
+                "sw": 14,
+                "vis": 20
+              }
+            ],
+            "14ft": [
+              {
+                "sw": 1.2,
+                "vis": 1
+              },
+              {
+                "sw": 3.2,
+                "vis": 3
+              },
+              {
+                "sw": 5.6,
+                "vis": 5
+              },
+              {
+                "sw": 10.7,
+                "vis": 10
+              },
+              {
+                "sw": 14.7,
+                "vis": 15
+              },
+              {
+                "sw": 18.1,
+                "vis": 20
+              }
+            ]
+          }
+        },
+        "Sail Boat 15ft": {
+          "weather_corrections": "small",
+          "speed_corrections": {
+            "Aircraft": [
+              {
+                "speed": 150,
+                "correction": 1.1
+              },
+              {
+                "speed": 180,
+                "correction": 1
+              },
+              {
+                "speed": 210,
+                "correction": 0.9
+              }
+            ],
+            "Helicopter": [
+              {
+                "speed": 60,
+                "correction": 1.2
+              },
+              {
+                "speed": 90,
+                "correction": 1
+              },
+              {
+                "speed": 120,
+                "correction": 0.9
+              }
+            ]
+          },
+          "Aircraft": {
+            "500ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.6,
+                "vis": 3
+              },
+              {
+                "sw": 2.2,
+                "vis": 5
+              },
+              {
+                "sw": 3.2,
+                "vis": 10
+              },
+              {
+                "sw": 3.9,
+                "vis": 15
+              },
+              {
+                "sw": 4.3,
+                "vis": 20
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.5,
+                "vis": 3
+              },
+              {
+                "sw": 2.2,
+                "vis": 5
+              },
+              {
+                "sw": 3.2,
+                "vis": 10
+              },
+              {
+                "sw": 3.8,
+                "vis": 15
+              },
+              {
+                "sw": 4.3,
+                "vis": 20
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.1,
+                "vis": 1
+              },
+              {
+                "sw": 1.5,
+                "vis": 3
+              },
+              {
+                "sw": 2.3,
+                "vis": 5
+              },
+              {
+                "sw": 3.5,
+                "vis": 10
+              },
+              {
+                "sw": 4.3,
+                "vis": 15
+              },
+              {
+                "sw": 4.7,
+                "vis": 20
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.6,
+                "vis": 3
+              },
+              {
+                "sw": 2.3,
+                "vis": 5
+              },
+              {
+                "sw": 3.4,
+                "vis": 10
+              },
+              {
+                "sw": 4.1,
+                "vis": 15
+              },
+              {
+                "sw": 4.5,
+                "vis": 20
+              }
+            ],
+            "2500ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 1.5,
+                "vis": 3
+              },
+              {
+                "sw": 2.3,
+                "vis": 5
+              },
+              {
+                "sw": 3.5,
+                "vis": 10
+              },
+              {
+                "sw": 4.2,
+                "vis": 15
+              },
+              {
+                "sw": 4.7,
+                "vis": 20
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 1.6,
+                "vis": 3
+              },
+              {
+                "sw": 2.3,
+                "vis": 5
+              },
+              {
+                "sw": 3.5,
+                "vis": 10
+              },
+              {
+                "sw": 4.1,
+                "vis": 15
+              },
+              {
+                "sw": 4.5,
+                "vis": 20
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.6,
+                "vis": 3
+              },
+              {
+                "sw": 2.3,
+                "vis": 5
+              },
+              {
+                "sw": 3.3,
+                "vis": 10
+              },
+              {
+                "sw": 4,
+                "vis": 15
+              },
+              {
+                "sw": 4.4,
+                "vis": 20
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.6,
+                "vis": 3
+              },
+              {
+                "sw": 2.3,
+                "vis": 5
+              },
+              {
+                "sw": 3.3,
+                "vis": 10
+              },
+              {
+                "sw": 3.9,
+                "vis": 15
+              },
+              {
+                "sw": 4.4,
+                "vis": 20
+              }
+            ]
+          },
+          "Helicopter": {
+            "2500ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 1.9,
+                "vis": 3
+              },
+              {
+                "sw": 2.8,
+                "vis": 5
+              },
+              {
+                "sw": 4.2,
+                "vis": 10
+              },
+              {
+                "sw": 5.1,
+                "vis": 15
+              },
+              {
+                "sw": 5.6,
+                "vis": 20
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2,
+                "vis": 3
+              },
+              {
+                "sw": 2.8,
+                "vis": 5
+              },
+              {
+                "sw": 4.1,
+                "vis": 10
+              },
+              {
+                "sw": 4.9,
+                "vis": 15
+              },
+              {
+                "sw": 5.5,
+                "vis": 20
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 1.9,
+                "vis": 3
+              },
+              {
+                "sw": 2.7,
+                "vis": 5
+              },
+              {
+                "sw": 4,
+                "vis": 10
+              },
+              {
+                "sw": 4.8,
+                "vis": 15
+              },
+              {
+                "sw": 5.3,
+                "vis": 20
+              }
+            ],
+            "500ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 1.9,
+                "vis": 3
+              },
+              {
+                "sw": 2.7,
+                "vis": 5
+              },
+              {
+                "sw": 3.9,
+                "vis": 10
+              },
+              {
+                "sw": 4.7,
+                "vis": 15
+              },
+              {
+                "sw": 5.2,
+                "vis": 20
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 1.9,
+                "vis": 3
+              },
+              {
+                "sw": 2.7,
+                "vis": 5
+              },
+              {
+                "sw": 3.9,
+                "vis": 10
+              },
+              {
+                "sw": 4.6,
+                "vis": 15
+              },
+              {
+                "sw": 5.2,
+                "vis": 20
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 1.9,
+                "vis": 3
+              },
+              {
+                "sw": 2.8,
+                "vis": 5
+              },
+              {
+                "sw": 4,
+                "vis": 10
+              },
+              {
+                "sw": 4.8,
+                "vis": 15
+              },
+              {
+                "sw": 5.4,
+                "vis": 20
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.9,
+                "vis": 3
+              },
+              {
+                "sw": 2.8,
+                "vis": 5
+              },
+              {
+                "sw": 4.2,
+                "vis": 10
+              },
+              {
+                "sw": 5,
+                "vis": 15
+              },
+              {
+                "sw": 5.6,
+                "vis": 20
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 1.9,
+                "vis": 3
+              },
+              {
+                "sw": 2.8,
+                "vis": 5
+              },
+              {
+                "sw": 4.3,
+                "vis": 10
+              },
+              {
+                "sw": 5.1,
+                "vis": 15
+              },
+              {
+                "sw": 5.7,
+                "vis": 20
+              }
+            ]
+          },
+          "Boat": {
+            "8ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 1.5,
+                "vis": 3
+              },
+              {
+                "sw": 2.1,
+                "vis": 5
+              },
+              {
+                "sw": 3,
+                "vis": 10
+              },
+              {
+                "sw": 3.6,
+                "vis": 15
+              },
+              {
+                "sw": 4,
+                "vis": 20
+              }
+            ],
+            "14ft": [
+              {
+                "sw": 1,
+                "vis": 1
+              },
+              {
+                "sw": 1.9,
+                "vis": 3
+              },
+              {
+                "sw": 2.7,
+                "vis": 5
+              },
+              {
+                "sw": 3.9,
+                "vis": 10
+              },
+              {
+                "sw": 4.7,
+                "vis": 15
+              },
+              {
+                "sw": 5.2,
+                "vis": 20
+              }
+            ]
+          }
+        },
+        "Sail Boat 20ft": {
+          "weather_corrections": "small",
+          "speed_corrections": {
+            "Aircraft": [
+              {
+                "speed": 150,
+                "correction": 1.1
+              },
+              {
+                "speed": 180,
+                "correction": 1
+              },
+              {
+                "speed": 210,
+                "correction": 0.9
+              }
+            ],
+            "Helicopter": [
+              {
+                "speed": 60,
+                "correction": 1.2
+              },
+              {
+                "speed": 90,
+                "correction": 1
+              },
+              {
+                "speed": 120,
+                "correction": 0.9
+              }
+            ]
+          },
+          "Aircraft": {
+            "500ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 1.8,
+                "vis": 3
+              },
+              {
+                "sw": 2.7,
+                "vis": 5
+              },
+              {
+                "sw": 4,
+                "vis": 10
+              },
+              {
+                "sw": 5,
+                "vis": 15
+              },
+              {
+                "sw": 5.6,
+                "vis": 20
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 1.8,
+                "vis": 3
+              },
+              {
+                "sw": 2.6,
+                "vis": 5
+              },
+              {
+                "sw": 4,
+                "vis": 10
+              },
+              {
+                "sw": 4.9,
+                "vis": 15
+              },
+              {
+                "sw": 5.6,
+                "vis": 20
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.1,
+                "vis": 1
+              },
+              {
+                "sw": 1.7,
+                "vis": 3
+              },
+              {
+                "sw": 2.8,
+                "vis": 5
+              },
+              {
+                "sw": 4.4,
+                "vis": 10
+              },
+              {
+                "sw": 5.3,
+                "vis": 15
+              },
+              {
+                "sw": 6,
+                "vis": 20
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 1.8,
+                "vis": 3
+              },
+              {
+                "sw": 2.8,
+                "vis": 5
+              },
+              {
+                "sw": 4.2,
+                "vis": 10
+              },
+              {
+                "sw": 5.2,
+                "vis": 15
+              },
+              {
+                "sw": 5.8,
+                "vis": 20
+              }
+            ],
+            "2500ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 1.8,
+                "vis": 3
+              },
+              {
+                "sw": 2.8,
+                "vis": 5
+              },
+              {
+                "sw": 4.3,
+                "vis": 10
+              },
+              {
+                "sw": 5.3,
+                "vis": 15
+              },
+              {
+                "sw": 6,
+                "vis": 20
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 1.8,
+                "vis": 3
+              },
+              {
+                "sw": 2.8,
+                "vis": 5
+              },
+              {
+                "sw": 4.3,
+                "vis": 10
+              },
+              {
+                "sw": 5.2,
+                "vis": 15
+              },
+              {
+                "sw": 5.9,
+                "vis": 20
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.8,
+                "vis": 3
+              },
+              {
+                "sw": 2.7,
+                "vis": 5
+              },
+              {
+                "sw": 4.2,
+                "vis": 10
+              },
+              {
+                "sw": 5.1,
+                "vis": 15
+              },
+              {
+                "sw": 5.7,
+                "vis": 20
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 1.8,
+                "vis": 3
+              },
+              {
+                "sw": 2.7,
+                "vis": 5
+              },
+              {
+                "sw": 4.1,
+                "vis": 10
+              },
+              {
+                "sw": 5,
+                "vis": 15
+              },
+              {
+                "sw": 5.7,
+                "vis": 20
+              }
+            ]
+          },
+          "Helicopter": {
+            "2500ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 2.2,
+                "vis": 3
+              },
+              {
+                "sw": 3.3,
+                "vis": 5
+              },
+              {
+                "sw": 5.1,
+                "vis": 10
+              },
+              {
+                "sw": 6.3,
+                "vis": 15
+              },
+              {
+                "sw": 7.1,
+                "vis": 20
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.2,
+                "vis": 3
+              },
+              {
+                "sw": 3.3,
+                "vis": 5
+              },
+              {
+                "sw": 5,
+                "vis": 10
+              },
+              {
+                "sw": 6.1,
+                "vis": 15
+              },
+              {
+                "sw": 6.9,
+                "vis": 20
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 2.2,
+                "vis": 3
+              },
+              {
+                "sw": 3.2,
+                "vis": 5
+              },
+              {
+                "sw": 4.9,
+                "vis": 10
+              },
+              {
+                "sw": 6,
+                "vis": 15
+              },
+              {
+                "sw": 6.7,
+                "vis": 20
+              }
+            ],
+            "500ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 2.2,
+                "vis": 3
+              },
+              {
+                "sw": 3.2,
+                "vis": 5
+              },
+              {
+                "sw": 4.8,
+                "vis": 10
+              },
+              {
+                "sw": 5.9,
+                "vis": 15
+              },
+              {
+                "sw": 6.7,
+                "vis": 20
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 2.2,
+                "vis": 3
+              },
+              {
+                "sw": 3.2,
+                "vis": 5
+              },
+              {
+                "sw": 4.8,
+                "vis": 10
+              },
+              {
+                "sw": 5.9,
+                "vis": 15
+              },
+              {
+                "sw": 6.6,
+                "vis": 20
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 2.2,
+                "vis": 3
+              },
+              {
+                "sw": 3.2,
+                "vis": 5
+              },
+              {
+                "sw": 4.9,
+                "vis": 10
+              },
+              {
+                "sw": 6,
+                "vis": 15
+              },
+              {
+                "sw": 6.8,
+                "vis": 20
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 2.2,
+                "vis": 3
+              },
+              {
+                "sw": 3.3,
+                "vis": 5
+              },
+              {
+                "sw": 5.1,
+                "vis": 10
+              },
+              {
+                "sw": 6.2,
+                "vis": 15
+              },
+              {
+                "sw": 7,
+                "vis": 20
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 2.1,
+                "vis": 3
+              },
+              {
+                "sw": 3.3,
+                "vis": 5
+              },
+              {
+                "sw": 5.2,
+                "vis": 10
+              },
+              {
+                "sw": 6.3,
+                "vis": 15
+              },
+              {
+                "sw": 7.1,
+                "vis": 20
+              }
+            ]
+          },
+          "Boat": {
+            "8ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 1.7,
+                "vis": 3
+              },
+              {
+                "sw": 2.5,
+                "vis": 5
+              },
+              {
+                "sw": 3.7,
+                "vis": 10
+              },
+              {
+                "sw": 4.6,
+                "vis": 15
+              },
+              {
+                "sw": 5.1,
+                "vis": 20
+              }
+            ],
+            "14ft": [
+              {
+                "sw": 1,
+                "vis": 1
+              },
+              {
+                "sw": 2.2,
+                "vis": 3
+              },
+              {
+                "sw": 3.2,
+                "vis": 5
+              },
+              {
+                "sw": 4.8,
+                "vis": 10
+              },
+              {
+                "sw": 5.9,
+                "vis": 15
+              },
+              {
+                "sw": 6.6,
+                "vis": 20
+              }
+            ]
+          }
+        },
+        "Sail Boat 25ft": {
+          "weather_corrections": "small",
+          "speed_corrections": {
+            "Aircraft": [
+              {
+                "speed": 150,
+                "correction": 1.1
+              },
+              {
+                "speed": 180,
+                "correction": 1
+              },
+              {
+                "speed": 210,
+                "correction": 0.9
+              }
+            ],
+            "Helicopter": [
+              {
+                "speed": 60,
+                "correction": 1.2
+              },
+              {
+                "speed": 90,
+                "correction": 1
+              },
+              {
+                "speed": 120,
+                "correction": 0.9
+              }
+            ]
+          },
+          "Aircraft": {
+            "500ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2,
+                "vis": 3
+              },
+              {
+                "sw": 3.1,
+                "vis": 5
+              },
+              {
+                "sw": 4.9,
+                "vis": 10
+              },
+              {
+                "sw": 6.1,
+                "vis": 15
+              },
+              {
+                "sw": 7,
+                "vis": 20
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2,
+                "vis": 3
+              },
+              {
+                "sw": 3.1,
+                "vis": 5
+              },
+              {
+                "sw": 4.8,
+                "vis": 10
+              },
+              {
+                "sw": 6,
+                "vis": 15
+              },
+              {
+                "sw": 6.9,
+                "vis": 20
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 2,
+                "vis": 3
+              },
+              {
+                "sw": 3.3,
+                "vis": 5
+              },
+              {
+                "sw": 5.3,
+                "vis": 10
+              },
+              {
+                "sw": 6.6,
+                "vis": 15
+              },
+              {
+                "sw": 7.5,
+                "vis": 20
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 2.1,
+                "vis": 3
+              },
+              {
+                "sw": 3.2,
+                "vis": 5
+              },
+              {
+                "sw": 5.1,
+                "vis": 10
+              },
+              {
+                "sw": 6.3,
+                "vis": 15
+              },
+              {
+                "sw": 7.2,
+                "vis": 20
+              }
+            ],
+            "2500ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 2.1,
+                "vis": 3
+              },
+              {
+                "sw": 3.3,
+                "vis": 5
+              },
+              {
+                "sw": 5.2,
+                "vis": 10
+              },
+              {
+                "sw": 6.5,
+                "vis": 15
+              },
+              {
+                "sw": 7.5,
+                "vis": 20
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 2.1,
+                "vis": 3
+              },
+              {
+                "sw": 3.3,
+                "vis": 5
+              },
+              {
+                "sw": 5.2,
+                "vis": 10
+              },
+              {
+                "sw": 6.4,
+                "vis": 15
+              },
+              {
+                "sw": 7.3,
+                "vis": 20
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 2.1,
+                "vis": 3
+              },
+              {
+                "sw": 3.2,
+                "vis": 5
+              },
+              {
+                "sw": 5,
+                "vis": 10
+              },
+              {
+                "sw": 6.2,
+                "vis": 15
+              },
+              {
+                "sw": 7.1,
+                "vis": 20
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.1,
+                "vis": 3
+              },
+              {
+                "sw": 3.1,
+                "vis": 5
+              },
+              {
+                "sw": 5,
+                "vis": 10
+              },
+              {
+                "sw": 6.2,
+                "vis": 15
+              },
+              {
+                "sw": 7,
+                "vis": 20
+              }
+            ]
+          },
+          "Helicopter": {
+            "2500ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 2.5,
+                "vis": 3
+              },
+              {
+                "sw": 3.8,
+                "vis": 5
+              },
+              {
+                "sw": 6.1,
+                "vis": 10
+              },
+              {
+                "sw": 7.6,
+                "vis": 15
+              },
+              {
+                "sw": 8.7,
+                "vis": 20
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.5,
+                "vis": 3
+              },
+              {
+                "sw": 3.8,
+                "vis": 5
+              },
+              {
+                "sw": 5.9,
+                "vis": 10
+              },
+              {
+                "sw": 7.4,
+                "vis": 15
+              },
+              {
+                "sw": 8.4,
+                "vis": 20
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 2.5,
+                "vis": 3
+              },
+              {
+                "sw": 3.7,
+                "vis": 5
+              },
+              {
+                "sw": 5.8,
+                "vis": 10
+              },
+              {
+                "sw": 7.2,
+                "vis": 15
+              },
+              {
+                "sw": 8.3,
+                "vis": 20
+              }
+            ],
+            "500ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 2.4,
+                "vis": 3
+              },
+              {
+                "sw": 3.7,
+                "vis": 5
+              },
+              {
+                "sw": 5.7,
+                "vis": 10
+              },
+              {
+                "sw": 7.1,
+                "vis": 15
+              },
+              {
+                "sw": 8.2,
+                "vis": 20
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 2.4,
+                "vis": 3
+              },
+              {
+                "sw": 3.6,
+                "vis": 5
+              },
+              {
+                "sw": 5.7,
+                "vis": 10
+              },
+              {
+                "sw": 7.1,
+                "vis": 15
+              },
+              {
+                "sw": 8.1,
+                "vis": 20
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 2.5,
+                "vis": 3
+              },
+              {
+                "sw": 3.7,
+                "vis": 5
+              },
+              {
+                "sw": 5.8,
+                "vis": 10
+              },
+              {
+                "sw": 7.3,
+                "vis": 15
+              },
+              {
+                "sw": 8.3,
+                "vis": 20
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 2.5,
+                "vis": 3
+              },
+              {
+                "sw": 3.8,
+                "vis": 5
+              },
+              {
+                "sw": 6,
+                "vis": 10
+              },
+              {
+                "sw": 7.5,
+                "vis": 15
+              },
+              {
+                "sw": 8.6,
+                "vis": 20
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 2.4,
+                "vis": 3
+              },
+              {
+                "sw": 3.9,
+                "vis": 5
+              },
+              {
+                "sw": 6.1,
+                "vis": 10
+              },
+              {
+                "sw": 7.7,
+                "vis": 15
+              },
+              {
+                "sw": 8.8,
+                "vis": 20
+              }
+            ]
+          },
+          "Boat": {
+            "8ft": [
+              {
+                "sw": 0.9,
+                "vis": 1
+              },
+              {
+                "sw": 1.9,
+                "vis": 3
+              },
+              {
+                "sw": 2.8,
+                "vis": 5
+              },
+              {
+                "sw": 4.4,
+                "vis": 10
+              },
+              {
+                "sw": 5.4,
+                "vis": 15
+              },
+              {
+                "sw": 6.3,
+                "vis": 20
+              }
+            ],
+            "14ft": [
+              {
+                "sw": 1.1,
+                "vis": 1
+              },
+              {
+                "sw": 2.4,
+                "vis": 3
+              },
+              {
+                "sw": 3.6,
+                "vis": 5
+              },
+              {
+                "sw": 5.7,
+                "vis": 10
+              },
+              {
+                "sw": 7,
+                "vis": 15
+              },
+              {
+                "sw": 8.1,
+                "vis": 20
+              }
+            ]
+          }
+        },
+        "Sail Boat 30ft": {
+          "weather_corrections": "large",
+          "speed_corrections": {
+            "Aircraft": [
+              {
+                "speed": 150,
+                "correction": 1.1
+              },
+              {
+                "speed": 180,
+                "correction": 1
+              }
+            ],
+            "Helicopter": [
+              {
+                "speed": 60,
+                "correction": 1.1
+              },
+              {
+                "speed": 90,
+                "correction": 1
+              },
+              {
+                "speed": 120,
+                "correction": 0.9
+              }
+            ]
+          },
+          "Aircraft": {
+            "500ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.3,
+                "vis": 3
+              },
+              {
+                "sw": 3.6,
+                "vis": 5
+              },
+              {
+                "sw": 5.9,
+                "vis": 10
+              },
+              {
+                "sw": 7.6,
+                "vis": 15
+              },
+              {
+                "sw": 8.8,
+                "vis": 20
+              },
+              {
+                "sw": 10.6,
+                "vis": 30
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.3,
+                "vis": 3
+              },
+              {
+                "sw": 3.6,
+                "vis": 5
+              },
+              {
+                "sw": 5.9,
+                "vis": 10
+              },
+              {
+                "sw": 7.5,
+                "vis": 15
+              },
+              {
+                "sw": 8.8,
+                "vis": 20
+              },
+              {
+                "sw": 10.6,
+                "vis": 30
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 2.2,
+                "vis": 3
+              },
+              {
+                "sw": 3.7,
+                "vis": 5
+              },
+              {
+                "sw": 6.2,
+                "vis": 10
+              },
+              {
+                "sw": 7.9,
+                "vis": 15
+              },
+              {
+                "sw": 9.2,
+                "vis": 20
+              },
+              {
+                "sw": 11.1,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 2.3,
+                "vis": 3
+              },
+              {
+                "sw": 3.7,
+                "vis": 5
+              },
+              {
+                "sw": 6.1,
+                "vis": 10
+              },
+              {
+                "sw": 7.7,
+                "vis": 15
+              },
+              {
+                "sw": 9,
+                "vis": 20
+              },
+              {
+                "sw": 10.8,
+                "vis": 30
+              }
+            ],
+            "2500ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 2.2,
+                "vis": 3
+              },
+              {
+                "sw": 3.7,
+                "vis": 5
+              },
+              {
+                "sw": 6.1,
+                "vis": 10
+              },
+              {
+                "sw": 7.8,
+                "vis": 15
+              },
+              {
+                "sw": 9.1,
+                "vis": 20
+              },
+              {
+                "sw": 11,
+                "vis": 30
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 2.3,
+                "vis": 3
+              },
+              {
+                "sw": 3.7,
+                "vis": 5
+              },
+              {
+                "sw": 6.1,
+                "vis": 10
+              },
+              {
+                "sw": 7.8,
+                "vis": 15
+              },
+              {
+                "sw": 9.1,
+                "vis": 20
+              },
+              {
+                "sw": 10.9,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.3,
+                "vis": 3
+              },
+              {
+                "sw": 3.6,
+                "vis": 5
+              },
+              {
+                "sw": 6,
+                "vis": 10
+              },
+              {
+                "sw": 7.6,
+                "vis": 15
+              },
+              {
+                "sw": 8.9,
+                "vis": 20
+              },
+              {
+                "sw": 10.7,
+                "vis": 30
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.3,
+                "vis": 3
+              },
+              {
+                "sw": 3.6,
+                "vis": 5
+              },
+              {
+                "sw": 6,
+                "vis": 10
+              },
+              {
+                "sw": 7.5,
+                "vis": 15
+              },
+              {
+                "sw": 8.9,
+                "vis": 20
+              },
+              {
+                "sw": 10.7,
+                "vis": 30
+              }
+            ]
+          },
+          "Helicopter": {
+            "2500ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 2.7,
+                "vis": 3
+              },
+              {
+                "sw": 4.3,
+                "vis": 5
+              },
+              {
+                "sw": 7.1,
+                "vis": 10
+              },
+              {
+                "sw": 9,
+                "vis": 15
+              },
+              {
+                "sw": 10.5,
+                "vis": 20
+              },
+              {
+                "sw": 12.6,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.7,
+                "vis": 3
+              },
+              {
+                "sw": 4.2,
+                "vis": 5
+              },
+              {
+                "sw": 7,
+                "vis": 10
+              },
+              {
+                "sw": 8.9,
+                "vis": 15
+              },
+              {
+                "sw": 10.3,
+                "vis": 20
+              },
+              {
+                "sw": 12.5,
+                "vis": 30
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 2.7,
+                "vis": 3
+              },
+              {
+                "sw": 4.2,
+                "vis": 5
+              },
+              {
+                "sw": 6.9,
+                "vis": 10
+              },
+              {
+                "sw": 8.8,
+                "vis": 15
+              },
+              {
+                "sw": 10.2,
+                "vis": 20
+              },
+              {
+                "sw": 12.3,
+                "vis": 30
+              }
+            ],
+            "500ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 2.7,
+                "vis": 3
+              },
+              {
+                "sw": 4.2,
+                "vis": 5
+              },
+              {
+                "sw": 6.9,
+                "vis": 10
+              },
+              {
+                "sw": 8.7,
+                "vis": 15
+              },
+              {
+                "sw": 10.2,
+                "vis": 20
+              },
+              {
+                "sw": 12.3,
+                "vis": 30
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 2.7,
+                "vis": 3
+              },
+              {
+                "sw": 4.2,
+                "vis": 5
+              },
+              {
+                "sw": 6.8,
+                "vis": 10
+              },
+              {
+                "sw": 8.7,
+                "vis": 15
+              },
+              {
+                "sw": 10.1,
+                "vis": 20
+              },
+              {
+                "sw": 12.2,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 2.7,
+                "vis": 3
+              },
+              {
+                "sw": 4.2,
+                "vis": 5
+              },
+              {
+                "sw": 6.9,
+                "vis": 10
+              },
+              {
+                "sw": 8.8,
+                "vis": 15
+              },
+              {
+                "sw": 10.3,
+                "vis": 20
+              },
+              {
+                "sw": 12.4,
+                "vis": 30
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 2.7,
+                "vis": 3
+              },
+              {
+                "sw": 4.3,
+                "vis": 5
+              },
+              {
+                "sw": 7,
+                "vis": 10
+              },
+              {
+                "sw": 9,
+                "vis": 15
+              },
+              {
+                "sw": 10.4,
+                "vis": 20
+              },
+              {
+                "sw": 12.6,
+                "vis": 30
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 2.6,
+                "vis": 3
+              },
+              {
+                "sw": 4.3,
+                "vis": 5
+              },
+              {
+                "sw": 7.1,
+                "vis": 10
+              },
+              {
+                "sw": 9.1,
+                "vis": 15
+              },
+              {
+                "sw": 10.6,
+                "vis": 20
+              },
+              {
+                "sw": 12.7,
+                "vis": 30
+              }
+            ]
+          },
+          "Boat": {
+            "8ft": [
+              {
+                "sw": 0.9,
+                "vis": 1
+              },
+              {
+                "sw": 2.1,
+                "vis": 3
+              },
+              {
+                "sw": 3.2,
+                "vis": 5
+              },
+              {
+                "sw": 5.3,
+                "vis": 10
+              },
+              {
+                "sw": 6.6,
+                "vis": 15
+              },
+              {
+                "sw": 7.7,
+                "vis": 20
+              }
+            ],
+            "14ft": [
+              {
+                "sw": 1.1,
+                "vis": 1
+              },
+              {
+                "sw": 2.7,
+                "vis": 3
+              },
+              {
+                "sw": 4.1,
+                "vis": 5
+              },
+              {
+                "sw": 6.8,
+                "vis": 10
+              },
+              {
+                "sw": 8.6,
+                "vis": 15
+              },
+              {
+                "sw": 10,
+                "vis": 20
+              }
+            ]
+          }
+        },
+        "Sail Boat 40ft": {
+          "weather_corrections": "large",
+          "speed_corrections": {
+            "Aircraft": [
+              {
+                "speed": 150,
+                "correction": 1.1
+              },
+              {
+                "speed": 180,
+                "correction": 1
+              }
+            ],
+            "Helicopter": [
+              {
+                "speed": 60,
+                "correction": 1.1
+              },
+              {
+                "speed": 90,
+                "correction": 1
+              },
+              {
+                "speed": 120,
+                "correction": 0.9
+              }
+            ]
+          },
+          "Aircraft": {
+            "500ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.6,
+                "vis": 3
+              },
+              {
+                "sw": 4.3,
+                "vis": 5
+              },
+              {
+                "sw": 7.6,
+                "vis": 10
+              },
+              {
+                "sw": 10,
+                "vis": 15
+              },
+              {
+                "sw": 11.9,
+                "vis": 20
+              },
+              {
+                "sw": 14.8,
+                "vis": 30
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.6,
+                "vis": 3
+              },
+              {
+                "sw": 4.3,
+                "vis": 5
+              },
+              {
+                "sw": 7.5,
+                "vis": 10
+              },
+              {
+                "sw": 10,
+                "vis": 15
+              },
+              {
+                "sw": 11.9,
+                "vis": 20
+              },
+              {
+                "sw": 14.8,
+                "vis": 30
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 2.4,
+                "vis": 3
+              },
+              {
+                "sw": 4.3,
+                "vis": 5
+              },
+              {
+                "sw": 7.7,
+                "vis": 10
+              },
+              {
+                "sw": 10.2,
+                "vis": 15
+              },
+              {
+                "sw": 12.1,
+                "vis": 20
+              },
+              {
+                "sw": 15.1,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 2.6,
+                "vis": 3
+              },
+              {
+                "sw": 4.3,
+                "vis": 5
+              },
+              {
+                "sw": 7.6,
+                "vis": 10
+              },
+              {
+                "sw": 10.1,
+                "vis": 15
+              },
+              {
+                "sw": 12,
+                "vis": 20
+              },
+              {
+                "sw": 14.9,
+                "vis": 30
+              }
+            ],
+            "2500ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 2.5,
+                "vis": 3
+              },
+              {
+                "sw": 4.3,
+                "vis": 5
+              },
+              {
+                "sw": 7.7,
+                "vis": 10
+              },
+              {
+                "sw": 10.2,
+                "vis": 15
+              },
+              {
+                "sw": 12.1,
+                "vis": 20
+              },
+              {
+                "sw": 15.1,
+                "vis": 30
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 2.5,
+                "vis": 3
+              },
+              {
+                "sw": 4.3,
+                "vis": 5
+              },
+              {
+                "sw": 7.7,
+                "vis": 10
+              },
+              {
+                "sw": 10.1,
+                "vis": 15
+              },
+              {
+                "sw": 12.1,
+                "vis": 20
+              },
+              {
+                "sw": 15,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.6,
+                "vis": 3
+              },
+              {
+                "sw": 4.3,
+                "vis": 5
+              },
+              {
+                "sw": 7.6,
+                "vis": 10
+              },
+              {
+                "sw": 10.9,
+                "vis": 15
+              },
+              {
+                "sw": 12,
+                "vis": 20
+              },
+              {
+                "sw": 14.9,
+                "vis": 30
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.6,
+                "vis": 3
+              },
+              {
+                "sw": 4.3,
+                "vis": 5
+              },
+              {
+                "sw": 7.6,
+                "vis": 10
+              },
+              {
+                "sw": 10,
+                "vis": 15
+              },
+              {
+                "sw": 11.9,
+                "vis": 20
+              },
+              {
+                "sw": 14.9,
+                "vis": 30
+              }
+            ]
+          },
+          "Helicopter": {
+            "2500ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 2.9,
+                "vis": 3
+              },
+              {
+                "sw": 4.9,
+                "vis": 5
+              },
+              {
+                "sw": 8.7,
+                "vis": 10
+              },
+              {
+                "sw": 11.5,
+                "vis": 15
+              },
+              {
+                "sw": 13.7,
+                "vis": 20
+              },
+              {
+                "sw": 17,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 3,
+                "vis": 3
+              },
+              {
+                "sw": 4.9,
+                "vis": 5
+              },
+              {
+                "sw": 8.7,
+                "vis": 10
+              },
+              {
+                "sw": 11.4,
+                "vis": 15
+              },
+              {
+                "sw": 13.6,
+                "vis": 20
+              },
+              {
+                "sw": 16.9,
+                "vis": 30
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3,
+                "vis": 3
+              },
+              {
+                "sw": 4.9,
+                "vis": 5
+              },
+              {
+                "sw": 8.6,
+                "vis": 10
+              },
+              {
+                "sw": 11.3,
+                "vis": 15
+              },
+              {
+                "sw": 13.5,
+                "vis": 20
+              },
+              {
+                "sw": 16.8,
+                "vis": 30
+              }
+            ],
+            "500ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3,
+                "vis": 3
+              },
+              {
+                "sw": 4.9,
+                "vis": 5
+              },
+              {
+                "sw": 8.3,
+                "vis": 10
+              },
+              {
+                "sw": 11.3,
+                "vis": 15
+              },
+              {
+                "sw": 13.5,
+                "vis": 20
+              },
+              {
+                "sw": 16.8,
+                "vis": 30
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3,
+                "vis": 3
+              },
+              {
+                "sw": 4.9,
+                "vis": 5
+              },
+              {
+                "sw": 8.6,
+                "vis": 10
+              },
+              {
+                "sw": 11.3,
+                "vis": 15
+              },
+              {
+                "sw": 13.4,
+                "vis": 20
+              },
+              {
+                "sw": 16.7,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 3,
+                "vis": 3
+              },
+              {
+                "sw": 4.9,
+                "vis": 5
+              },
+              {
+                "sw": 8.6,
+                "vis": 10
+              },
+              {
+                "sw": 11.4,
+                "vis": 15
+              },
+              {
+                "sw": 13.5,
+                "vis": 20
+              },
+              {
+                "sw": 16.8,
+                "vis": 30
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 3,
+                "vis": 3
+              },
+              {
+                "sw": 4.9,
+                "vis": 5
+              },
+              {
+                "sw": 8.7,
+                "vis": 10
+              },
+              {
+                "sw": 11.4,
+                "vis": 15
+              },
+              {
+                "sw": 13.6,
+                "vis": 20
+              },
+              {
+                "sw": 17,
+                "vis": 30
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 2.9,
+                "vis": 3
+              },
+              {
+                "sw": 4.9,
+                "vis": 5
+              },
+              {
+                "sw": 8.7,
+                "vis": 10
+              },
+              {
+                "sw": 11.5,
+                "vis": 15
+              },
+              {
+                "sw": 13.7,
+                "vis": 20
+              },
+              {
+                "sw": 17.1,
+                "vis": 30
+              }
+            ]
+          },
+          "Boat": {
+            "8ft": [
+              {
+                "sw": 0.9,
+                "vis": 1
+              },
+              {
+                "sw": 2.3,
+                "vis": 3
+              },
+              {
+                "sw": 3.8,
+                "vis": 5
+              },
+              {
+                "sw": 6.6,
+                "vis": 10
+              },
+              {
+                "sw": 8.6,
+                "vis": 15
+              },
+              {
+                "sw": 10.3,
+                "vis": 20
+              }
+            ],
+            "14ft": [
+              {
+                "sw": 1.2,
+                "vis": 1
+              },
+              {
+                "sw": 3,
+                "vis": 3
+              },
+              {
+                "sw": 4.9,
+                "vis": 5
+              },
+              {
+                "sw": 8.5,
+                "vis": 10
+              },
+              {
+                "sw": 11.2,
+                "vis": 15
+              },
+              {
+                "sw": 13.3,
+                "vis": 20
+              }
+            ]
+          }
+        },
+        "Sail Boat 50ft": {
+          "weather_corrections": "large",
+          "speed_corrections": {
+            "Aircraft": [
+              {
+                "speed": 150,
+                "correction": 1.1
+              },
+              {
+                "speed": 180,
+                "correction": 1
+              }
+            ],
+            "Helicopter": [
+              {
+                "speed": 60,
+                "correction": 1.1
+              },
+              {
+                "speed": 90,
+                "correction": 1
+              },
+              {
+                "speed": 120,
+                "correction": 0.9
+              }
+            ]
+          },
+          "Aircraft": {
+            "500ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.7,
+                "vis": 3
+              },
+              {
+                "sw": 4.6,
+                "vis": 5
+              },
+              {
+                "sw": 8.4,
+                "vis": 10
+              },
+              {
+                "sw": 11.3,
+                "vis": 15
+              },
+              {
+                "sw": 13.7,
+                "vis": 20
+              },
+              {
+                "sw": 17.3,
+                "vis": 30
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.7,
+                "vis": 3
+              },
+              {
+                "sw": 4.6,
+                "vis": 5
+              },
+              {
+                "sw": 8.4,
+                "vis": 10
+              },
+              {
+                "sw": 11.3,
+                "vis": 15
+              },
+              {
+                "sw": 13.6,
+                "vis": 20
+              },
+              {
+                "sw": 17.3,
+                "vis": 30
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 2.6,
+                "vis": 3
+              },
+              {
+                "sw": 4.6,
+                "vis": 5
+              },
+              {
+                "sw": 8.6,
+                "vis": 10
+              },
+              {
+                "sw": 11.6,
+                "vis": 15
+              },
+              {
+                "sw": 14,
+                "vis": 20
+              },
+              {
+                "sw": 17.7,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 2.7,
+                "vis": 3
+              },
+              {
+                "sw": 4.6,
+                "vis": 5
+              },
+              {
+                "sw": 8.5,
+                "vis": 10
+              },
+              {
+                "sw": 11.4,
+                "vis": 15
+              },
+              {
+                "sw": 13.8,
+                "vis": 20
+              },
+              {
+                "sw": 17.5,
+                "vis": 30
+              }
+            ],
+            "2500ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 2.6,
+                "vis": 3
+              },
+              {
+                "sw": 4.6,
+                "vis": 5
+              },
+              {
+                "sw": 8.6,
+                "vis": 10
+              },
+              {
+                "sw": 11.5,
+                "vis": 15
+              },
+              {
+                "sw": 13.9,
+                "vis": 20
+              },
+              {
+                "sw": 17.6,
+                "vis": 30
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 2.7,
+                "vis": 3
+              },
+              {
+                "sw": 4.6,
+                "vis": 5
+              },
+              {
+                "sw": 8.6,
+                "vis": 10
+              },
+              {
+                "sw": 11.5,
+                "vis": 15
+              },
+              {
+                "sw": 13.9,
+                "vis": 20
+              },
+              {
+                "sw": 17.5,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.7,
+                "vis": 3
+              },
+              {
+                "sw": 4.6,
+                "vis": 5
+              },
+              {
+                "sw": 8.5,
+                "vis": 10
+              },
+              {
+                "sw": 11.4,
+                "vis": 15
+              },
+              {
+                "sw": 13.7,
+                "vis": 20
+              },
+              {
+                "sw": 17.4,
+                "vis": 30
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.7,
+                "vis": 3
+              },
+              {
+                "sw": 4.6,
+                "vis": 5
+              },
+              {
+                "sw": 8.5,
+                "vis": 10
+              },
+              {
+                "sw": 11.4,
+                "vis": 15
+              },
+              {
+                "sw": 13.7,
+                "vis": 20
+              },
+              {
+                "sw": 17.4,
+                "vis": 30
+              }
+            ]
+          },
+          "Helicopter": {
+            "2500ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 3.1,
+                "vis": 3
+              },
+              {
+                "sw": 5.3,
+                "vis": 5
+              },
+              {
+                "sw": 9.6,
+                "vis": 10
+              },
+              {
+                "sw": 12.9,
+                "vis": 15
+              },
+              {
+                "sw": 15.6,
+                "vis": 20
+              },
+              {
+                "sw": 19.7,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 3.1,
+                "vis": 3
+              },
+              {
+                "sw": 5.3,
+                "vis": 5
+              },
+              {
+                "sw": 9.6,
+                "vis": 10
+              },
+              {
+                "sw": 12.8,
+                "vis": 15
+              },
+              {
+                "sw": 15.5,
+                "vis": 20
+              },
+              {
+                "sw": 19.5,
+                "vis": 30
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.1,
+                "vis": 3
+              },
+              {
+                "sw": 5.3,
+                "vis": 5
+              },
+              {
+                "sw": 9.5,
+                "vis": 10
+              },
+              {
+                "sw": 12.7,
+                "vis": 15
+              },
+              {
+                "sw": 15.4,
+                "vis": 20
+              },
+              {
+                "sw": 19.4,
+                "vis": 30
+              }
+            ],
+            "500ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.1,
+                "vis": 3
+              },
+              {
+                "sw": 5.2,
+                "vis": 5
+              },
+              {
+                "sw": 9.5,
+                "vis": 10
+              },
+              {
+                "sw": 12.7,
+                "vis": 15
+              },
+              {
+                "sw": 15.3,
+                "vis": 20
+              },
+              {
+                "sw": 19.4,
+                "vis": 30
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.1,
+                "vis": 3
+              },
+              {
+                "sw": 5.2,
+                "vis": 5
+              },
+              {
+                "sw": 9.5,
+                "vis": 10
+              },
+              {
+                "sw": 12.7,
+                "vis": 15
+              },
+              {
+                "sw": 15.3,
+                "vis": 20
+              },
+              {
+                "sw": 19.3,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 3.1,
+                "vis": 3
+              },
+              {
+                "sw": 5.3,
+                "vis": 5
+              },
+              {
+                "sw": 9.5,
+                "vis": 10
+              },
+              {
+                "sw": 12.8,
+                "vis": 15
+              },
+              {
+                "sw": 15.4,
+                "vis": 20
+              },
+              {
+                "sw": 19.5,
+                "vis": 30
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 3.1,
+                "vis": 3
+              },
+              {
+                "sw": 5.3,
+                "vis": 5
+              },
+              {
+                "sw": 9.6,
+                "vis": 10
+              },
+              {
+                "sw": 12.9,
+                "vis": 15
+              },
+              {
+                "sw": 15.5,
+                "vis": 20
+              },
+              {
+                "sw": 19.6,
+                "vis": 30
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 3,
+                "vis": 3
+              },
+              {
+                "sw": 5.3,
+                "vis": 5
+              },
+              {
+                "sw": 9.7,
+                "vis": 10
+              },
+              {
+                "sw": 13,
+                "vis": 15
+              },
+              {
+                "sw": 15.6,
+                "vis": 20
+              },
+              {
+                "sw": 19.7,
+                "vis": 30
+              }
+            ]
+          },
+          "Boat": {
+            "8ft": [
+              {
+                "sw": 0.9,
+                "vis": 1
+              },
+              {
+                "sw": 2.4,
+                "vis": 3
+              },
+              {
+                "sw": 4,
+                "vis": 5
+              },
+              {
+                "sw": 7.3,
+                "vis": 10
+              },
+              {
+                "sw": 9.7,
+                "vis": 15
+              },
+              {
+                "sw": 11.6,
+                "vis": 20
+              }
+            ],
+            "14ft": [
+              {
+                "sw": 1.2,
+                "vis": 1
+              },
+              {
+                "sw": 3.1,
+                "vis": 3
+              },
+              {
+                "sw": 5.2,
+                "vis": 5
+              },
+              {
+                "sw": 9.4,
+                "vis": 10
+              },
+              {
+                "sw": 12.5,
+                "vis": 15
+              },
+              {
+                "sw": 15,
+                "vis": 20
+              }
+            ]
+          }
+        },
+        "Sail Boat 70ft": {
+          "weather_corrections": "large",
+          "speed_corrections": {
+            "Aircraft": [
+              {
+                "speed": 150,
+                "correction": 1.1
+              },
+              {
+                "speed": 180,
+                "correction": 1
+              }
+            ],
+            "Helicopter": [
+              {
+                "speed": 60,
+                "correction": 1.1
+              },
+              {
+                "speed": 90,
+                "correction": 1
+              },
+              {
+                "speed": 140,
+                "correction": 0.9
+              }
+            ]
+          },
+          "Aircraft": {
+            "500ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.8,
+                "vis": 3
+              },
+              {
+                "sw": 4.9,
+                "vis": 5
+              },
+              {
+                "sw": 9.3,
+                "vis": 10
+              },
+              {
+                "sw": 12.7,
+                "vis": 15
+              },
+              {
+                "sw": 15.5,
+                "vis": 20
+              },
+              {
+                "sw": 20,
+                "vis": 30
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.8,
+                "vis": 3
+              },
+              {
+                "sw": 4.9,
+                "vis": 5
+              },
+              {
+                "sw": 9.3,
+                "vis": 10
+              },
+              {
+                "sw": 12.7,
+                "vis": 15
+              },
+              {
+                "sw": 15.5,
+                "vis": 20
+              },
+              {
+                "sw": 20,
+                "vis": 30
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 2.6,
+                "vis": 3
+              },
+              {
+                "sw": 4.9,
+                "vis": 5
+              },
+              {
+                "sw": 9.4,
+                "vis": 10
+              },
+              {
+                "sw": 13,
+                "vis": 15
+              },
+              {
+                "sw": 15.8,
+                "vis": 20
+              },
+              {
+                "sw": 20.3,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 2.8,
+                "vis": 3
+              },
+              {
+                "sw": 4.9,
+                "vis": 5
+              },
+              {
+                "sw": 9.4,
+                "vis": 10
+              },
+              {
+                "sw": 12.8,
+                "vis": 15
+              },
+              {
+                "sw": 15.7,
+                "vis": 20
+              },
+              {
+                "sw": 20.2,
+                "vis": 30
+              }
+            ],
+            "2500ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 2.7,
+                "vis": 3
+              },
+              {
+                "sw": 4.9,
+                "vis": 5
+              },
+              {
+                "sw": 9.4,
+                "vis": 10
+              },
+              {
+                "sw": 12.9,
+                "vis": 15
+              },
+              {
+                "sw": 15.8,
+                "vis": 20
+              },
+              {
+                "sw": 20.3,
+                "vis": 30
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 2.7,
+                "vis": 3
+              },
+              {
+                "sw": 4.9,
+                "vis": 5
+              },
+              {
+                "sw": 9.4,
+                "vis": 10
+              },
+              {
+                "sw": 12.9,
+                "vis": 15
+              },
+              {
+                "sw": 15.7,
+                "vis": 20
+              },
+              {
+                "sw": 20.2,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.8,
+                "vis": 3
+              },
+              {
+                "sw": 4.9,
+                "vis": 5
+              },
+              {
+                "sw": 9.3,
+                "vis": 10
+              },
+              {
+                "sw": 12.8,
+                "vis": 15
+              },
+              {
+                "sw": 15.6,
+                "vis": 20
+              },
+              {
+                "sw": 20.1,
+                "vis": 30
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.8,
+                "vis": 3
+              },
+              {
+                "sw": 4.9,
+                "vis": 5
+              },
+              {
+                "sw": 9.3,
+                "vis": 10
+              },
+              {
+                "sw": 12.7,
+                "vis": 15
+              },
+              {
+                "sw": 15.6,
+                "vis": 20
+              },
+              {
+                "sw": 20,
+                "vis": 30
+              }
+            ]
+          },
+          "Helicopter": {
+            "2500ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 3.1,
+                "vis": 3
+              },
+              {
+                "sw": 5.6,
+                "vis": 5
+              },
+              {
+                "sw": 10.5,
+                "vis": 10
+              },
+              {
+                "sw": 14.3,
+                "vis": 15
+              },
+              {
+                "sw": 17.5,
+                "vis": 20
+              },
+              {
+                "sw": 22.4,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 3.2,
+                "vis": 3
+              },
+              {
+                "sw": 5.6,
+                "vis": 5
+              },
+              {
+                "sw": 10.4,
+                "vis": 10
+              },
+              {
+                "sw": 14.3,
+                "vis": 15
+              },
+              {
+                "sw": 17.4,
+                "vis": 20
+              },
+              {
+                "sw": 22.3,
+                "vis": 30
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.2,
+                "vis": 3
+              },
+              {
+                "sw": 5.5,
+                "vis": 5
+              },
+              {
+                "sw": 10.4,
+                "vis": 10
+              },
+              {
+                "sw": 14.2,
+                "vis": 15
+              },
+              {
+                "sw": 17.3,
+                "vis": 20
+              },
+              {
+                "sw": 22.2,
+                "vis": 30
+              }
+            ],
+            "500ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.2,
+                "vis": 3
+              },
+              {
+                "sw": 5.5,
+                "vis": 5
+              },
+              {
+                "sw": 10.4,
+                "vis": 10
+              },
+              {
+                "sw": 14.1,
+                "vis": 15
+              },
+              {
+                "sw": 17.3,
+                "vis": 20
+              },
+              {
+                "sw": 22.2,
+                "vis": 30
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.2,
+                "vis": 3
+              },
+              {
+                "sw": 5.5,
+                "vis": 5
+              },
+              {
+                "sw": 10.3,
+                "vis": 10
+              },
+              {
+                "sw": 14.1,
+                "vis": 15
+              },
+              {
+                "sw": 17.2,
+                "vis": 20
+              },
+              {
+                "sw": 22.1,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.2,
+                "vis": 3
+              },
+              {
+                "sw": 5.6,
+                "vis": 5
+              },
+              {
+                "sw": 10.4,
+                "vis": 10
+              },
+              {
+                "sw": 14.2,
+                "vis": 15
+              },
+              {
+                "sw": 17.3,
+                "vis": 20
+              },
+              {
+                "sw": 22.2,
+                "vis": 30
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 3.2,
+                "vis": 3
+              },
+              {
+                "sw": 5.6,
+                "vis": 5
+              },
+              {
+                "sw": 10.5,
+                "vis": 10
+              },
+              {
+                "sw": 14.3,
+                "vis": 15
+              },
+              {
+                "sw": 17.4,
+                "vis": 20
+              },
+              {
+                "sw": 22.4,
+                "vis": 30
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 3.1,
+                "vis": 3
+              },
+              {
+                "sw": 5.6,
+                "vis": 5
+              },
+              {
+                "sw": 10.5,
+                "vis": 10
+              },
+              {
+                "sw": 14.4,
+                "vis": 15
+              },
+              {
+                "sw": 17.5,
+                "vis": 20
+              },
+              {
+                "sw": 22.5,
+                "vis": 30
+              }
+            ]
+          },
+          "Boat": {
+            "8ft": [
+              {
+                "sw": 0.9,
+                "vis": 1
+              },
+              {
+                "sw": 2.5,
+                "vis": 3
+              },
+              {
+                "sw": 4.2,
+                "vis": 5
+              },
+              {
+                "sw": 7.9,
+                "vis": 10
+              },
+              {
+                "sw": 10.7,
+                "vis": 15
+              },
+              {
+                "sw": 13.1,
+                "vis": 20
+              }
+            ],
+            "14ft": [
+              {
+                "sw": 1.2,
+                "vis": 1
+              },
+              {
+                "sw": 3.2,
+                "vis": 3
+              },
+              {
+                "sw": 5.5,
+                "vis": 5
+              },
+              {
+                "sw": 10.2,
+                "vis": 10
+              },
+              {
+                "sw": 13.9,
+                "vis": 15
+              },
+              {
+                "sw": 16.9,
+                "vis": 20
+              }
+            ]
+          }
+        },
+        "Sail Boat 83ft": {
+          "weather_corrections": "large",
+          "speed_corrections": {
+            "Aircraft": [
+              {
+                "speed": 150,
+                "correction": 1.1
+              },
+              {
+                "speed": 180,
+                "correction": 1
+              }
+            ],
+            "Helicopter": [
+              {
+                "speed": 60,
+                "correction": 1.1
+              },
+              {
+                "speed": 90,
+                "correction": 1
+              },
+              {
+                "speed": 140,
+                "correction": 0.9
+              }
+            ]
+          },
+          "Aircraft": {
+            "500ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.8,
+                "vis": 3
+              },
+              {
+                "sw": 5.1,
+                "vis": 5
+              },
+              {
+                "sw": 9.9,
+                "vis": 10
+              },
+              {
+                "sw": 13.7,
+                "vis": 15
+              },
+              {
+                "sw": 17,
+                "vis": 20
+              },
+              {
+                "sw": 22.1,
+                "vis": 30
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.8,
+                "vis": 3
+              },
+              {
+                "sw": 5.1,
+                "vis": 5
+              },
+              {
+                "sw": 9.9,
+                "vis": 10
+              },
+              {
+                "sw": 13.7,
+                "vis": 15
+              },
+              {
+                "sw": 16.9,
+                "vis": 20
+              },
+              {
+                "sw": 22.1,
+                "vis": 30
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 2.7,
+                "vis": 3
+              },
+              {
+                "sw": 5.1,
+                "vis": 5
+              },
+              {
+                "sw": 10,
+                "vis": 10
+              },
+              {
+                "sw": 14,
+                "vis": 15
+              },
+              {
+                "sw": 17.2,
+                "vis": 20
+              },
+              {
+                "sw": 22.5,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 2.8,
+                "vis": 3
+              },
+              {
+                "sw": 5.1,
+                "vis": 5
+              },
+              {
+                "sw": 10,
+                "vis": 10
+              },
+              {
+                "sw": 13.8,
+                "vis": 15
+              },
+              {
+                "sw": 17.1,
+                "vis": 20
+              },
+              {
+                "sw": 22.3,
+                "vis": 30
+              }
+            ],
+            "2500ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 2.8,
+                "vis": 3
+              },
+              {
+                "sw": 5.1,
+                "vis": 5
+              },
+              {
+                "sw": 10,
+                "vis": 10
+              },
+              {
+                "sw": 13.9,
+                "vis": 15
+              },
+              {
+                "sw": 17.2,
+                "vis": 20
+              },
+              {
+                "sw": 22.4,
+                "vis": 30
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 2.8,
+                "vis": 3
+              },
+              {
+                "sw": 5.1,
+                "vis": 5
+              },
+              {
+                "sw": 10,
+                "vis": 10
+              },
+              {
+                "sw": 13.9,
+                "vis": 15
+              },
+              {
+                "sw": 17.1,
+                "vis": 20
+              },
+              {
+                "sw": 22.3,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.8,
+                "vis": 3
+              },
+              {
+                "sw": 5.1,
+                "vis": 5
+              },
+              {
+                "sw": 9.9,
+                "vis": 10
+              },
+              {
+                "sw": 13.8,
+                "vis": 15
+              },
+              {
+                "sw": 17,
+                "vis": 20
+              },
+              {
+                "sw": 22.2,
+                "vis": 30
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.8,
+                "vis": 3
+              },
+              {
+                "sw": 5.1,
+                "vis": 5
+              },
+              {
+                "sw": 9.9,
+                "vis": 10
+              },
+              {
+                "sw": 13.8,
+                "vis": 15
+              },
+              {
+                "sw": 17,
+                "vis": 20
+              },
+              {
+                "sw": 22.2,
+                "vis": 30
+              }
+            ]
+          },
+          "Helicopter": {
+            "2500ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 3.2,
+                "vis": 3
+              },
+              {
+                "sw": 5.7,
+                "vis": 5
+              },
+              {
+                "sw": 11.1,
+                "vis": 10
+              },
+              {
+                "sw": 15.4,
+                "vis": 15
+              },
+              {
+                "sw": 18.9,
+                "vis": 20
+              },
+              {
+                "sw": 24.6,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 3.3,
+                "vis": 3
+              },
+              {
+                "sw": 5.7,
+                "vis": 5
+              },
+              {
+                "sw": 11.1,
+                "vis": 10
+              },
+              {
+                "sw": 15.3,
+                "vis": 15
+              },
+              {
+                "sw": 18.8,
+                "vis": 20
+              },
+              {
+                "sw": 24.5,
+                "vis": 30
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.3,
+                "vis": 3
+              },
+              {
+                "sw": 5.7,
+                "vis": 5
+              },
+              {
+                "sw": 11,
+                "vis": 10
+              },
+              {
+                "sw": 15.2,
+                "vis": 15
+              },
+              {
+                "sw": 18.8,
+                "vis": 20
+              },
+              {
+                "sw": 24.4,
+                "vis": 30
+              }
+            ],
+            "500ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.3,
+                "vis": 3
+              },
+              {
+                "sw": 5.7,
+                "vis": 5
+              },
+              {
+                "sw": 11,
+                "vis": 10
+              },
+              {
+                "sw": 15.2,
+                "vis": 15
+              },
+              {
+                "sw": 18.7,
+                "vis": 20
+              },
+              {
+                "sw": 24.4,
+                "vis": 30
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.3,
+                "vis": 3
+              },
+              {
+                "sw": 5.7,
+                "vis": 5
+              },
+              {
+                "sw": 11,
+                "vis": 10
+              },
+              {
+                "sw": 15.2,
+                "vis": 15
+              },
+              {
+                "sw": 18.7,
+                "vis": 20
+              },
+              {
+                "sw": 24.3,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.3,
+                "vis": 3
+              },
+              {
+                "sw": 5.7,
+                "vis": 5
+              },
+              {
+                "sw": 11,
+                "vis": 10
+              },
+              {
+                "sw": 15.3,
+                "vis": 15
+              },
+              {
+                "sw": 18.8,
+                "vis": 20
+              },
+              {
+                "sw": 24.4,
+                "vis": 30
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 3.2,
+                "vis": 3
+              },
+              {
+                "sw": 5.7,
+                "vis": 5
+              },
+              {
+                "sw": 11.1,
+                "vis": 10
+              },
+              {
+                "sw": 15.4,
+                "vis": 15
+              },
+              {
+                "sw": 18.9,
+                "vis": 20
+              },
+              {
+                "sw": 24.6,
+                "vis": 30
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 3.1,
+                "vis": 3
+              },
+              {
+                "sw": 5.7,
+                "vis": 5
+              },
+              {
+                "sw": 11.1,
+                "vis": 10
+              },
+              {
+                "sw": 15.4,
+                "vis": 15
+              },
+              {
+                "sw": 19,
+                "vis": 20
+              },
+              {
+                "sw": 24.7,
+                "vis": 30
+              }
+            ]
+          },
+          "Boat": {
+            "8ft": [
+              {
+                "sw": 0.9,
+                "vis": 1
+              },
+              {
+                "sw": 2.5,
+                "vis": 3
+              },
+              {
+                "sw": 4.4,
+                "vis": 5
+              },
+              {
+                "sw": 8.3,
+                "vis": 10
+              },
+              {
+                "sw": 11.6,
+                "vis": 15
+              },
+              {
+                "sw": 14.2,
+                "vis": 20
+              }
+            ],
+            "14ft": [
+              {
+                "sw": 1.2,
+                "vis": 1
+              },
+              {
+                "sw": 3.3,
+                "vis": 3
+              },
+              {
+                "sw": 5.7,
+                "vis": 5
+              },
+              {
+                "sw": 10.8,
+                "vis": 10
+              },
+              {
+                "sw": 15,
+                "vis": 15
+              },
+              {
+                "sw": 18.4,
+                "vis": 20
+              }
+            ]
+          }
+        },
+        "Ship 120ft": {
+          "weather_corrections": "large",
+          "speed_corrections": {
+            "Aircraft": [
+              {
+                "speed": 150,
+                "correction": 1
+              }
+            ],
+            "Helicopter": [
+              {
+                "speed": 60,
+                "correction": 1.1
+              },
+              {
+                "speed": 90,
+                "correction": 1
+              },
+              {
+                "speed": 140,
+                "correction": 0.9
+              }
+            ]
+          },
+          "Aircraft": {
+            "500ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.9,
+                "vis": 3
+              },
+              {
+                "sw": 5.4,
+                "vis": 5
+              },
+              {
+                "sw": 11.1,
+                "vis": 10
+              },
+              {
+                "sw": 15.9,
+                "vis": 15
+              },
+              {
+                "sw": 20.1,
+                "vis": 20
+              },
+              {
+                "sw": 26.9,
+                "vis": 30
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.9,
+                "vis": 3
+              },
+              {
+                "sw": 5.4,
+                "vis": 5
+              },
+              {
+                "sw": 11.1,
+                "vis": 10
+              },
+              {
+                "sw": 15.9,
+                "vis": 15
+              },
+              {
+                "sw": 20,
+                "vis": 20
+              },
+              {
+                "sw": 26.9,
+                "vis": 30
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 2.8,
+                "vis": 3
+              },
+              {
+                "sw": 5.3,
+                "vis": 5
+              },
+              {
+                "sw": 11.1,
+                "vis": 10
+              },
+              {
+                "sw": 16,
+                "vis": 15
+              },
+              {
+                "sw": 20.2,
+                "vis": 20
+              },
+              {
+                "sw": 27.1,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 2.9,
+                "vis": 3
+              },
+              {
+                "sw": 5.4,
+                "vis": 5
+              },
+              {
+                "sw": 11.1,
+                "vis": 10
+              },
+              {
+                "sw": 16,
+                "vis": 15
+              },
+              {
+                "sw": 20.1,
+                "vis": 20
+              },
+              {
+                "sw": 27,
+                "vis": 30
+              }
+            ],
+            "2500ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 2.8,
+                "vis": 3
+              },
+              {
+                "sw": 5.4,
+                "vis": 5
+              },
+              {
+                "sw": 11.1,
+                "vis": 10
+              },
+              {
+                "sw": 16,
+                "vis": 15
+              },
+              {
+                "sw": 20.2,
+                "vis": 20
+              },
+              {
+                "sw": 27.1,
+                "vis": 30
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 2.9,
+                "vis": 3
+              },
+              {
+                "sw": 5.4,
+                "vis": 5
+              },
+              {
+                "sw": 11.1,
+                "vis": 10
+              },
+              {
+                "sw": 16,
+                "vis": 15
+              },
+              {
+                "sw": 20.1,
+                "vis": 20
+              },
+              {
+                "sw": 27.1,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.9,
+                "vis": 3
+              },
+              {
+                "sw": 5.4,
+                "vis": 5
+              },
+              {
+                "sw": 11.1,
+                "vis": 10
+              },
+              {
+                "sw": 15.9,
+                "vis": 15
+              },
+              {
+                "sw": 20.1,
+                "vis": 20
+              },
+              {
+                "sw": 27,
+                "vis": 30
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 2.9,
+                "vis": 3
+              },
+              {
+                "sw": 5.4,
+                "vis": 5
+              },
+              {
+                "sw": 11.1,
+                "vis": 10
+              },
+              {
+                "sw": 15.9,
+                "vis": 15
+              },
+              {
+                "sw": 20.1,
+                "vis": 20
+              },
+              {
+                "sw": 27,
+                "vis": 30
+              }
+            ]
+          },
+          "Helicopter": {
+            "2500ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 3.3,
+                "vis": 3
+              },
+              {
+                "sw": 6,
+                "vis": 5
+              },
+              {
+                "sw": 12.2,
+                "vis": 10
+              },
+              {
+                "sw": 17.5,
+                "vis": 15
+              },
+              {
+                "sw": 22,
+                "vis": 20
+              },
+              {
+                "sw": 29.4,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 3.3,
+                "vis": 3
+              },
+              {
+                "sw": 6,
+                "vis": 5
+              },
+              {
+                "sw": 12.2,
+                "vis": 10
+              },
+              {
+                "sw": 17.5,
+                "vis": 15
+              },
+              {
+                "sw": 22,
+                "vis": 20
+              },
+              {
+                "sw": 29.4,
+                "vis": 30
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.4,
+                "vis": 3
+              },
+              {
+                "sw": 6,
+                "vis": 5
+              },
+              {
+                "sw": 12.2,
+                "vis": 10
+              },
+              {
+                "sw": 17.4,
+                "vis": 15
+              },
+              {
+                "sw": 21.9,
+                "vis": 20
+              },
+              {
+                "sw": 29.3,
+                "vis": 30
+              }
+            ],
+            "500ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.4,
+                "vis": 3
+              },
+              {
+                "sw": 6,
+                "vis": 5
+              },
+              {
+                "sw": 12.2,
+                "vis": 10
+              },
+              {
+                "sw": 17.4,
+                "vis": 15
+              },
+              {
+                "sw": 21.9,
+                "vis": 20
+              },
+              {
+                "sw": 29.3,
+                "vis": 30
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.4,
+                "vis": 3
+              },
+              {
+                "sw": 6,
+                "vis": 5
+              },
+              {
+                "sw": 12.2,
+                "vis": 10
+              },
+              {
+                "sw": 17.4,
+                "vis": 15
+              },
+              {
+                "sw": 21.9,
+                "vis": 20
+              },
+              {
+                "sw": 29.3,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.4,
+                "vis": 3
+              },
+              {
+                "sw": 6,
+                "vis": 5
+              },
+              {
+                "sw": 12.2,
+                "vis": 10
+              },
+              {
+                "sw": 17.4,
+                "vis": 15
+              },
+              {
+                "sw": 21.9,
+                "vis": 20
+              },
+              {
+                "sw": 29.3,
+                "vis": 30
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 3.3,
+                "vis": 3
+              },
+              {
+                "sw": 6,
+                "vis": 5
+              },
+              {
+                "sw": 12.2,
+                "vis": 10
+              },
+              {
+                "sw": 17.5,
+                "vis": 15
+              },
+              {
+                "sw": 22,
+                "vis": 20
+              },
+              {
+                "sw": 29.4,
+                "vis": 30
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 3.2,
+                "vis": 3
+              },
+              {
+                "sw": 6,
+                "vis": 5
+              },
+              {
+                "sw": 12.2,
+                "vis": 10
+              },
+              {
+                "sw": 17.5,
+                "vis": 15
+              },
+              {
+                "sw": 22,
+                "vis": 20
+              },
+              {
+                "sw": 29.5,
+                "vis": 30
+              }
+            ]
+          },
+          "Boat": {
+            "8ft": [
+              {
+                "sw": 1.4,
+                "vis": 1
+              },
+              {
+                "sw": 2.5,
+                "vis": 3
+              },
+              {
+                "sw": 4.6,
+                "vis": 5
+              },
+              {
+                "sw": 9.3,
+                "vis": 10
+              },
+              {
+                "sw": 13.2,
+                "vis": 15
+              },
+              {
+                "sw": 16.6,
+                "vis": 20
+              }
+            ],
+            "14ft": [
+              {
+                "sw": 1.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.3,
+                "vis": 3
+              },
+              {
+                "sw": 6,
+                "vis": 5
+              },
+              {
+                "sw": 12,
+                "vis": 10
+              },
+              {
+                "sw": 17.1,
+                "vis": 15
+              },
+              {
+                "sw": 21.5,
+                "vis": 20
+              }
+            ]
+          }
+        },
+        "Ship 225ft": {
+          "weather_corrections": "large",
+          "speed_corrections": {
+            "Aircraft": [
+              {
+                "speed": 150,
+                "correction": 1
+              }
+            ],
+            "Helicopter": [
+              {
+                "speed": 60,
+                "correction": 1.1
+              },
+              {
+                "speed": 90,
+                "correction": 1
+              },
+              {
+                "speed": 140,
+                "correction": 0.9
+              }
+            ]
+          },
+          "Aircraft": {
+            "500ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 3,
+                "vis": 3
+              },
+              {
+                "sw": 5.7,
+                "vis": 5
+              },
+              {
+                "sw": 12.5,
+                "vis": 10
+              },
+              {
+                "sw": 18.9,
+                "vis": 15
+              },
+              {
+                "sw": 24.7,
+                "vis": 20
+              },
+              {
+                "sw": 34.8,
+                "vis": 30
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 3,
+                "vis": 3
+              },
+              {
+                "sw": 5.7,
+                "vis": 5
+              },
+              {
+                "sw": 12.5,
+                "vis": 10
+              },
+              {
+                "sw": 18.8,
+                "vis": 15
+              },
+              {
+                "sw": 24.7,
+                "vis": 20
+              },
+              {
+                "sw": 34.8,
+                "vis": 30
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 2.8,
+                "vis": 3
+              },
+              {
+                "sw": 5.6,
+                "vis": 5
+              },
+              {
+                "sw": 12.5,
+                "vis": 10
+              },
+              {
+                "sw": 18.9,
+                "vis": 15
+              },
+              {
+                "sw": 24.8,
+                "vis": 20
+              },
+              {
+                "sw": 35,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 3,
+                "vis": 3
+              },
+              {
+                "sw": 5.7,
+                "vis": 5
+              },
+              {
+                "sw": 12.5,
+                "vis": 10
+              },
+              {
+                "sw": 18.9,
+                "vis": 15
+              },
+              {
+                "sw": 24.7,
+                "vis": 20
+              },
+              {
+                "sw": 34.9,
+                "vis": 30
+              }
+            ],
+            "2500ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 2.9,
+                "vis": 3
+              },
+              {
+                "sw": 5.6,
+                "vis": 5
+              },
+              {
+                "sw": 12.5,
+                "vis": 10
+              },
+              {
+                "sw": 18.9,
+                "vis": 15
+              },
+              {
+                "sw": 24.8,
+                "vis": 20
+              },
+              {
+                "sw": 35,
+                "vis": 30
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 3,
+                "vis": 3
+              },
+              {
+                "sw": 5.7,
+                "vis": 5
+              },
+              {
+                "sw": 12.5,
+                "vis": 10
+              },
+              {
+                "sw": 18.9,
+                "vis": 15
+              },
+              {
+                "sw": 24.7,
+                "vis": 20
+              },
+              {
+                "sw": 34.9,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 3,
+                "vis": 3
+              },
+              {
+                "sw": 5.7,
+                "vis": 5
+              },
+              {
+                "sw": 12.5,
+                "vis": 10
+              },
+              {
+                "sw": 18.9,
+                "vis": 15
+              },
+              {
+                "sw": 24.7,
+                "vis": 20
+              },
+              {
+                "sw": 34.9,
+                "vis": 30
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 3,
+                "vis": 3
+              },
+              {
+                "sw": 5.7,
+                "vis": 5
+              },
+              {
+                "sw": 12.5,
+                "vis": 10
+              },
+              {
+                "sw": 18.9,
+                "vis": 15
+              },
+              {
+                "sw": 24.7,
+                "vis": 20
+              },
+              {
+                "sw": 34.9,
+                "vis": 30
+              }
+            ]
+          },
+          "Helicopter": {
+            "2500ft": [
+              {
+                "sw": 0.4,
+                "vis": 1
+              },
+              {
+                "sw": 3.3,
+                "vis": 3
+              },
+              {
+                "sw": 6.3,
+                "vis": 5
+              },
+              {
+                "sw": 13.6,
+                "vis": 10
+              },
+              {
+                "sw": 20.4,
+                "vis": 15
+              },
+              {
+                "sw": 26.6,
+                "vis": 20
+              },
+              {
+                "sw": 37.4,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 3.4,
+                "vis": 3
+              },
+              {
+                "sw": 6.3,
+                "vis": 5
+              },
+              {
+                "sw": 13.6,
+                "vis": 10
+              },
+              {
+                "sw": 20.4,
+                "vis": 15
+              },
+              {
+                "sw": 26.6,
+                "vis": 20
+              },
+              {
+                "sw": 37.3,
+                "vis": 30
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.4,
+                "vis": 3
+              },
+              {
+                "sw": 6.3,
+                "vis": 5
+              },
+              {
+                "sw": 13.6,
+                "vis": 10
+              },
+              {
+                "sw": 20.4,
+                "vis": 15
+              },
+              {
+                "sw": 26.6,
+                "vis": 20
+              },
+              {
+                "sw": 37.3,
+                "vis": 30
+              }
+            ],
+            "500ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.4,
+                "vis": 3
+              },
+              {
+                "sw": 6.3,
+                "vis": 5
+              },
+              {
+                "sw": 13.6,
+                "vis": 10
+              },
+              {
+                "sw": 20.4,
+                "vis": 15
+              },
+              {
+                "sw": 26.6,
+                "vis": 20
+              },
+              {
+                "sw": 37.3,
+                "vis": 30
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.4,
+                "vis": 3
+              },
+              {
+                "sw": 6.3,
+                "vis": 5
+              },
+              {
+                "sw": 13.6,
+                "vis": 10
+              },
+              {
+                "sw": 20.4,
+                "vis": 15
+              },
+              {
+                "sw": 26.6,
+                "vis": 20
+              },
+              {
+                "sw": 37.7,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.4,
+                "vis": 3
+              },
+              {
+                "sw": 6.3,
+                "vis": 5
+              },
+              {
+                "sw": 13.6,
+                "vis": 10
+              },
+              {
+                "sw": 20.4,
+                "vis": 15
+              },
+              {
+                "sw": 26.6,
+                "vis": 20
+              },
+              {
+                "sw": 37.3,
+                "vis": 30
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 3.4,
+                "vis": 3
+              },
+              {
+                "sw": 6.3,
+                "vis": 5
+              },
+              {
+                "sw": 13.6,
+                "vis": 10
+              },
+              {
+                "sw": 20.4,
+                "vis": 15
+              },
+              {
+                "sw": 26.6,
+                "vis": 20
+              },
+              {
+                "sw": 37.4,
+                "vis": 30
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 3.3,
+                "vis": 3
+              },
+              {
+                "sw": 6.3,
+                "vis": 5
+              },
+              {
+                "sw": 13.6,
+                "vis": 10
+              },
+              {
+                "sw": 20.4,
+                "vis": 15
+              },
+              {
+                "sw": 26.6,
+                "vis": 20
+              },
+              {
+                "sw": 37.4,
+                "vis": 30
+              }
+            ]
+          },
+          "Boat": {
+            "8ft": [
+              {
+                "sw": 1.4,
+                "vis": 1
+              },
+              {
+                "sw": 2.6,
+                "vis": 3
+              },
+              {
+                "sw": 4.9,
+                "vis": 5
+              },
+              {
+                "sw": 10.3,
+                "vis": 10
+              },
+              {
+                "sw": 15.5,
+                "vis": 15
+              },
+              {
+                "sw": 20.2,
+                "vis": 20
+              }
+            ],
+            "14ft": [
+              {
+                "sw": 1.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.4,
+                "vis": 3
+              },
+              {
+                "sw": 6.3,
+                "vis": 5
+              },
+              {
+                "sw": 13.4,
+                "vis": 10
+              },
+              {
+                "sw": 20.1,
+                "vis": 15
+              },
+              {
+                "sw": 26,
+                "vis": 20
+              }
+            ]
+          }
+        },
+        "Ship \u2265 300ft": {
+          "weather_corrections": "large",
+          "speed_corrections": {
+            "Aircraft": [
+              {
+                "speed": 150,
+                "correction": 1
+              }
+            ],
+            "Helicopter": [
+              {
+                "speed": 60,
+                "correction": 1.1
+              },
+              {
+                "speed": 90,
+                "correction": 1
+              },
+              {
+                "speed": 140,
+                "correction": 0.9
+              }
+            ]
+          },
+          "Aircraft": {
+            "500ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 3,
+                "vis": 3
+              },
+              {
+                "sw": 5.8,
+                "vis": 5
+              },
+              {
+                "sw": 13.2,
+                "vis": 10
+              },
+              {
+                "sw": 20.6,
+                "vis": 15
+              },
+              {
+                "sw": 27.9,
+                "vis": 20
+              },
+              {
+                "sw": 41.4,
+                "vis": 30
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 3,
+                "vis": 3
+              },
+              {
+                "sw": 5.8,
+                "vis": 5
+              },
+              {
+                "sw": 13.2,
+                "vis": 10
+              },
+              {
+                "sw": 20.6,
+                "vis": 15
+              },
+              {
+                "sw": 27.9,
+                "vis": 20
+              },
+              {
+                "sw": 41.4,
+                "vis": 30
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.2,
+                "vis": 1
+              },
+              {
+                "sw": 2.9,
+                "vis": 3
+              },
+              {
+                "sw": 5.7,
+                "vis": 5
+              },
+              {
+                "sw": 13.2,
+                "vis": 10
+              },
+              {
+                "sw": 20.7,
+                "vis": 15
+              },
+              {
+                "sw": 27.9,
+                "vis": 20
+              },
+              {
+                "sw": 41.5,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 3,
+                "vis": 3
+              },
+              {
+                "sw": 5.8,
+                "vis": 5
+              },
+              {
+                "sw": 13.2,
+                "vis": 10
+              },
+              {
+                "sw": 20.7,
+                "vis": 15
+              },
+              {
+                "sw": 27.9,
+                "vis": 20
+              },
+              {
+                "sw": 41.4,
+                "vis": 30
+              }
+            ],
+            "2500ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 2.9,
+                "vis": 3
+              },
+              {
+                "sw": 5.7,
+                "vis": 5
+              },
+              {
+                "sw": 13.2,
+                "vis": 10
+              },
+              {
+                "sw": 20.7,
+                "vis": 15
+              },
+              {
+                "sw": 27.9,
+                "vis": 20
+              },
+              {
+                "sw": 41.5,
+                "vis": 30
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 3,
+                "vis": 3
+              },
+              {
+                "sw": 5.8,
+                "vis": 5
+              },
+              {
+                "sw": 13.2,
+                "vis": 10
+              },
+              {
+                "sw": 20.7,
+                "vis": 15
+              },
+              {
+                "sw": 27.9,
+                "vis": 20
+              },
+              {
+                "sw": 41.5,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 3,
+                "vis": 3
+              },
+              {
+                "sw": 5.8,
+                "vis": 5
+              },
+              {
+                "sw": 13.2,
+                "vis": 10
+              },
+              {
+                "sw": 20.6,
+                "vis": 15
+              },
+              {
+                "sw": 27.9,
+                "vis": 20
+              },
+              {
+                "sw": 41.4,
+                "vis": 30
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 3,
+                "vis": 3
+              },
+              {
+                "sw": 5.8,
+                "vis": 5
+              },
+              {
+                "sw": 13.2,
+                "vis": 10
+              },
+              {
+                "sw": 20.6,
+                "vis": 15
+              },
+              {
+                "sw": 27.9,
+                "vis": 20
+              },
+              {
+                "sw": 41.4,
+                "vis": 30
+              }
+            ]
+          },
+          "Helicopter": {
+            "2500ft": [
+              {
+                "sw": 0.5,
+                "vis": 1
+              },
+              {
+                "sw": 3.4,
+                "vis": 3
+              },
+              {
+                "sw": 6.4,
+                "vis": 5
+              },
+              {
+                "sw": 14.3,
+                "vis": 10
+              },
+              {
+                "sw": 22.2,
+                "vis": 15
+              },
+              {
+                "sw": 29.8,
+                "vis": 20
+              },
+              {
+                "sw": 43.9,
+                "vis": 30
+              }
+            ],
+            "1500ft": [
+              {
+                "sw": 0.7,
+                "vis": 1
+              },
+              {
+                "sw": 3.4,
+                "vis": 3
+              },
+              {
+                "sw": 6.4,
+                "vis": 5
+              },
+              {
+                "sw": 14.3,
+                "vis": 10
+              },
+              {
+                "sw": 22.2,
+                "vis": 15
+              },
+              {
+                "sw": 29.8,
+                "vis": 20
+              },
+              {
+                "sw": 43.9,
+                "vis": 30
+              }
+            ],
+            "750ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.5,
+                "vis": 3
+              },
+              {
+                "sw": 6.4,
+                "vis": 5
+              },
+              {
+                "sw": 14.3,
+                "vis": 10
+              },
+              {
+                "sw": 22.2,
+                "vis": 15
+              },
+              {
+                "sw": 29.8,
+                "vis": 20
+              },
+              {
+                "sw": 43.8,
+                "vis": 30
+              }
+            ],
+            "500ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.5,
+                "vis": 3
+              },
+              {
+                "sw": 6.4,
+                "vis": 5
+              },
+              {
+                "sw": 14.3,
+                "vis": 10
+              },
+              {
+                "sw": 22.1,
+                "vis": 15
+              },
+              {
+                "sw": 29.8,
+                "vis": 20
+              },
+              {
+                "sw": 43.8,
+                "vis": 30
+              }
+            ],
+            "300ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.5,
+                "vis": 3
+              },
+              {
+                "sw": 6.4,
+                "vis": 5
+              },
+              {
+                "sw": 14.3,
+                "vis": 10
+              },
+              {
+                "sw": 22.1,
+                "vis": 15
+              },
+              {
+                "sw": 29.8,
+                "vis": 20
+              },
+              {
+                "sw": 43.8,
+                "vis": 30
+              }
+            ],
+            "1000ft": [
+              {
+                "sw": 0.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.5,
+                "vis": 3
+              },
+              {
+                "sw": 6.4,
+                "vis": 5
+              },
+              {
+                "sw": 14.3,
+                "vis": 10
+              },
+              {
+                "sw": 22.2,
+                "vis": 15
+              },
+              {
+                "sw": 29.8,
+                "vis": 20
+              },
+              {
+                "sw": 43.9,
+                "vis": 30
+              }
+            ],
+            "2000ft": [
+              {
+                "sw": 0.6,
+                "vis": 1
+              },
+              {
+                "sw": 3.4,
+                "vis": 3
+              },
+              {
+                "sw": 6.4,
+                "vis": 5
+              },
+              {
+                "sw": 14.3,
+                "vis": 10
+              },
+              {
+                "sw": 22.2,
+                "vis": 15
+              },
+              {
+                "sw": 29.8,
+                "vis": 20
+              },
+              {
+                "sw": 43.9,
+                "vis": 30
+              }
+            ],
+            "3000ft": [
+              {
+                "sw": 0.3,
+                "vis": 1
+              },
+              {
+                "sw": 3.3,
+                "vis": 3
+              },
+              {
+                "sw": 6.4,
+                "vis": 5
+              },
+              {
+                "sw": 14.3,
+                "vis": 10
+              },
+              {
+                "sw": 22.2,
+                "vis": 15
+              },
+              {
+                "sw": 29.8,
+                "vis": 20
+              },
+              {
+                "sw": 43.9,
+                "vis": 30
+              }
+            ]
+          },
+          "Boat": {
+            "8ft": [
+              {
+                "sw": 1.4,
+                "vis": 1
+              },
+              {
+                "sw": 2.6,
+                "vis": 3
+              },
+              {
+                "sw": 4.9,
+                "vis": 5
+              },
+              {
+                "sw": 10.9,
+                "vis": 10
+              },
+              {
+                "sw": 16.8,
+                "vis": 15
+              },
+              {
+                "sw": 22.5,
+                "vis": 20
+              }
+            ],
+            "14ft": [
+              {
+                "sw": 1.8,
+                "vis": 1
+              },
+              {
+                "sw": 3.4,
+                "vis": 3
+              },
+              {
+                "sw": 6.4,
+                "vis": 5
+              },
+              {
+                "sw": 14.1,
+                "vis": 10
+              },
+              {
+                "sw": 21.8,
+                "vis": 15
+              },
+              {
+                "sw": 29.2,
+                "vis": 20
+              }
+            ]
+          }
+        }
+      };
+      var marine_sweep_width_weather_corrections = {
+        "small": {
+          "IAMSAR": {
+            "low": 1,
+            "medium": 0.5,
+            "high": 0.25
+          }
+        },
+        "large": {
+          "IAMSAR": {
+            "low": 1,
+            "medium": 0.9,
+            "high": 0.9
+          },
+          /* This data is from the Australian National Search and Rescue Manual - 2022 Edition Version 1 */
+          "au": {
+            "low": 1,
+            "medium": 0.8,
+            "high": 0.5
+          }
+        }
+      };
+    }
+  });
+
+  // node_modules/classnames/index.js
+  var require_classnames = __commonJS({
+    "node_modules/classnames/index.js"(exports, module) {
+      (function() {
+        "use strict";
+        var hasOwn = {}.hasOwnProperty;
+        function classNames16() {
+          var classes = "";
+          for (var i = 0; i < arguments.length; i++) {
+            var arg = arguments[i];
+            if (arg) {
+              classes = appendClass(classes, parseValue(arg));
+            }
+          }
+          return classes;
+        }
+        function parseValue(arg) {
+          if (typeof arg === "string" || typeof arg === "number") {
+            return arg;
+          }
+          if (typeof arg !== "object") {
+            return "";
+          }
+          if (Array.isArray(arg)) {
+            return classNames16.apply(null, arg);
+          }
+          if (arg.toString !== Object.prototype.toString && !arg.toString.toString().includes("[native code]")) {
+            return arg.toString();
+          }
+          var classes = "";
+          for (var key in arg) {
+            if (hasOwn.call(arg, key) && arg[key]) {
+              classes = appendClass(classes, key);
+            }
+          }
+          return classes;
+        }
+        function appendClass(value, newClass) {
+          if (!newClass) {
+            return value;
+          }
+          if (value) {
+            return value + " " + newClass;
+          }
+          return value + newClass;
+        }
+        if (typeof module !== "undefined" && module.exports) {
+          classNames16.default = classNames16;
+          module.exports = classNames16;
+        } else if (typeof define === "function" && typeof define.amd === "object" && define.amd) {
+          define("classnames", [], function() {
+            return classNames16;
+          });
+        } else {
+          window.classNames = classNames16;
+        }
+      })();
+    }
+  });
+
   // node_modules/react-is/cjs/react-is.development.js
   var require_react_is_development = __commonJS({
     "node_modules/react-is/cjs/react-is.development.js"(exports) {
@@ -20062,66 +33372,6 @@
       }
       var ReactIs;
       var throwOnDirectAccess;
-    }
-  });
-
-  // node_modules/classnames/index.js
-  var require_classnames = __commonJS({
-    "node_modules/classnames/index.js"(exports, module) {
-      (function() {
-        "use strict";
-        var hasOwn = {}.hasOwnProperty;
-        function classNames16() {
-          var classes = "";
-          for (var i = 0; i < arguments.length; i++) {
-            var arg = arguments[i];
-            if (arg) {
-              classes = appendClass(classes, parseValue(arg));
-            }
-          }
-          return classes;
-        }
-        function parseValue(arg) {
-          if (typeof arg === "string" || typeof arg === "number") {
-            return arg;
-          }
-          if (typeof arg !== "object") {
-            return "";
-          }
-          if (Array.isArray(arg)) {
-            return classNames16.apply(null, arg);
-          }
-          if (arg.toString !== Object.prototype.toString && !arg.toString.toString().includes("[native code]")) {
-            return arg.toString();
-          }
-          var classes = "";
-          for (var key in arg) {
-            if (hasOwn.call(arg, key) && arg[key]) {
-              classes = appendClass(classes, key);
-            }
-          }
-          return classes;
-        }
-        function appendClass(value, newClass) {
-          if (!newClass) {
-            return value;
-          }
-          if (value) {
-            return value + " " + newClass;
-          }
-          return value + newClass;
-        }
-        if (typeof module !== "undefined" && module.exports) {
-          classNames16.default = classNames16;
-          module.exports = classNames16;
-        } else if (typeof define === "function" && typeof define.amd === "object" && define.amd) {
-          define("classnames", [], function() {
-            return classNames16;
-          });
-        } else {
-          window.classNames = classNames16;
-        }
-      })();
     }
   });
 
@@ -25783,40 +39033,13 @@
   enableDismissTrigger(Toast);
   defineJQueryPlugin(Toast);
 
-  // example.js
+  // example.tsx
   var import_react12 = __toESM(require_react());
   var ReactDOM = __toESM(require_client());
 
-  // marine-sar-search-prep.js
+  // marine-sar-search-prep.tsx
   var import_react11 = __toESM(require_react());
-  var import_prop_types3 = __toESM(require_prop_types());
-
-  // node_modules/@canterbury-air-patrol/marine-sweep-width-data/marine-sweep-width-data-table.js
-  var marine_sweep_widths = { "Person in Water": { "weather_corrections": "small", "speed_corrections": { "Aircraft": [{ "speed": 150, "correction": 1.2 }, { "speed": 180, "correction": 1 }, { "speed": 210, "correction": 0.9 }], "Helicopter": [{ "speed": 60, "correction": 1.5 }, { "speed": 90, "correction": 1 }, { "speed": 120, "correction": 0.8 }, { "speed": 140, "correction": 0.7 }] }, "Helicopter": { "3000ft": [{ "sw": 0, "vis": 1 }], "1000ft": [{ "sw": 0, "vis": 1 }, { "sw": 0.1, "vis": 3 }], "2000ft": [{ "sw": 0, "vis": 1 }, { "sw": 0.1, "vis": 20 }], "500ft": [{ "sw": 0, "vis": 1 }, { "sw": 0.1, "vis": 3 }], "750ft": [{ "sw": 0, "vis": 1 }, { "sw": 0.1, "vis": 3 }], "1500ft": [{ "sw": 0, "vis": 1 }, { "sw": 0.1, "vis": 10 }], "2500ft": [{ "sw": 0, "vis": 1 }, { "sw": 0.1, "vis": 30 }], "300ft": [{ "sw": 0.1, "vis": 1 }] }, "Aircraft": { "2500ft": [{ "sw": 0, "vis": 1 }], "1000ft": [{ "sw": 0, "vis": 1 }, { "sw": 0.1, "vis": 3 }], "750ft": [{ "sw": 0.1, "vis": 1 }], "300ft": [{ "sw": 0.1, "vis": 1 }], "500ft": [{ "sw": 0, "vis": 1 }, { "sw": 0.1, "vis": 3 }], "2000ft": [{ "sw": 0, "vis": 1 }, { "sw": 0.1, "vis": 30 }], "1500ft": [{ "sw": 0, "vis": 1 }, { "sw": 0.1, "vis": 20 }], "3000ft": [{ "sw": 0, "vis": 1 }] }, "Boat": { "8ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 0.3, "vis": 5 }], "14ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 0.4, "vis": 3 }, { "sw": 0.5, "vis": 5 }] } }, "Raft 1 person": { "weather_corrections": "small", "speed_corrections": { "Aircraft": [{ "speed": 150, "correction": 1.1 }, { "speed": 180, "correction": 1 }, { "speed": 210, "correction": 0.9 }], "Helicopter": [{ "speed": 60, "correction": 1.3 }, { "speed": 90, "correction": 1 }, { "speed": 120, "correction": 0.9 }, { "speed": 140, "correction": 0.8 }] }, "Helicopter": { "3000ft": [{ "sw": 0.1, "vis": 1 }, { "sw": 0.7, "vis": 3 }, { "sw": 1, "vis": 5 }, { "sw": 1.5, "vis": 10 }, { "sw": 1.8, "vis": 15 }], "1000ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 0.9, "vis": 3 }, { "sw": 1.2, "vis": 5 }, { "sw": 1.6, "vis": 10 }, { "sw": 1.8, "vis": 15 }], "2000ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 0.8, "vis": 3 }, { "sw": 1.2, "vis": 5 }, { "sw": 1.6, "vis": 10 }, { "sw": 1.8, "vis": 15 }], "500ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 0.9, "vis": 3 }, { "sw": 1.2, "vis": 5 }, { "sw": 1.6, "vis": 10 }, { "sw": 1.8, "vis": 15 }], "750ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 0.9, "vis": 3 }, { "sw": 1.2, "vis": 5 }, { "sw": 1.6, "vis": 10 }, { "sw": 1.7, "vis": 15 }, { "sw": 1.8, "vis": 20 }], "1500ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 0.9, "vis": 3 }, { "sw": 1.2, "vis": 5 }, { "sw": 1.6, "vis": 10 }, { "sw": 1.8, "vis": 15 }], "2500ft": [{ "sw": 0.1, "vis": 1 }, { "sw": 0.8, "vis": 3 }, { "sw": 1.1, "vis": 5 }, { "sw": 1.6, "vis": 10 }, { "sw": 1.8, "vis": 15 }], "300ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 0.9, "vis": 3 }, { "sw": 1.2, "vis": 5 }, { "sw": 1.5, "vis": 10 }, { "sw": 1.7, "vis": 15 }] }, "Aircraft": { "2500ft": [{ "sw": 0.1, "vis": 1 }, { "sw": 0.5, "vis": 3 }, { "sw": 0.8, "vis": 5 }, { "sw": 1.2, "vis": 10 }, { "sw": 1.4, "vis": 15 }], "1000ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 0.7, "vis": 3 }, { "sw": 0.9, "vis": 5 }, { "sw": 1.2, "vis": 10 }, { "sw": 1.4, "vis": 15 }], "750ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 0.7, "vis": 3 }, { "sw": 0.9, "vis": 5 }, { "sw": 1.2, "vis": 10 }, { "sw": 1.4, "vis": 15 }], "300ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 0.7, "vis": 3 }, { "sw": 0.9, "vis": 5 }, { "sw": 1.2, "vis": 10 }, { "sw": 1.3, "vis": 15 }], "500ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 0.7, "vis": 3 }, { "sw": 0.9, "vis": 5 }, { "sw": 1.2, "vis": 10 }, { "sw": 1.4, "vis": 15 }], "2000ft": [{ "sw": 0.1, "vis": 1 }, { "sw": 0.6, "vis": 3 }, { "sw": 0.9, "vis": 5 }, { "sw": 1.2, "vis": 10 }, { "sw": 1.4, "vis": 15 }], "1500ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 0.7, "vis": 3 }, { "sw": 0.9, "vis": 5 }, { "sw": 1.3, "vis": 10 }, { "sw": 1.4, "vis": 15 }], "3000ft": [{ "sw": 0.1, "vis": 1 }, { "sw": 0.5, "vis": 3 }, { "sw": 0.8, "vis": 5 }, { "sw": 1.1, "vis": 10 }, { "sw": 1.3, "vis": 15 }] }, "Boat": { "8ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 1.3, "vis": 3 }, { "sw": 1.7, "vis": 5 }, { "sw": 2.3, "vis": 10 }, { "sw": 2.6, "vis": 15 }, { "sw": 2.7, "vis": 20 }], "14ft": [{ "sw": 0.9, "vis": 1 }, { "sw": 1.8, "vis": 3 }, { "sw": 2.3, "vis": 5 }, { "sw": 3.1, "vis": 10 }, { "sw": 3.4, "vis": 15 }, { "sw": 3.7, "vis": 20 }] } }, "Raft 4 person": { "weather_corrections": "small", "speed_corrections": { "Aircraft": [{ "speed": 150, "correction": 1.1 }, { "speed": 180, "correction": 1 }, { "speed": 210, "correction": 0.9 }], "Helicopter": [{ "speed": 60, "correction": 1.3 }, { "speed": 90, "correction": 1 }, { "speed": 120, "correction": 0.9 }, { "speed": 140, "correction": 0.8 }] }, "Helicopter": { "3000ft": [{ "sw": 0.1, "vis": 1 }, { "sw": 1, "vis": 3 }, { "sw": 1.6, "vis": 5 }, { "sw": 2.3, "vis": 10 }, { "sw": 2.7, "vis": 15 }, { "sw": 3, "vis": 20 }], "1000ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.2, "vis": 3 }, { "sw": 1.7, "vis": 5 }, { "sw": 2.3, "vis": 10 }, { "sw": 2.6, "vis": 15 }, { "sw": 2.9, "vis": 20 }], "2000ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 1.2, "vis": 3 }, { "sw": 1.7, "vis": 5 }, { "sw": 2.3, "vis": 10 }, { "sw": 2.7, "vis": 15 }, { "sw": 3, "vis": 20 }], "500ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.2, "vis": 3 }, { "sw": 1.6, "vis": 5 }, { "sw": 2.2, "vis": 10 }, { "sw": 2.6, "vis": 15 }, { "sw": 2.8, "vis": 20 }], "750ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.2, "vis": 3 }, { "sw": 1.7, "vis": 5 }, { "sw": 2.3, "vis": 10 }, { "sw": 2.6, "vis": 15 }, { "sw": 2.8, "vis": 20 }], "1500ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.2, "vis": 3 }, { "sw": 1.7, "vis": 5 }, { "sw": 2.3, "vis": 10 }, { "sw": 2.7, "vis": 15 }, { "sw": 2.9, "vis": 20 }], "2500ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 1.1, "vis": 3 }, { "sw": 1.6, "vis": 5 }, { "sw": 2.3, "vis": 10 }, { "sw": 2.7, "vis": 15 }, { "sw": 3, "vis": 20 }], "300ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.2, "vis": 3 }, { "sw": 1.6, "vis": 5 }, { "sw": 2.2, "vis": 10 }, { "sw": 2.5, "vis": 15 }, { "sw": 2.7, "vis": 20 }] }, "Aircraft": { "2500ft": [{ "sw": 0.1, "vis": 1 }, { "sw": 0.8, "vis": 3 }, { "sw": 1.3, "vis": 5 }, { "sw": 1.8, "vis": 10 }, { "sw": 2.2, "vis": 15 }, { "sw": 2.4, "vis": 20 }], "1000ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 1, "vis": 3 }, { "sw": 1.3, "vis": 5 }, { "sw": 1.8, "vis": 10 }, { "sw": 2.1, "vis": 15 }, { "sw": 2.3, "vis": 20 }], "750ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1, "vis": 3 }, { "sw": 1.3, "vis": 5 }, { "sw": 1.8, "vis": 10 }, { "sw": 2.1, "vis": 15 }, { "sw": 2.2, "vis": 20 }], "300ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 0.9, "vis": 3 }, { "sw": 1.3, "vis": 5 }, { "sw": 1.7, "vis": 10 }, { "sw": 2, "vis": 15 }, { "sw": 2.2, "vis": 20 }], "500ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1, "vis": 3 }, { "sw": 1.3, "vis": 5 }, { "sw": 1.8, "vis": 10 }, { "sw": 2, "vis": 15 }, { "sw": 2.2, "vis": 20 }], "2000ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 0.9, "vis": 3 }, { "sw": 1.3, "vis": 5 }, { "sw": 1.9, "vis": 10 }, { "sw": 2.2, "vis": 15 }, { "sw": 2.3, "vis": 20 }], "1500ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 1, "vis": 3 }, { "sw": 1.3, "vis": 5 }, { "sw": 1.9, "vis": 10 }, { "sw": 2.1, "vis": 15 }, { "sw": 2.3, "vis": 20 }], "3000ft": [{ "sw": 0.1, "vis": 1 }, { "sw": 0.7, "vis": 3 }, { "sw": 1.2, "vis": 5 }, { "sw": 1.8, "vis": 10 }, { "sw": 2.1, "vis": 15 }, { "sw": 2.3, "vis": 20 }] }, "Boat": { "8ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 1.7, "vis": 3 }, { "sw": 2.2, "vis": 5 }, { "sw": 3.1, "vis": 10 }, { "sw": 3.5, "vis": 15 }, { "sw": 3.9, "vis": 20 }], "14ft": [{ "sw": 1, "vis": 1 }, { "sw": 2.2, "vis": 3 }, { "sw": 3, "vis": 5 }, { "sw": 4, "vis": 10 }, { "sw": 4.6, "vis": 15 }, { "sw": 5, "vis": 20 }] } }, "Raft 6 person": { "weather_corrections": "small", "speed_corrections": { "Aircraft": [{ "speed": 150, "correction": 1.1 }, { "speed": 180, "correction": 1 }, { "speed": 210, "correction": 0.9 }], "Helicopter": [{ "speed": 60, "correction": 1.2 }, { "speed": 90, "correction": 1 }, { "speed": 120, "correction": 0.9 }, { "speed": 140, "correction": 0.8 }] }, "Helicopter": { "3000ft": [{ "sw": 0.1, "vis": 1 }, { "sw": 1.2, "vis": 3 }, { "sw": 1.9, "vis": 5 }, { "sw": 2.8, "vis": 10 }, { "sw": 3.3, "vis": 15 }, { "sw": 3.7, "vis": 20 }], "1000ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.4, "vis": 3 }, { "sw": 2, "vis": 5 }, { "sw": 2.8, "vis": 10 }, { "sw": 3.2, "vis": 15 }, { "sw": 3.5, "vis": 20 }], "2000ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 1.4, "vis": 3 }, { "sw": 2, "vis": 5 }, { "sw": 2.8, "vis": 10 }, { "sw": 3.3, "vis": 15 }, { "sw": 3.6, "vis": 20 }], "500ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.4, "vis": 3 }, { "sw": 1.9, "vis": 5 }, { "sw": 2.7, "vis": 10 }, { "sw": 3.2, "vis": 15 }, { "sw": 3.5, "vis": 20 }], "750ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.4, "vis": 3 }, { "sw": 2, "vis": 5 }, { "sw": 2.7, "vis": 10 }, { "sw": 3.2, "vis": 15 }, { "sw": 3.5, "vis": 20 }], "1500ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.4, "vis": 3 }, { "sw": 2, "vis": 5 }, { "sw": 2.8, "vis": 10 }, { "sw": 3.3, "vis": 15 }, { "sw": 3.6, "vis": 20 }], "2500ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 1.3, "vis": 3 }, { "sw": 1.9, "vis": 5 }, { "sw": 2.8, "vis": 10 }, { "sw": 3.3, "vis": 15 }, { "sw": 3.7, "vis": 20 }], "300ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.4, "vis": 3 }, { "sw": 1.9, "vis": 5 }, { "sw": 2.7, "vis": 10 }, { "sw": 3.1, "vis": 15 }, { "sw": 3.4, "vis": 20 }] }, "Aircraft": { "2500ft": [{ "sw": 0.1, "vis": 1 }, { "sw": 1, "vis": 3 }, { "sw": 1.5, "vis": 5 }, { "sw": 2.3, "vis": 10 }, { "sw": 2.7, "vis": 15 }, { "sw": 2.9, "vis": 20 }], "1000ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.1, "vis": 3 }, { "sw": 1.6, "vis": 5 }, { "sw": 2.2, "vis": 10 }, { "sw": 2.6, "vis": 15 }, { "sw": 2.8, "vis": 20 }], "750ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.1, "vis": 3 }, { "sw": 1.6, "vis": 5 }, { "sw": 2.2, "vis": 10 }, { "sw": 2.6, "vis": 15 }, { "sw": 2.8, "vis": 20 }], "300ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.1, "vis": 3 }, { "sw": 1.5, "vis": 5 }, { "sw": 2.1, "vis": 10 }, { "sw": 2.5, "vis": 15 }, { "sw": 2.7, "vis": 20 }], "500ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.1, "vis": 3 }, { "sw": 1.5, "vis": 5 }, { "sw": 2.2, "vis": 10 }, { "sw": 2.5, "vis": 15 }, { "sw": 2.8, "vis": 20 }], "2000ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 1.1, "vis": 3 }, { "sw": 1.6, "vis": 5 }, { "sw": 2.3, "vis": 10 }, { "sw": 2.7, "vis": 15 }, { "sw": 2.9, "vis": 20 }], "1500ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 1.1, "vis": 3 }, { "sw": 1.6, "vis": 5 }, { "sw": 2.3, "vis": 10 }, { "sw": 2.6, "vis": 15 }, { "sw": 2.9, "vis": 20 }], "3000ft": [{ "sw": 0.1, "vis": 1 }, { "sw": 0.9, "vis": 3 }, { "sw": 1.5, "vis": 5 }, { "sw": 2.2, "vis": 10 }, { "sw": 2.7, "vis": 15 }, { "sw": 2.9, "vis": 20 }] }, "Boat": { "8ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 1.9, "vis": 3 }, { "sw": 2.6, "vis": 5 }, { "sw": 3.6, "vis": 10 }, { "sw": 4.3, "vis": 15 }, { "sw": 4.7, "vis": 20 }], "14ft": [{ "sw": 1.1, "vis": 1 }, { "sw": 2.5, "vis": 3 }, { "sw": 3.4, "vis": 5 }, { "sw": 4.7, "vis": 10 }, { "sw": 5.5, "vis": 15 }, { "sw": 6, "vis": 20 }] } }, "Raft 8 person": { "weather_corrections": "small", "speed_corrections": { "Aircraft": [{ "speed": 150, "correction": 1.1 }, { "speed": 180, "correction": 1 }, { "speed": 210, "correction": 0.9 }], "Helicopter": [{ "speed": 60, "correction": 1.2 }, { "speed": 90, "correction": 1 }, { "speed": 120, "correction": 0.9 }, { "speed": 140, "correction": 0.8 }] }, "Helicopter": { "3000ft": [{ "sw": 0.1, "vis": 1 }, { "sw": 1.3, "vis": 3 }, { "sw": 2.1, "vis": 5 }, { "sw": 3.1, "vis": 10 }, { "sw": 3.6, "vis": 15 }, { "sw": 4, "vis": 20 }], "1000ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.5, "vis": 3 }, { "sw": 2.1, "vis": 5 }, { "sw": 2.9, "vis": 10 }, { "sw": 3.4, "vis": 15 }, { "sw": 3.8, "vis": 20 }], "2000ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 1.5, "vis": 3 }, { "sw": 2.1, "vis": 5 }, { "sw": 3, "vis": 10 }, { "sw": 3.6, "vis": 15 }, { "sw": 3.9, "vis": 20 }], "500ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 1.5, "vis": 3 }, { "sw": 2, "vis": 5 }, { "sw": 2.8, "vis": 10 }, { "sw": 3.3, "vis": 15 }, { "sw": 3.7, "vis": 20 }], "750ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.5, "vis": 3 }, { "sw": 2.1, "vis": 5 }, { "sw": 2.9, "vis": 10 }, { "sw": 3.4, "vis": 15 }, { "sw": 3.7, "vis": 20 }], "1500ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.5, "vis": 3 }, { "sw": 2.1, "vis": 5 }, { "sw": 3, "vis": 10 }, { "sw": 3.5, "vis": 15 }, { "sw": 3.9, "vis": 20 }], "2500ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 1.4, "vis": 3 }, { "sw": 2.1, "vis": 5 }, { "sw": 3.1, "vis": 10 }, { "sw": 3.6, "vis": 15 }, { "sw": 4, "vis": 20 }], "300ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 1.4, "vis": 3 }, { "sw": 2, "vis": 5 }, { "sw": 2.8, "vis": 10 }, { "sw": 3.3, "vis": 15 }, { "sw": 3.6, "vis": 20 }] }, "Aircraft": { "2500ft": [{ "sw": 0.1, "vis": 1 }, { "sw": 1.1, "vis": 3 }, { "sw": 1.7, "vis": 5 }, { "sw": 2.5, "vis": 10 }, { "sw": 2.9, "vis": 15 }, { "sw": 3.2, "vis": 20 }], "1000ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.2, "vis": 3 }, { "sw": 1.7, "vis": 5 }, { "sw": 2.4, "vis": 10 }, { "sw": 2.8, "vis": 15 }, { "sw": 3, "vis": 20 }], "750ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.2, "vis": 3 }, { "sw": 1.7, "vis": 5 }, { "sw": 2.3, "vis": 10 }, { "sw": 2.7, "vis": 15 }, { "sw": 3, "vis": 20 }], "300ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.2, "vis": 3 }, { "sw": 1.6, "vis": 5 }, { "sw": 2.3, "vis": 10 }, { "sw": 2.6, "vis": 15 }, { "sw": 2.9, "vis": 20 }], "500ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.2, "vis": 3 }, { "sw": 1.6, "vis": 5 }, { "sw": 2.3, "vis": 10 }, { "sw": 2.7, "vis": 15 }, { "sw": 2.9, "vis": 20 }], "2000ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 1.2, "vis": 3 }, { "sw": 1.7, "vis": 5 }, { "sw": 2.5, "vis": 10 }, { "sw": 2.9, "vis": 15 }, { "sw": 3.2, "vis": 20 }], "1500ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 1.2, "vis": 3 }, { "sw": 1.7, "vis": 5 }, { "sw": 2.4, "vis": 10 }, { "sw": 2.8, "vis": 15 }, { "sw": 3.1, "vis": 20 }], "3000ft": [{ "sw": 0.1, "vis": 1 }, { "sw": 1, "vis": 3 }, { "sw": 1.6, "vis": 5 }, { "sw": 2.5, "vis": 10 }, { "sw": 2.9, "vis": 15 }, { "sw": 3.2, "vis": 20 }] }, "Boat": { "8ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 2, "vis": 3 }, { "sw": 2.7, "vis": 5 }, { "sw": 3.8, "vis": 10 }, { "sw": 4.4, "vis": 15 }, { "sw": 4.9, "vis": 20 }], "14ft": [{ "sw": 1.1, "vis": 1 }, { "sw": 2.5, "vis": 3 }, { "sw": 3.5, "vis": 5 }, { "sw": 4.8, "vis": 10 }, { "sw": 5.7, "vis": 15 }, { "sw": 6.2, "vis": 20 }] } }, "Raft 10 person": { "weather_corrections": "small", "speed_corrections": { "Aircraft": [{ "speed": 150, "correction": 1.1 }, { "speed": 180, "correction": 1 }, { "speed": 210, "correction": 0.9 }], "Helicopter": [{ "speed": 60, "correction": 1.2 }, { "speed": 90, "correction": 1 }, { "speed": 120, "correction": 0.9 }, { "speed": 140, "correction": 0.8 }] }, "Helicopter": { "3000ft": [{ "sw": 0.1, "vis": 1 }, { "sw": 1.4, "vis": 3 }, { "sw": 2.2, "vis": 5 }, { "sw": 3.3, "vis": 10 }, { "sw": 3.9, "vis": 15 }, { "sw": 4.3, "vis": 20 }], "1000ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.6, "vis": 3 }, { "sw": 2.2, "vis": 5 }, { "sw": 3.2, "vis": 10 }, { "sw": 3.7, "vis": 15 }, { "sw": 4.1, "vis": 20 }], "2000ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 1.6, "vis": 3 }, { "sw": 2.3, "vis": 5 }, { "sw": 3.3, "vis": 10 }, { "sw": 3.9, "vis": 15 }, { "sw": 4.2, "vis": 20 }], "500ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 1.6, "vis": 3 }, { "sw": 2.2, "vis": 5 }, { "sw": 3.1, "vis": 10 }, { "sw": 3.6, "vis": 15 }, { "sw": 4, "vis": 20 }], "750ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 1.6, "vis": 3 }, { "sw": 2.2, "vis": 5 }, { "sw": 3.1, "vis": 10 }, { "sw": 3.7, "vis": 15 }, { "sw": 4, "vis": 20 }], "1500ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.6, "vis": 3 }, { "sw": 2.2, "vis": 5 }, { "sw": 3.2, "vis": 10 }, { "sw": 3.8, "vis": 15 }, { "sw": 4.2, "vis": 20 }], "2500ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 1.5, "vis": 3 }, { "sw": 2.2, "vis": 5 }, { "sw": 3.3, "vis": 10 }, { "sw": 3.9, "vis": 15 }, { "sw": 4.3, "vis": 20 }], "300ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 1.5, "vis": 3 }, { "sw": 2.1, "vis": 5 }, { "sw": 3, "vis": 10 }, { "sw": 3.6, "vis": 15 }, { "sw": 3.9, "vis": 20 }] }, "Aircraft": { "2500ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 1.2, "vis": 3 }, { "sw": 1.8, "vis": 5 }, { "sw": 2.7, "vis": 10 }, { "sw": 3.2, "vis": 15 }, { "sw": 3.5, "vis": 20 }], "1000ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.3, "vis": 3 }, { "sw": 1.8, "vis": 5 }, { "sw": 2.6, "vis": 10 }, { "sw": 3, "vis": 15 }, { "sw": 3.3, "vis": 20 }], "750ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.3, "vis": 3 }, { "sw": 1.8, "vis": 5 }, { "sw": 2.5, "vis": 10 }, { "sw": 3, "vis": 15 }, { "sw": 3.3, "vis": 20 }], "300ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.2, "vis": 3 }, { "sw": 1.7, "vis": 5 }, { "sw": 2.4, "vis": 10 }, { "sw": 2.9, "vis": 15 }, { "sw": 3.2, "vis": 20 }], "500ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.2, "vis": 3 }, { "sw": 1.7, "vis": 5 }, { "sw": 2.5, "vis": 10 }, { "sw": 2.9, "vis": 15 }, { "sw": 3.2, "vis": 20 }], "2000ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 1.2, "vis": 3 }, { "sw": 1.8, "vis": 5 }, { "sw": 2.7, "vis": 10 }, { "sw": 3.1, "vis": 15 }, { "sw": 3.5, "vis": 20 }], "1500ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 1.3, "vis": 3 }, { "sw": 1.8, "vis": 5 }, { "sw": 2.6, "vis": 10 }, { "sw": 3.1, "vis": 15 }, { "sw": 3.4, "vis": 20 }], "3000ft": [{ "sw": 0.1, "vis": 1 }, { "sw": 1.1, "vis": 3 }, { "sw": 1.8, "vis": 5 }, { "sw": 2.7, "vis": 10 }, { "sw": 3.2, "vis": 15 }, { "sw": 3.5, "vis": 20 }] }, "Boat": { "8ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 2, "vis": 3 }, { "sw": 2.8, "vis": 5 }, { "sw": 4, "vis": 10 }, { "sw": 4.8, "vis": 15 }, { "sw": 5.3, "vis": 20 }], "14ft": [{ "sw": 1.1, "vis": 1 }, { "sw": 2.6, "vis": 3 }, { "sw": 3.6, "vis": 5 }, { "sw": 5.1, "vis": 10 }, { "sw": 6.1, "vis": 15 }, { "sw": 6.7, "vis": 20 }] } }, "Raft 15 person": { "weather_corrections": "small", "speed_corrections": { "Aircraft": [{ "speed": 150, "correction": 1.1 }, { "speed": 180, "correction": 1 }, { "speed": 210, "correction": 0.9 }], "Helicopter": [{ "speed": 60, "correction": 1.2 }, { "speed": 90, "correction": 1 }, { "speed": 120, "correction": 0.9 }, { "speed": 140, "correction": 0.8 }] }, "Helicopter": { "3000ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 1.6, "vis": 3 }, { "sw": 2.4, "vis": 5 }, { "sw": 3.7, "vis": 10 }, { "sw": 4.4, "vis": 15 }, { "sw": 4.9, "vis": 20 }, { "sw": 5.5, "vis": 30 }], "1000ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 1.7, "vis": 3 }, { "sw": 2.4, "vis": 5 }, { "sw": 3.5, "vis": 10 }, { "sw": 4.1, "vis": 15 }, { "sw": 4.5, "vis": 20 }, { "sw": 5.1, "vis": 30 }], "2000ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 1.7, "vis": 3 }, { "sw": 2.5, "vis": 5 }, { "sw": 3.6, "vis": 10 }, { "sw": 4.3, "vis": 15 }, { "sw": 4.7, "vis": 20 }, { "sw": 5.3, "vis": 30 }], "500ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 1.7, "vis": 3 }, { "sw": 2.3, "vis": 5 }, { "sw": 3.3, "vis": 10 }, { "sw": 4, "vis": 15 }, { "sw": 4.4, "vis": 20 }, { "sw": 5, "vis": 30 }], "750ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 1.7, "vis": 3 }, { "sw": 2.4, "vis": 5 }, { "sw": 3.4, "vis": 10 }, { "sw": 4, "vis": 15 }, { "sw": 4.5, "vis": 20 }, { "sw": 5, "vis": 30 }], "1500ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.7, "vis": 3 }, { "sw": 2.4, "vis": 5 }, { "sw": 3.5, "vis": 10 }, { "sw": 4.2, "vis": 15 }, { "sw": 4.6, "vis": 20 }, { "sw": 5.2, "vis": 30 }], "2500ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 1.7, "vis": 3 }, { "sw": 2.5, "vis": 5 }, { "sw": 3.6, "vis": 10 }, { "sw": 4.3, "vis": 15 }, { "sw": 4.8, "vis": 20 }, { "sw": 5.4, "vis": 30 }], "300ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 1.6, "vis": 3 }, { "sw": 2.3, "vis": 5 }, { "sw": 3.3, "vis": 10 }, { "sw": 3.9, "vis": 15 }, { "sw": 4.3, "vis": 20 }, { "sw": 4.9, "vis": 30 }] }, "Aircraft": { "2500ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 1.3, "vis": 3 }, { "sw": 2, "vis": 5 }, { "sw": 3, "vis": 10 }, { "sw": 3.6, "vis": 15 }, { "sw": 4, "vis": 20 }, { "sw": 4.5, "vis": 30 }], "1000ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.4, "vis": 3 }, { "sw": 2, "vis": 5 }, { "sw": 2.8, "vis": 10 }, { "sw": 3.4, "vis": 15 }, { "sw": 3.7, "vis": 20 }, { "sw": 4.2, "vis": 30 }], "750ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.4, "vis": 3 }, { "sw": 1.9, "vis": 5 }, { "sw": 2.8, "vis": 10 }, { "sw": 3.3, "vis": 15 }, { "sw": 3.7, "vis": 20 }, { "sw": 4.1, "vis": 30 }], "300ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.3, "vis": 3 }, { "sw": 1.9, "vis": 5 }, { "sw": 2.7, "vis": 10 }, { "sw": 3.2, "vis": 15 }, { "sw": 3.5, "vis": 20 }, { "sw": 4, "vis": 30 }], "500ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.3, "vis": 3 }, { "sw": 1.9, "vis": 5 }, { "sw": 2.7, "vis": 10 }, { "sw": 3.3, "vis": 15 }, { "sw": 3.6, "vis": 20 }, { "sw": 4, "vis": 30 }], "2000ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 1.4, "vis": 3 }, { "sw": 2, "vis": 5 }, { "sw": 3, "vis": 10 }, { "sw": 3.5, "vis": 15 }, { "sw": 3.9, "vis": 20 }, { "sw": 4.4, "vis": 30 }], "1500ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 1.4, "vis": 3 }, { "sw": 2, "vis": 5 }, { "sw": 2.9, "vis": 10 }, { "sw": 3.4, "vis": 15 }, { "sw": 3.8, "vis": 20 }, { "sw": 4.3, "vis": 30 }], "3000ft": [{ "sw": 0.1, "vis": 1 }, { "sw": 1.2, "vis": 3 }, { "sw": 2, "vis": 5 }, { "sw": 3, "vis": 10 }, { "sw": 3.6, "vis": 15 }, { "sw": 4, "vis": 20 }, { "sw": 4.5, "vis": 30 }] }, "Boat": { "8ft": [{ "sw": 0.9, "vis": 1 }, { "sw": 2.2, "vis": 3 }, { "sw": 3, "vis": 5 }, { "sw": 4.3, "vis": 10 }, { "sw": 5.1, "vis": 15 }, { "sw": 5.7, "vis": 20 }], "14ft": [{ "sw": 1.1, "vis": 1 }, { "sw": 2.8, "vis": 3 }, { "sw": 3.8, "vis": 5 }, { "sw": 5.5, "vis": 10 }, { "sw": 6.5, "vis": 15 }, { "sw": 7.2, "vis": 20 }] } }, "Raft 20 person": { "weather_corrections": "small", "speed_corrections": { "Aircraft": [{ "speed": 150, "correction": 1.1 }, { "speed": 180, "correction": 1 }, { "speed": 210, "correction": 0.9 }], "Helicopter": [{ "speed": 60, "correction": 1.2 }, { "speed": 90, "correction": 1 }, { "speed": 120, "correction": 0.9 }, { "speed": 140, "correction": 0.8 }] }, "Helicopter": { "3000ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 1.7, "vis": 3 }, { "sw": 2.7, "vis": 5 }, { "sw": 4.1, "vis": 10 }, { "sw": 5, "vis": 15 }, { "sw": 5.6, "vis": 20 }, { "sw": 6.3, "vis": 30 }], "1000ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 1.8, "vis": 3 }, { "sw": 2.7, "vis": 5 }, { "sw": 3.9, "vis": 10 }, { "sw": 4.7, "vis": 15 }, { "sw": 5.2, "vis": 20 }, { "sw": 6, "vis": 30 }], "2000ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.8, "vis": 3 }, { "sw": 2.7, "vis": 5 }, { "sw": 4, "vis": 10 }, { "sw": 4.9, "vis": 15 }, { "sw": 5.4, "vis": 20 }, { "sw": 6.2, "vis": 30 }], "500ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 1.8, "vis": 3 }, { "sw": 2.6, "vis": 5 }, { "sw": 3.8, "vis": 10 }, { "sw": 4.6, "vis": 15 }, { "sw": 5.1, "vis": 20 }, { "sw": 5.9, "vis": 30 }], "750ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 1.8, "vis": 3 }, { "sw": 2.6, "vis": 5 }, { "sw": 3.9, "vis": 10 }, { "sw": 4.6, "vis": 15 }, { "sw": 5.2, "vis": 20 }, { "sw": 5.9, "vis": 30 }], "1500ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.9, "vis": 3 }, { "sw": 2.7, "vis": 5 }, { "sw": 4, "vis": 10 }, { "sw": 4.8, "vis": 15 }, { "sw": 5.3, "vis": 20 }, { "sw": 6.1, "vis": 30 }], "2500ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 1.8, "vis": 3 }, { "sw": 2.7, "vis": 5 }, { "sw": 4.1, "vis": 10 }, { "sw": 4.9, "vis": 15 }, { "sw": 5.5, "vis": 20 }, { "sw": 6.3, "vis": 30 }], "300ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 1.8, "vis": 3 }, { "sw": 2.6, "vis": 5 }, { "sw": 3.8, "vis": 10 }, { "sw": 4.5, "vis": 15 }, { "sw": 5.1, "vis": 20 }, { "sw": 5.8, "vis": 30 }] }, "Aircraft": { "2500ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 1.4, "vis": 3 }, { "sw": 2.2, "vis": 5 }, { "sw": 3.4, "vis": 10 }, { "sw": 4.1, "vis": 15 }, { "sw": 4.6, "vis": 20 }, { "sw": 5.2, "vis": 30 }], "1000ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.5, "vis": 3 }, { "sw": 2.2, "vis": 5 }, { "sw": 3.2, "vis": 10 }, { "sw": 3.9, "vis": 15 }, { "sw": 4.3, "vis": 20 }, { "sw": 4.9, "vis": 30 }], "750ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.5, "vis": 3 }, { "sw": 2.2, "vis": 5 }, { "sw": 3.2, "vis": 10 }, { "sw": 3.8, "vis": 15 }, { "sw": 4.3, "vis": 20 }, { "sw": 4.9, "vis": 30 }], "300ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.4, "vis": 3 }, { "sw": 2.1, "vis": 5 }, { "sw": 3.1, "vis": 10 }, { "sw": 3.7, "vis": 15 }, { "sw": 4.2, "vis": 20 }, { "sw": 4.8, "vis": 30 }], "500ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.5, "vis": 3 }, { "sw": 2.1, "vis": 5 }, { "sw": 3.2, "vis": 10 }, { "sw": 3.8, "vis": 15 }, { "sw": 4.2, "vis": 20 }, { "sw": 4.8, "vis": 30 }], "2000ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.5, "vis": 3 }, { "sw": 2.2, "vis": 5 }, { "sw": 3.4, "vis": 10 }, { "sw": 4, "vis": 15 }, { "sw": 4.5, "vis": 20 }, { "sw": 5.1, "vis": 30 }], "1500ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.5, "vis": 3 }, { "sw": 2.2, "vis": 5 }, { "sw": 3.3, "vis": 10 }, { "sw": 4, "vis": 15 }, { "sw": 4.4, "vis": 20 }, { "sw": 5.1, "vis": 30 }], "3000ft": [{ "sw": 0.1, "vis": 1 }, { "sw": 1.4, "vis": 3 }, { "sw": 2.2, "vis": 5 }, { "sw": 3.4, "vis": 10 }, { "sw": 4.1, "vis": 15 }, { "sw": 4.6, "vis": 20 }, { "sw": 5.3, "vis": 30 }] }, "Boat": { "8ft": [{ "sw": 0.9, "vis": 1 }, { "sw": 2.3, "vis": 3 }, { "sw": 3.3, "vis": 5 }, { "sw": 4.9, "vis": 10 }, { "sw": 5.8, "vis": 15 }, { "sw": 6.5, "vis": 20 }], "14ft": [{ "sw": 1.2, "vis": 1 }, { "sw": 3, "vis": 3 }, { "sw": 4.1, "vis": 5 }, { "sw": 6.1, "vis": 10 }, { "sw": 7.3, "vis": 15 }, { "sw": 8.1, "vis": 20 }] } }, "Raft 25 person": { "weather_corrections": "small", "speed_corrections": { "Aircraft": [{ "speed": 150, "correction": 1.1 }, { "speed": 180, "correction": 1 }, { "speed": 210, "correction": 0.9 }], "Helicopter": [{ "speed": 60, "correction": 1.2 }, { "speed": 90, "correction": 1 }, { "speed": 120, "correction": 0.9 }, { "speed": 140, "correction": 0.8 }] }, "Helicopter": { "3000ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 1.9, "vis": 3 }, { "sw": 2.9, "vis": 5 }, { "sw": 4.4, "vis": 10 }, { "sw": 5.4, "vis": 15 }, { "sw": 6, "vis": 20 }, { "sw": 6.9, "vis": 30 }], "1000ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 1.9, "vis": 3 }, { "sw": 2.8, "vis": 5 }, { "sw": 4.2, "vis": 10 }, { "sw": 5.1, "vis": 15 }, { "sw": 5.7, "vis": 20 }, { "sw": 6.5, "vis": 30 }], "2000ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.9, "vis": 3 }, { "sw": 2.9, "vis": 5 }, { "sw": 4.3, "vis": 10 }, { "sw": 5.3, "vis": 15 }, { "sw": 5.9, "vis": 20 }, { "sw": 6.8, "vis": 30 }], "500ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 1.9, "vis": 3 }, { "sw": 2.7, "vis": 5 }, { "sw": 4.1, "vis": 10 }, { "sw": 5, "vis": 15 }, { "sw": 5.6, "vis": 20 }, { "sw": 6.4, "vis": 30 }], "750ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 1.9, "vis": 3 }, { "sw": 2.8, "vis": 5 }, { "sw": 4.2, "vis": 10 }, { "sw": 5, "vis": 15 }, { "sw": 5.6, "vis": 20 }, { "sw": 6.5, "vis": 30 }], "1500ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 2, "vis": 3 }, { "sw": 2.9, "vis": 5 }, { "sw": 4.3, "vis": 10 }, { "sw": 5.2, "vis": 15 }, { "sw": 5.8, "vis": 20 }, { "sw": 6.7, "vis": 30 }], "2500ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 1.9, "vis": 3 }, { "sw": 2.9, "vis": 5 }, { "sw": 4.4, "vis": 10 }, { "sw": 5.3, "vis": 15 }, { "sw": 6, "vis": 20 }, { "sw": 6.9, "vis": 30 }], "300ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 1.9, "vis": 3 }, { "sw": 2.7, "vis": 5 }, { "sw": 4.1, "vis": 10 }, { "sw": 4.9, "vis": 15 }, { "sw": 5.5, "vis": 20 }, { "sw": 6.3, "vis": 30 }] }, "Aircraft": { "2500ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 1.5, "vis": 3 }, { "sw": 2.4, "vis": 5 }, { "sw": 3.7, "vis": 10 }, { "sw": 4.5, "vis": 15 }, { "sw": 5, "vis": 20 }, { "sw": 5.7, "vis": 30 }], "1000ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.6, "vis": 3 }, { "sw": 2.3, "vis": 5 }, { "sw": 3.5, "vis": 10 }, { "sw": 4.2, "vis": 15 }, { "sw": 4.7, "vis": 20 }, { "sw": 5.4, "vis": 30 }], "750ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.6, "vis": 3 }, { "sw": 2.3, "vis": 5 }, { "sw": 3.5, "vis": 10 }, { "sw": 4.2, "vis": 15 }, { "sw": 4.7, "vis": 20 }, { "sw": 5.4, "vis": 30 }], "300ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.5, "vis": 3 }, { "sw": 2.2, "vis": 5 }, { "sw": 3.4, "vis": 10 }, { "sw": 4.1, "vis": 15 }, { "sw": 4.6, "vis": 20 }, { "sw": 5.2, "vis": 30 }], "500ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.6, "vis": 3 }, { "sw": 2.3, "vis": 5 }, { "sw": 3.4, "vis": 10 }, { "sw": 4.1, "vis": 15 }, { "sw": 4.6, "vis": 20 }, { "sw": 5.3, "vis": 30 }], "2000ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 1.6, "vis": 3 }, { "sw": 2.4, "vis": 5 }, { "sw": 3.6, "vis": 10 }, { "sw": 4.4, "vis": 15 }, { "sw": 4.9, "vis": 20 }, { "sw": 5.7, "vis": 30 }], "1500ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.6, "vis": 3 }, { "sw": 2.4, "vis": 5 }, { "sw": 3.6, "vis": 10 }, { "sw": 4.3, "vis": 15 }, { "sw": 4.8, "vis": 20 }, { "sw": 5.6, "vis": 30 }], "3000ft": [{ "sw": 0.1, "vis": 1 }, { "sw": 1.5, "vis": 3 }, { "sw": 2.4, "vis": 5 }, { "sw": 3.7, "vis": 10 }, { "sw": 4.5, "vis": 15 }, { "sw": 5.1, "vis": 20 }, { "sw": 5.8, "vis": 30 }] }, "Boat": { "8ft": [{ "sw": 0.9, "vis": 1 }, { "sw": 2.4, "vis": 3 }, { "sw": 3.5, "vis": 5 }, { "sw": 5.2, "vis": 10 }, { "sw": 6.3, "vis": 15 }, { "sw": 7, "vis": 20 }], "14ft": [{ "sw": 1.2, "vis": 1 }, { "sw": 3.1, "vis": 3 }, { "sw": 4.3, "vis": 5 }, { "sw": 6.4, "vis": 10 }, { "sw": 7.8, "vis": 15 }, { "sw": 8.7, "vis": 20 }] } }, "Power Boat \u2264 15ft": { "weather_corrections": "small", "speed_corrections": { "Aircraft": [{ "speed": 150, "correction": 1.1 }, { "speed": 180, "correction": 1 }, { "speed": 210, "correction": 0.9 }], "Helicopter": [{ "speed": 60, "correction": 1.2 }, { "speed": 90, "correction": 1 }, { "speed": 120, "correction": 0.9 }, { "speed": 140, "correction": 0.8 }] }, "Helicopter": { "3000ft": [{ "sw": 0.1, "vis": 1 }, { "sw": 1.1, "vis": 3 }, { "sw": 1.7, "vis": 5 }, { "sw": 2.3, "vis": 10 }, { "sw": 2.7, "vis": 15 }, { "sw": 2.9, "vis": 20 }], "1000ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.2, "vis": 3 }, { "sw": 1.6, "vis": 5 }, { "sw": 2.1, "vis": 10 }, { "sw": 2.3, "vis": 15 }, { "sw": 2.5, "vis": 20 }], "2000ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 1.3, "vis": 3 }, { "sw": 1.7, "vis": 5 }, { "sw": 2.3, "vis": 10 }, { "sw": 2.6, "vis": 15 }, { "sw": 2.7, "vis": 20 }], "500ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.2, "vis": 3 }, { "sw": 1.5, "vis": 5 }, { "sw": 1.9, "vis": 10 }, { "sw": 2.2, "vis": 15 }, { "sw": 2.3, "vis": 20 }], "750ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.2, "vis": 3 }, { "sw": 1.6, "vis": 5 }, { "sw": 2, "vis": 10 }, { "sw": 2.3, "vis": 15 }, { "sw": 2.4, "vis": 20 }], "1500ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.3, "vis": 3 }, { "sw": 1.7, "vis": 5 }, { "sw": 2.2, "vis": 10 }, { "sw": 2.5, "vis": 15 }, { "sw": 2.6, "vis": 20 }], "2500ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 1.2, "vis": 3 }, { "sw": 1.7, "vis": 5 }, { "sw": 2.3, "vis": 10 }, { "sw": 2.6, "vis": 15 }, { "sw": 2.8, "vis": 20 }], "300ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.1, "vis": 3 }, { "sw": 1.4, "vis": 5 }, { "sw": 1.9, "vis": 10 }, { "sw": 2.1, "vis": 15 }, { "sw": 2.2, "vis": 20 }] }, "Aircraft": { "2500ft": [{ "sw": 0.1, "vis": 1 }, { "sw": 0.9, "vis": 3 }, { "sw": 1.3, "vis": 5 }, { "sw": 1.8, "vis": 10 }, { "sw": 2.1, "vis": 15 }, { "sw": 2.2, "vis": 20 }], "1000ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1, "vis": 3 }, { "sw": 1.3, "vis": 5 }, { "sw": 1.7, "vis": 10 }, { "sw": 1.8, "vis": 15 }, { "sw": 2, "vis": 20 }], "750ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 0.9, "vis": 3 }, { "sw": 1.2, "vis": 5 }, { "sw": 1.6, "vis": 10 }, { "sw": 1.8, "vis": 15 }, { "sw": 1.9, "vis": 20 }], "300ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 0.8, "vis": 3 }, { "sw": 1.1, "vis": 5 }, { "sw": 1.4, "vis": 10 }, { "sw": 1.6, "vis": 15 }, { "sw": 1.7, "vis": 20 }], "500ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 0.9, "vis": 3 }, { "sw": 1.2, "vis": 5 }, { "sw": 1.5, "vis": 10 }, { "sw": 1.7, "vis": 15 }, { "sw": 1.8, "vis": 20 }], "2000ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 1, "vis": 3 }, { "sw": 1.3, "vis": 5 }, { "sw": 1.8, "vis": 10 }, { "sw": 2, "vis": 15 }, { "sw": 2.2, "vis": 20 }], "1500ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 1, "vis": 3 }, { "sw": 1.3, "vis": 5 }, { "sw": 1.7, "vis": 10 }, { "sw": 2, "vis": 15 }, { "sw": 2.1, "vis": 20 }], "3000ft": [{ "sw": 0.1, "vis": 1 }, { "sw": 0.8, "vis": 3 }, { "sw": 1.3, "vis": 5 }, { "sw": 1.8, "vis": 10 }, { "sw": 2.1, "vis": 15 }, { "sw": 2.3, "vis": 20 }] }, "Boat": { "8ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 0.8, "vis": 3 }, { "sw": 1.1, "vis": 5 }, { "sw": 1.5, "vis": 10 }, { "sw": 1.6, "vis": 15 }, { "sw": 1.8, "vis": 20 }], "14ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.1, "vis": 3 }, { "sw": 1.4, "vis": 5 }, { "sw": 1.9, "vis": 10 }, { "sw": 2.1, "vis": 15 }, { "sw": 2.3, "vis": 20 }] } }, "Power Boat 20ft": { "weather_corrections": "small", "speed_corrections": { "Aircraft": [{ "speed": 150, "correction": 1.1 }, { "speed": 180, "correction": 1 }, { "speed": 210, "correction": 0.9 }], "Helicopter": [{ "speed": 60, "correction": 1.2 }, { "speed": 90, "correction": 1 }, { "speed": 120, "correction": 0.9 }, { "speed": 140, "correction": 0.8 }] }, "Helicopter": { "3000ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 2, "vis": 3 }, { "sw": 3, "vis": 5 }, { "sw": 4.6, "vis": 10 }, { "sw": 5.6, "vis": 15 }, { "sw": 6.3, "vis": 20 }], "1000ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 2.1, "vis": 3 }, { "sw": 3, "vis": 5 }, { "sw": 4.4, "vis": 10 }, { "sw": 5.3, "vis": 15 }, { "sw": 5.9, "vis": 20 }], "2000ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 2.1, "vis": 3 }, { "sw": 3, "vis": 5 }, { "sw": 4.5, "vis": 10 }, { "sw": 5.5, "vis": 15 }, { "sw": 6.1, "vis": 20 }], "500ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 2, "vis": 3 }, { "sw": 2.9, "vis": 5 }, { "sw": 4.3, "vis": 10 }, { "sw": 5.2, "vis": 15 }, { "sw": 5.8, "vis": 20 }], "750ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 2, "vis": 3 }, { "sw": 2.9, "vis": 5 }, { "sw": 4.4, "vis": 10 }, { "sw": 5.3, "vis": 15 }, { "sw": 5.9, "vis": 20 }], "1500ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.1, "vis": 3 }, { "sw": 3, "vis": 5 }, { "sw": 4.5, "vis": 10 }, { "sw": 5.4, "vis": 15 }, { "sw": 6.1, "vis": 20 }], "2500ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 2, "vis": 3 }, { "sw": 3, "vis": 5 }, { "sw": 4.6, "vis": 10 }, { "sw": 5.5, "vis": 15 }, { "sw": 6.2, "vis": 20 }], "300ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 2, "vis": 3 }, { "sw": 2.9, "vis": 5 }, { "sw": 4.3, "vis": 10 }, { "sw": 5.2, "vis": 15 }, { "sw": 5.8, "vis": 20 }] }, "Aircraft": { "2500ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 1.6, "vis": 3 }, { "sw": 2.5, "vis": 5 }, { "sw": 3.8, "vis": 10 }, { "sw": 4.6, "vis": 15 }, { "sw": 5.2, "vis": 20 }], "1000ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.7, "vis": 3 }, { "sw": 2.5, "vis": 5 }, { "sw": 3.7, "vis": 10 }, { "sw": 4.4, "vis": 15 }, { "sw": 5, "vis": 20 }], "750ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.7, "vis": 3 }, { "sw": 2.4, "vis": 5 }, { "sw": 3.6, "vis": 10 }, { "sw": 4.4, "vis": 15 }, { "sw": 4.9, "vis": 20 }], "300ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.6, "vis": 3 }, { "sw": 2.4, "vis": 5 }, { "sw": 3.5, "vis": 10 }, { "sw": 4.3, "vis": 15 }, { "sw": 4.8, "vis": 20 }], "500ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.7, "vis": 3 }, { "sw": 2.4, "vis": 5 }, { "sw": 3.6, "vis": 10 }, { "sw": 4.3, "vis": 15 }, { "sw": 4.8, "vis": 20 }], "2000ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 1.7, "vis": 3 }, { "sw": 2.5, "vis": 5 }, { "sw": 3.8, "vis": 10 }, { "sw": 4.6, "vis": 15 }, { "sw": 5.1, "vis": 20 }], "1500ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.7, "vis": 3 }, { "sw": 2.5, "vis": 5 }, { "sw": 3.7, "vis": 10 }, { "sw": 4.5, "vis": 15 }, { "sw": 5.1, "vis": 20 }], "3000ft": [{ "sw": 0.1, "vis": 1 }, { "sw": 1.6, "vis": 3 }, { "sw": 2.5, "vis": 5 }, { "sw": 3.9, "vis": 10 }, { "sw": 4.7, "vis": 15 }, { "sw": 5.3, "vis": 20 }] }, "Boat": { "8ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 1.5, "vis": 3 }, { "sw": 2.2, "vis": 5 }, { "sw": 3.3, "vis": 10 }, { "sw": 4, "vis": 15 }, { "sw": 4.5, "vis": 20 }], "14ft": [{ "sw": 1, "vis": 1 }, { "sw": 2, "vis": 3 }, { "sw": 2.9, "vis": 5 }, { "sw": 4.3, "vis": 10 }, { "sw": 5.2, "vis": 15 }, { "sw": 5.8, "vis": 20 }] } }, "Power Boat 33ft": { "weather_corrections": "large", "speed_corrections": { "Aircraft": [{ "speed": 150, "correction": 1.1 }, { "speed": 180, "correction": 1 }, { "speed": 210, "correction": 0.9 }], "Helicopter": [{ "speed": 60, "correction": 1.1 }, { "speed": 90, "correction": 1 }, { "speed": 120, "correction": 0.9 }] }, "Helicopter": { "3000ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 2.5, "vis": 3 }, { "sw": 4, "vis": 5 }, { "sw": 6.5, "vis": 10 }, { "sw": 8.2, "vis": 15 }, { "sw": 9.4, "vis": 20 }, { "sw": 11.2, "vis": 30 }], "1000ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 2.6, "vis": 3 }, { "sw": 3.9, "vis": 5 }, { "sw": 6.3, "vis": 10 }, { "sw": 7.9, "vis": 15 }, { "sw": 9.1, "vis": 20 }, { "sw": 10.8, "vis": 30 }], "2000ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 2.6, "vis": 3 }, { "sw": 4, "vis": 5 }, { "sw": 6.4, "vis": 10 }, { "sw": 8, "vis": 15 }, { "sw": 9.3, "vis": 20 }, { "sw": 11, "vis": 30 }], "500ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 2.5, "vis": 3 }, { "sw": 3.9, "vis": 5 }, { "sw": 6.2, "vis": 10 }, { "sw": 7.8, "vis": 15 }, { "sw": 9, "vis": 20 }, { "sw": 10.7, "vis": 30 }], "750ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 2.5, "vis": 3 }, { "sw": 3.9, "vis": 5 }, { "sw": 6.2, "vis": 10 }, { "sw": 7.8, "vis": 15 }, { "sw": 9, "vis": 20 }, { "sw": 10.7, "vis": 30 }], "1500ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.6, "vis": 3 }, { "sw": 4, "vis": 5 }, { "sw": 6.3, "vis": 10 }, { "sw": 7.9, "vis": 15 }, { "sw": 9.2, "vis": 20 }, { "sw": 10.9, "vis": 30 }], "2500ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 2.5, "vis": 3 }, { "sw": 4, "vis": 5 }, { "sw": 6.5, "vis": 10 }, { "sw": 8.1, "vis": 15 }, { "sw": 9.3, "vis": 20 }, { "sw": 11.1, "vis": 30 }], "300ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 2.5, "vis": 3 }, { "sw": 3.8, "vis": 5 }, { "sw": 6.1, "vis": 10 }, { "sw": 7.7, "vis": 15 }, { "sw": 8.9, "vis": 20 }, { "sw": 10.6, "vis": 30 }] }, "Aircraft": { "2500ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 2.1, "vis": 3 }, { "sw": 3.4, "vis": 5 }, { "sw": 5.6, "vis": 10 }, { "sw": 7, "vis": 15 }, { "sw": 8.1, "vis": 20 }, { "sw": 9.6, "vis": 30 }], "1000ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 2.2, "vis": 3 }, { "sw": 3.4, "vis": 5 }, { "sw": 5.4, "vis": 10 }, { "sw": 6.8, "vis": 15 }, { "sw": 7.8, "vis": 20 }, { "sw": 9.3, "vis": 30 }], "750ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.1, "vis": 3 }, { "sw": 3.3, "vis": 5 }, { "sw": 5.3, "vis": 10 }, { "sw": 6.7, "vis": 15 }, { "sw": 7.7, "vis": 20 }, { "sw": 9.2, "vis": 30 }], "300ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.1, "vis": 3 }, { "sw": 3.3, "vis": 5 }, { "sw": 5.3, "vis": 10 }, { "sw": 6.6, "vis": 15 }, { "sw": 7.6, "vis": 20 }, { "sw": 9.1, "vis": 30 }], "500ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.1, "vis": 3 }, { "sw": 3.3, "vis": 5 }, { "sw": 5.3, "vis": 10 }, { "sw": 6.7, "vis": 15 }, { "sw": 7.7, "vis": 20 }, { "sw": 9.1, "vis": 30 }], "2000ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 2.2, "vis": 3 }, { "sw": 3.4, "vis": 5 }, { "sw": 5.5, "vis": 10 }, { "sw": 6.9, "vis": 15 }, { "sw": 8, "vis": 20 }, { "sw": 9.5, "vis": 30 }], "1500ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 2.2, "vis": 3 }, { "sw": 3.4, "vis": 5 }, { "sw": 5.5, "vis": 10 }, { "sw": 6.8, "vis": 15 }, { "sw": 7.9, "vis": 20 }, { "sw": 9.4, "vis": 30 }], "3000ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 2.1, "vis": 3 }, { "sw": 3.4, "vis": 5 }, { "sw": 5.6, "vis": 10 }, { "sw": 7.1, "vis": 15 }, { "sw": 8.1, "vis": 20 }, { "sw": 9.7, "vis": 30 }] }, "Boat": { "8ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 1.9, "vis": 3 }, { "sw": 2.9, "vis": 5 }, { "sw": 4.7, "vis": 10 }, { "sw": 5.9, "vis": 15 }, { "sw": 6.8, "vis": 20 }], "14ft": [{ "sw": 1.1, "vis": 1 }, { "sw": 2.5, "vis": 3 }, { "sw": 3.8, "vis": 5 }, { "sw": 6.1, "vis": 10 }, { "sw": 7.7, "vis": 15 }, { "sw": 8.8, "vis": 20 }] } }, "Power Boat 53ft": { "weather_corrections": "large", "speed_corrections": { "Aircraft": [{ "speed": 150, "correction": 1.1 }, { "speed": 180, "correction": 1 }], "Helicopter": [{ "speed": 60, "correction": 1.1 }, { "speed": 90, "correction": 1 }, { "speed": 120, "correction": 0.9 }] }, "Helicopter": { "3000ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 3, "vis": 3 }, { "sw": 5.2, "vis": 5 }, { "sw": 9.3, "vis": 10 }, { "sw": 12.5, "vis": 15 }, { "sw": 15, "vis": 20 }, { "sw": 18.8, "vis": 30 }], "1000ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 3.1, "vis": 3 }, { "sw": 5.2, "vis": 5 }, { "sw": 9.2, "vis": 10 }, { "sw": 12.3, "vis": 15 }, { "sw": 14.8, "vis": 20 }, { "sw": 18.6, "vis": 30 }], "2000ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 3, "vis": 3 }, { "sw": 5.2, "vis": 5 }, { "sw": 9.3, "vis": 10 }, { "sw": 12.4, "vis": 15 }, { "sw": 14.9, "vis": 20 }, { "sw": 18.7, "vis": 30 }], "500ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.1, "vis": 3 }, { "sw": 5.1, "vis": 5 }, { "sw": 9.2, "vis": 10 }, { "sw": 12.3, "vis": 15 }, { "sw": 14.7, "vis": 20 }, { "sw": 18.5, "vis": 30 }], "750ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.1, "vis": 3 }, { "sw": 5.1, "vis": 5 }, { "sw": 9.2, "vis": 10 }, { "sw": 12.3, "vis": 15 }, { "sw": 14.7, "vis": 20 }, { "sw": 18.5, "vis": 30 }], "1500ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 3.1, "vis": 3 }, { "sw": 5.2, "vis": 5 }, { "sw": 9.3, "vis": 10 }, { "sw": 12.4, "vis": 15 }, { "sw": 14.8, "vis": 20 }, { "sw": 18.6, "vis": 30 }], "2500ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 3, "vis": 3 }, { "sw": 5.2, "vis": 5 }, { "sw": 9.3, "vis": 10 }, { "sw": 12.4, "vis": 15 }, { "sw": 14.9, "vis": 20 }, { "sw": 18.8, "vis": 30 }], "300ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.1, "vis": 3 }, { "sw": 5.1, "vis": 5 }, { "sw": 9.2, "vis": 10 }, { "sw": 12.2, "vis": 15 }, { "sw": 14.7, "vis": 20 }, { "sw": 18.5, "vis": 30 }] }, "Aircraft": { "2500ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 2.6, "vis": 3 }, { "sw": 4.5, "vis": 5 }, { "sw": 8.3, "vis": 10 }, { "sw": 11.3, "vis": 15 }, { "sw": 13.3, "vis": 20 }, { "sw": 16.7, "vis": 30 }], "1000ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.7, "vis": 3 }, { "sw": 4.5, "vis": 5 }, { "sw": 8.2, "vis": 10 }, { "sw": 10.9, "vis": 15 }, { "sw": 13.1, "vis": 20 }, { "sw": 16.6, "vis": 30 }], "750ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.7, "vis": 3 }, { "sw": 4.5, "vis": 5 }, { "sw": 8.2, "vis": 10 }, { "sw": 10.9, "vis": 15 }, { "sw": 13.1, "vis": 20 }, { "sw": 16.5, "vis": 30 }], "300ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.6, "vis": 3 }, { "sw": 4.5, "vis": 5 }, { "sw": 8.1, "vis": 10 }, { "sw": 10.9, "vis": 15 }, { "sw": 13.1, "vis": 20 }, { "sw": 16.4, "vis": 30 }], "500ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.7, "vis": 3 }, { "sw": 4.5, "vis": 5 }, { "sw": 8.1, "vis": 10 }, { "sw": 10.9, "vis": 15 }, { "sw": 13.1, "vis": 20 }, { "sw": 16.5, "vis": 30 }], "2000ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 2.6, "vis": 3 }, { "sw": 4.5, "vis": 5 }, { "sw": 8.3, "vis": 10 }, { "sw": 11, "vis": 15 }, { "sw": 13.3, "vis": 20 }, { "sw": 16.7, "vis": 30 }], "1500ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 2.6, "vis": 3 }, { "sw": 4.5, "vis": 5 }, { "sw": 8.2, "vis": 10 }, { "sw": 11, "vis": 15 }, { "sw": 13.2, "vis": 20 }, { "sw": 16.6, "vis": 30 }], "3000ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 2.5, "vis": 3 }, { "sw": 4.5, "vis": 5 }, { "sw": 8.3, "vis": 10 }, { "sw": 11.1, "vis": 15 }, { "sw": 13.4, "vis": 20 }, { "sw": 16.8, "vis": 30 }] }, "Boat": { "8ft": [{ "sw": 0.9, "vis": 1 }, { "sw": 2.4, "vis": 3 }, { "sw": 3.9, "vis": 5 }, { "sw": 7, "vis": 10 }, { "sw": 9.3, "vis": 15 }, { "sw": 11.1, "vis": 20 }], "14ft": [{ "sw": 1.2, "vis": 1 }, { "sw": 3.1, "vis": 3 }, { "sw": 5.1, "vis": 5 }, { "sw": 9.1, "vis": 10 }, { "sw": 12.1, "vis": 15 }, { "sw": 14.4, "vis": 20 }] } }, "Power Boat 78ft": { "weather_corrections": "large", "speed_corrections": { "Aircraft": [{ "speed": 150, "correction": 1.1 }, { "speed": 180, "correction": 1 }], "Helicopter": [{ "speed": 60, "correction": 1.1 }, { "speed": 90, "correction": 1 }, { "speed": 140, "correction": 0.9 }] }, "Helicopter": { "3000ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 3.1, "vis": 3 }, { "sw": 5.7, "vis": 5 }, { "sw": 10.9, "vis": 10 }, { "sw": 15.1, "vis": 15 }, { "sw": 18.6, "vis": 20 }, { "sw": 24.1, "vis": 30 }], "1000ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.3, "vis": 3 }, { "sw": 5.7, "vis": 5 }, { "sw": 10.9, "vis": 10 }, { "sw": 15, "vis": 15 }, { "sw": 18.5, "vis": 20 }, { "sw": 23.9, "vis": 30 }], "2000ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 3.2, "vis": 3 }, { "sw": 5.7, "vis": 5 }, { "sw": 10.9, "vis": 10 }, { "sw": 15.1, "vis": 15 }, { "sw": 18.5, "vis": 20 }, { "sw": 24, "vis": 30 }], "500ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.3, "vis": 3 }, { "sw": 5.7, "vis": 5 }, { "sw": 10.8, "vis": 10 }, { "sw": 15, "vis": 15 }, { "sw": 18.4, "vis": 20 }, { "sw": 23.9, "vis": 30 }], "750ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.3, "vis": 3 }, { "sw": 5.7, "vis": 5 }, { "sw": 10.9, "vis": 10 }, { "sw": 15, "vis": 15 }, { "sw": 18.4, "vis": 20 }, { "sw": 23.9, "vis": 30 }], "1500ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 3.2, "vis": 3 }, { "sw": 5.7, "vis": 5 }, { "sw": 10.9, "vis": 10 }, { "sw": 15.1, "vis": 15 }, { "sw": 18.5, "vis": 20 }, { "sw": 24, "vis": 30 }], "2500ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 3.2, "vis": 3 }, { "sw": 5.7, "vis": 5 }, { "sw": 10.9, "vis": 10 }, { "sw": 15.1, "vis": 15 }, { "sw": 18.6, "vis": 20 }, { "sw": 24.1, "vis": 30 }], "300ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.3, "vis": 3 }, { "sw": 5.7, "vis": 5 }, { "sw": 10.8, "vis": 10 }, { "sw": 15, "vis": 15 }, { "sw": 18.4, "vis": 20 }, { "sw": 23.9, "vis": 30 }] }, "Aircraft": { "2500ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 2.7, "vis": 3 }, { "sw": 5, "vis": 5 }, { "sw": 9.8, "vis": 10 }, { "sw": 13.6, "vis": 15 }, { "sw": 16.8, "vis": 20 }, { "sw": 21.9, "vis": 30 }], "1000ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.8, "vis": 3 }, { "sw": 5.1, "vis": 5 }, { "sw": 9.8, "vis": 10 }, { "sw": 13.6, "vis": 15 }, { "sw": 16.7, "vis": 20 }, { "sw": 21.7, "vis": 30 }], "750ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.8, "vis": 3 }, { "sw": 5, "vis": 5 }, { "sw": 9.8, "vis": 10 }, { "sw": 13.5, "vis": 15 }, { "sw": 16.7, "vis": 20 }, { "sw": 21.7, "vis": 30 }], "300ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.8, "vis": 3 }, { "sw": 5, "vis": 5 }, { "sw": 9.7, "vis": 10 }, { "sw": 13.5, "vis": 15 }, { "sw": 16.6, "vis": 20 }, { "sw": 21.6, "vis": 30 }], "500ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.8, "vis": 3 }, { "sw": 5, "vis": 5 }, { "sw": 9.8, "vis": 10 }, { "sw": 13.5, "vis": 15 }, { "sw": 16.7, "vis": 20 }, { "sw": 21.7, "vis": 30 }], "2000ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 2.8, "vis": 3 }, { "sw": 5, "vis": 5 }, { "sw": 9.8, "vis": 10 }, { "sw": 13.6, "vis": 15 }, { "sw": 16.8, "vis": 20 }, { "sw": 21.8, "vis": 30 }], "1500ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 2.8, "vis": 3 }, { "sw": 5.1, "vis": 5 }, { "sw": 9.8, "vis": 10 }, { "sw": 13.6, "vis": 15 }, { "sw": 16.7, "vis": 20 }, { "sw": 21.8, "vis": 30 }], "3000ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 2.7, "vis": 3 }, { "sw": 5, "vis": 5 }, { "sw": 9.9, "vis": 10 }, { "sw": 13.7, "vis": 15 }, { "sw": 16.8, "vis": 20 }, { "sw": 21.9, "vis": 30 }] }, "Boat": { "8ft": [{ "sw": 0.9, "vis": 1 }, { "sw": 2.5, "vis": 3 }, { "sw": 4.3, "vis": 5 }, { "sw": 8.3, "vis": 10 }, { "sw": 11.4, "vis": 15 }, { "sw": 14, "vis": 20 }], "14ft": [{ "sw": 1.2, "vis": 1 }, { "sw": 3.2, "vis": 3 }, { "sw": 5.6, "vis": 5 }, { "sw": 10.7, "vis": 10 }, { "sw": 14.7, "vis": 15 }, { "sw": 18.1, "vis": 20 }] } }, "Sail Boat 15ft": { "weather_corrections": "small", "speed_corrections": { "Aircraft": [{ "speed": 150, "correction": 1.1 }, { "speed": 180, "correction": 1 }, { "speed": 210, "correction": 0.9 }], "Helicopter": [{ "speed": 60, "correction": 1.2 }, { "speed": 90, "correction": 1 }, { "speed": 120, "correction": 0.9 }] }, "Helicopter": { "3000ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 1.9, "vis": 3 }, { "sw": 2.8, "vis": 5 }, { "sw": 4.3, "vis": 10 }, { "sw": 5.1, "vis": 15 }, { "sw": 5.7, "vis": 20 }], "1000ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 1.9, "vis": 3 }, { "sw": 2.8, "vis": 5 }, { "sw": 4, "vis": 10 }, { "sw": 4.8, "vis": 15 }, { "sw": 5.4, "vis": 20 }], "2000ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.9, "vis": 3 }, { "sw": 2.8, "vis": 5 }, { "sw": 4.2, "vis": 10 }, { "sw": 5, "vis": 15 }, { "sw": 5.6, "vis": 20 }], "500ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 1.9, "vis": 3 }, { "sw": 2.7, "vis": 5 }, { "sw": 3.9, "vis": 10 }, { "sw": 4.7, "vis": 15 }, { "sw": 5.2, "vis": 20 }], "750ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 1.9, "vis": 3 }, { "sw": 2.7, "vis": 5 }, { "sw": 4, "vis": 10 }, { "sw": 4.8, "vis": 15 }, { "sw": 5.3, "vis": 20 }], "1500ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2, "vis": 3 }, { "sw": 2.8, "vis": 5 }, { "sw": 4.1, "vis": 10 }, { "sw": 4.9, "vis": 15 }, { "sw": 5.5, "vis": 20 }], "2500ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 1.9, "vis": 3 }, { "sw": 2.8, "vis": 5 }, { "sw": 4.2, "vis": 10 }, { "sw": 5.1, "vis": 15 }, { "sw": 5.6, "vis": 20 }], "300ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 1.9, "vis": 3 }, { "sw": 2.7, "vis": 5 }, { "sw": 3.9, "vis": 10 }, { "sw": 4.6, "vis": 15 }, { "sw": 5.2, "vis": 20 }] }, "Aircraft": { "2500ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 1.5, "vis": 3 }, { "sw": 2.3, "vis": 5 }, { "sw": 3.5, "vis": 10 }, { "sw": 4.2, "vis": 15 }, { "sw": 4.7, "vis": 20 }], "1000ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.6, "vis": 3 }, { "sw": 2.3, "vis": 5 }, { "sw": 3.3, "vis": 10 }, { "sw": 4, "vis": 15 }, { "sw": 4.4, "vis": 20 }], "750ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.6, "vis": 3 }, { "sw": 2.3, "vis": 5 }, { "sw": 3.3, "vis": 10 }, { "sw": 3.9, "vis": 15 }, { "sw": 4.4, "vis": 20 }], "300ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.5, "vis": 3 }, { "sw": 2.2, "vis": 5 }, { "sw": 3.2, "vis": 10 }, { "sw": 3.8, "vis": 15 }, { "sw": 4.3, "vis": 20 }], "500ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.6, "vis": 3 }, { "sw": 2.2, "vis": 5 }, { "sw": 3.2, "vis": 10 }, { "sw": 3.9, "vis": 15 }, { "sw": 4.3, "vis": 20 }], "2000ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 1.6, "vis": 3 }, { "sw": 2.3, "vis": 5 }, { "sw": 3.5, "vis": 10 }, { "sw": 4.1, "vis": 15 }, { "sw": 4.5, "vis": 20 }], "1500ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.6, "vis": 3 }, { "sw": 2.3, "vis": 5 }, { "sw": 3.4, "vis": 10 }, { "sw": 4.1, "vis": 15 }, { "sw": 4.5, "vis": 20 }], "3000ft": [{ "sw": 0.1, "vis": 1 }, { "sw": 1.5, "vis": 3 }, { "sw": 2.3, "vis": 5 }, { "sw": 3.5, "vis": 10 }, { "sw": 4.3, "vis": 15 }, { "sw": 4.7, "vis": 20 }] }, "Boat": { "8ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 1.5, "vis": 3 }, { "sw": 2.1, "vis": 5 }, { "sw": 3, "vis": 10 }, { "sw": 3.6, "vis": 15 }, { "sw": 4, "vis": 20 }], "14ft": [{ "sw": 1, "vis": 1 }, { "sw": 1.9, "vis": 3 }, { "sw": 2.7, "vis": 5 }, { "sw": 3.9, "vis": 10 }, { "sw": 4.7, "vis": 15 }, { "sw": 5.2, "vis": 20 }] } }, "Sail Boat 20ft": { "weather_corrections": "small", "speed_corrections": { "Aircraft": [{ "speed": 150, "correction": 1.1 }, { "speed": 180, "correction": 1 }, { "speed": 210, "correction": 0.9 }], "Helicopter": [{ "speed": 60, "correction": 1.2 }, { "speed": 90, "correction": 1 }, { "speed": 120, "correction": 0.9 }] }, "Helicopter": { "3000ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 2.1, "vis": 3 }, { "sw": 3.3, "vis": 5 }, { "sw": 5.2, "vis": 10 }, { "sw": 6.3, "vis": 15 }, { "sw": 7.1, "vis": 20 }], "1000ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 2.2, "vis": 3 }, { "sw": 3.2, "vis": 5 }, { "sw": 4.9, "vis": 10 }, { "sw": 6, "vis": 15 }, { "sw": 6.8, "vis": 20 }], "2000ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 2.2, "vis": 3 }, { "sw": 3.3, "vis": 5 }, { "sw": 5.1, "vis": 10 }, { "sw": 6.2, "vis": 15 }, { "sw": 7, "vis": 20 }], "500ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 2.2, "vis": 3 }, { "sw": 3.2, "vis": 5 }, { "sw": 4.8, "vis": 10 }, { "sw": 5.9, "vis": 15 }, { "sw": 6.7, "vis": 20 }], "750ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 2.2, "vis": 3 }, { "sw": 3.2, "vis": 5 }, { "sw": 4.9, "vis": 10 }, { "sw": 6, "vis": 15 }, { "sw": 6.7, "vis": 20 }], "1500ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.2, "vis": 3 }, { "sw": 3.3, "vis": 5 }, { "sw": 5, "vis": 10 }, { "sw": 6.1, "vis": 15 }, { "sw": 6.9, "vis": 20 }], "2500ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 2.2, "vis": 3 }, { "sw": 3.3, "vis": 5 }, { "sw": 5.1, "vis": 10 }, { "sw": 6.3, "vis": 15 }, { "sw": 7.1, "vis": 20 }], "300ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 2.2, "vis": 3 }, { "sw": 3.2, "vis": 5 }, { "sw": 4.8, "vis": 10 }, { "sw": 5.9, "vis": 15 }, { "sw": 6.6, "vis": 20 }] }, "Aircraft": { "2500ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 1.8, "vis": 3 }, { "sw": 2.8, "vis": 5 }, { "sw": 4.3, "vis": 10 }, { "sw": 5.3, "vis": 15 }, { "sw": 6, "vis": 20 }], "1000ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.8, "vis": 3 }, { "sw": 2.7, "vis": 5 }, { "sw": 4.2, "vis": 10 }, { "sw": 5.1, "vis": 15 }, { "sw": 5.7, "vis": 20 }], "750ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 1.8, "vis": 3 }, { "sw": 2.7, "vis": 5 }, { "sw": 4.1, "vis": 10 }, { "sw": 5, "vis": 15 }, { "sw": 5.7, "vis": 20 }], "300ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 1.8, "vis": 3 }, { "sw": 2.6, "vis": 5 }, { "sw": 4, "vis": 10 }, { "sw": 4.9, "vis": 15 }, { "sw": 5.6, "vis": 20 }], "500ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 1.8, "vis": 3 }, { "sw": 2.7, "vis": 5 }, { "sw": 4, "vis": 10 }, { "sw": 5, "vis": 15 }, { "sw": 5.6, "vis": 20 }], "2000ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 1.8, "vis": 3 }, { "sw": 2.8, "vis": 5 }, { "sw": 4.3, "vis": 10 }, { "sw": 5.2, "vis": 15 }, { "sw": 5.9, "vis": 20 }], "1500ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 1.8, "vis": 3 }, { "sw": 2.8, "vis": 5 }, { "sw": 4.2, "vis": 10 }, { "sw": 5.2, "vis": 15 }, { "sw": 5.8, "vis": 20 }], "3000ft": [{ "sw": 0.1, "vis": 1 }, { "sw": 1.7, "vis": 3 }, { "sw": 2.8, "vis": 5 }, { "sw": 4.4, "vis": 10 }, { "sw": 5.3, "vis": 15 }, { "sw": 6, "vis": 20 }] }, "Boat": { "8ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 1.7, "vis": 3 }, { "sw": 2.5, "vis": 5 }, { "sw": 3.7, "vis": 10 }, { "sw": 4.6, "vis": 15 }, { "sw": 5.1, "vis": 20 }], "14ft": [{ "sw": 1, "vis": 1 }, { "sw": 2.2, "vis": 3 }, { "sw": 3.2, "vis": 5 }, { "sw": 4.8, "vis": 10 }, { "sw": 5.9, "vis": 15 }, { "sw": 6.6, "vis": 20 }] } }, "Sail Boat 25ft": { "weather_corrections": "small", "speed_corrections": { "Aircraft": [{ "speed": 150, "correction": 1.1 }, { "speed": 180, "correction": 1 }, { "speed": 210, "correction": 0.9 }], "Helicopter": [{ "speed": 60, "correction": 1.2 }, { "speed": 90, "correction": 1 }, { "speed": 120, "correction": 0.9 }] }, "Helicopter": { "3000ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 2.4, "vis": 3 }, { "sw": 3.9, "vis": 5 }, { "sw": 6.1, "vis": 10 }, { "sw": 7.7, "vis": 15 }, { "sw": 8.8, "vis": 20 }], "1000ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 2.5, "vis": 3 }, { "sw": 3.7, "vis": 5 }, { "sw": 5.8, "vis": 10 }, { "sw": 7.3, "vis": 15 }, { "sw": 8.3, "vis": 20 }], "2000ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 2.5, "vis": 3 }, { "sw": 3.8, "vis": 5 }, { "sw": 6, "vis": 10 }, { "sw": 7.5, "vis": 15 }, { "sw": 8.6, "vis": 20 }], "500ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 2.4, "vis": 3 }, { "sw": 3.7, "vis": 5 }, { "sw": 5.7, "vis": 10 }, { "sw": 7.1, "vis": 15 }, { "sw": 8.2, "vis": 20 }], "750ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 2.5, "vis": 3 }, { "sw": 3.7, "vis": 5 }, { "sw": 5.8, "vis": 10 }, { "sw": 7.2, "vis": 15 }, { "sw": 8.3, "vis": 20 }], "1500ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.5, "vis": 3 }, { "sw": 3.8, "vis": 5 }, { "sw": 5.9, "vis": 10 }, { "sw": 7.4, "vis": 15 }, { "sw": 8.4, "vis": 20 }], "2500ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 2.5, "vis": 3 }, { "sw": 3.8, "vis": 5 }, { "sw": 6.1, "vis": 10 }, { "sw": 7.6, "vis": 15 }, { "sw": 8.7, "vis": 20 }], "300ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 2.4, "vis": 3 }, { "sw": 3.6, "vis": 5 }, { "sw": 5.7, "vis": 10 }, { "sw": 7.1, "vis": 15 }, { "sw": 8.1, "vis": 20 }] }, "Aircraft": { "2500ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 2.1, "vis": 3 }, { "sw": 3.3, "vis": 5 }, { "sw": 5.2, "vis": 10 }, { "sw": 6.5, "vis": 15 }, { "sw": 7.5, "vis": 20 }], "1000ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 2.1, "vis": 3 }, { "sw": 3.2, "vis": 5 }, { "sw": 5, "vis": 10 }, { "sw": 6.2, "vis": 15 }, { "sw": 7.1, "vis": 20 }], "750ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.1, "vis": 3 }, { "sw": 3.1, "vis": 5 }, { "sw": 5, "vis": 10 }, { "sw": 6.2, "vis": 15 }, { "sw": 7, "vis": 20 }], "300ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2, "vis": 3 }, { "sw": 3.1, "vis": 5 }, { "sw": 4.8, "vis": 10 }, { "sw": 6, "vis": 15 }, { "sw": 6.9, "vis": 20 }], "500ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2, "vis": 3 }, { "sw": 3.1, "vis": 5 }, { "sw": 4.9, "vis": 10 }, { "sw": 6.1, "vis": 15 }, { "sw": 7, "vis": 20 }], "2000ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 2.1, "vis": 3 }, { "sw": 3.3, "vis": 5 }, { "sw": 5.2, "vis": 10 }, { "sw": 6.4, "vis": 15 }, { "sw": 7.3, "vis": 20 }], "1500ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 2.1, "vis": 3 }, { "sw": 3.2, "vis": 5 }, { "sw": 5.1, "vis": 10 }, { "sw": 6.3, "vis": 15 }, { "sw": 7.2, "vis": 20 }], "3000ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 2, "vis": 3 }, { "sw": 3.3, "vis": 5 }, { "sw": 5.3, "vis": 10 }, { "sw": 6.6, "vis": 15 }, { "sw": 7.5, "vis": 20 }] }, "Boat": { "8ft": [{ "sw": 0.9, "vis": 1 }, { "sw": 1.9, "vis": 3 }, { "sw": 2.8, "vis": 5 }, { "sw": 4.4, "vis": 10 }, { "sw": 5.4, "vis": 15 }, { "sw": 6.3, "vis": 20 }], "14ft": [{ "sw": 1.1, "vis": 1 }, { "sw": 2.4, "vis": 3 }, { "sw": 3.6, "vis": 5 }, { "sw": 5.7, "vis": 10 }, { "sw": 7, "vis": 15 }, { "sw": 8.1, "vis": 20 }] } }, "Sail Boat 30ft": { "weather_corrections": "large", "speed_corrections": { "Aircraft": [{ "speed": 150, "correction": 1.1 }, { "speed": 180, "correction": 1 }], "Helicopter": [{ "speed": 60, "correction": 1.1 }, { "speed": 90, "correction": 1 }, { "speed": 120, "correction": 0.9 }] }, "Helicopter": { "3000ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 2.6, "vis": 3 }, { "sw": 4.3, "vis": 5 }, { "sw": 7.1, "vis": 10 }, { "sw": 9.1, "vis": 15 }, { "sw": 10.6, "vis": 20 }, { "sw": 12.7, "vis": 30 }], "1000ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 2.7, "vis": 3 }, { "sw": 4.2, "vis": 5 }, { "sw": 6.9, "vis": 10 }, { "sw": 8.8, "vis": 15 }, { "sw": 10.3, "vis": 20 }, { "sw": 12.4, "vis": 30 }], "2000ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 2.7, "vis": 3 }, { "sw": 4.3, "vis": 5 }, { "sw": 7, "vis": 10 }, { "sw": 9, "vis": 15 }, { "sw": 10.4, "vis": 20 }, { "sw": 12.6, "vis": 30 }], "500ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 2.7, "vis": 3 }, { "sw": 4.2, "vis": 5 }, { "sw": 6.9, "vis": 10 }, { "sw": 8.7, "vis": 15 }, { "sw": 10.2, "vis": 20 }, { "sw": 12.3, "vis": 30 }], "750ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 2.7, "vis": 3 }, { "sw": 4.2, "vis": 5 }, { "sw": 6.9, "vis": 10 }, { "sw": 8.8, "vis": 15 }, { "sw": 10.2, "vis": 20 }, { "sw": 12.3, "vis": 30 }], "1500ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.7, "vis": 3 }, { "sw": 4.2, "vis": 5 }, { "sw": 7, "vis": 10 }, { "sw": 8.9, "vis": 15 }, { "sw": 10.3, "vis": 20 }, { "sw": 12.5, "vis": 30 }], "2500ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 2.7, "vis": 3 }, { "sw": 4.3, "vis": 5 }, { "sw": 7.1, "vis": 10 }, { "sw": 9, "vis": 15 }, { "sw": 10.5, "vis": 20 }, { "sw": 12.6, "vis": 30 }], "300ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 2.7, "vis": 3 }, { "sw": 4.2, "vis": 5 }, { "sw": 6.8, "vis": 10 }, { "sw": 8.7, "vis": 15 }, { "sw": 10.1, "vis": 20 }, { "sw": 12.2, "vis": 30 }] }, "Aircraft": { "2500ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 2.2, "vis": 3 }, { "sw": 3.7, "vis": 5 }, { "sw": 6.1, "vis": 10 }, { "sw": 7.8, "vis": 15 }, { "sw": 9.1, "vis": 20 }, { "sw": 11, "vis": 30 }], "1000ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.3, "vis": 3 }, { "sw": 3.6, "vis": 5 }, { "sw": 6, "vis": 10 }, { "sw": 7.6, "vis": 15 }, { "sw": 8.9, "vis": 20 }, { "sw": 10.7, "vis": 30 }], "750ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.3, "vis": 3 }, { "sw": 3.6, "vis": 5 }, { "sw": 6, "vis": 10 }, { "sw": 7.5, "vis": 15 }, { "sw": 8.9, "vis": 20 }, { "sw": 10.7, "vis": 30 }], "300ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.3, "vis": 3 }, { "sw": 3.6, "vis": 5 }, { "sw": 5.9, "vis": 10 }, { "sw": 7.5, "vis": 15 }, { "sw": 8.8, "vis": 20 }, { "sw": 10.6, "vis": 30 }], "500ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.3, "vis": 3 }, { "sw": 3.6, "vis": 5 }, { "sw": 5.9, "vis": 10 }, { "sw": 7.6, "vis": 15 }, { "sw": 8.8, "vis": 20 }, { "sw": 10.6, "vis": 30 }], "2000ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 2.3, "vis": 3 }, { "sw": 3.7, "vis": 5 }, { "sw": 6.1, "vis": 10 }, { "sw": 7.8, "vis": 15 }, { "sw": 9.1, "vis": 20 }, { "sw": 10.9, "vis": 30 }], "1500ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 2.3, "vis": 3 }, { "sw": 3.7, "vis": 5 }, { "sw": 6.1, "vis": 10 }, { "sw": 7.7, "vis": 15 }, { "sw": 9, "vis": 20 }, { "sw": 10.8, "vis": 30 }], "3000ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 2.2, "vis": 3 }, { "sw": 3.7, "vis": 5 }, { "sw": 6.2, "vis": 10 }, { "sw": 7.9, "vis": 15 }, { "sw": 9.2, "vis": 20 }, { "sw": 11.1, "vis": 30 }] }, "Boat": { "8ft": [{ "sw": 0.9, "vis": 1 }, { "sw": 2.1, "vis": 3 }, { "sw": 3.2, "vis": 5 }, { "sw": 5.3, "vis": 10 }, { "sw": 6.6, "vis": 15 }, { "sw": 7.7, "vis": 20 }], "14ft": [{ "sw": 1.1, "vis": 1 }, { "sw": 2.7, "vis": 3 }, { "sw": 4.1, "vis": 5 }, { "sw": 6.8, "vis": 10 }, { "sw": 8.6, "vis": 15 }, { "sw": 10, "vis": 20 }] } }, "Sail Boat 40ft": { "weather_corrections": "large", "speed_corrections": { "Aircraft": [{ "speed": 150, "correction": 1.1 }, { "speed": 180, "correction": 1 }], "Helicopter": [{ "speed": 60, "correction": 1.1 }, { "speed": 90, "correction": 1 }, { "speed": 120, "correction": 0.9 }] }, "Helicopter": { "3000ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 2.9, "vis": 3 }, { "sw": 4.9, "vis": 5 }, { "sw": 8.7, "vis": 10 }, { "sw": 11.5, "vis": 15 }, { "sw": 13.7, "vis": 20 }, { "sw": 17.1, "vis": 30 }], "1000ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 3, "vis": 3 }, { "sw": 4.9, "vis": 5 }, { "sw": 8.6, "vis": 10 }, { "sw": 11.4, "vis": 15 }, { "sw": 13.5, "vis": 20 }, { "sw": 16.8, "vis": 30 }], "2000ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 3, "vis": 3 }, { "sw": 4.9, "vis": 5 }, { "sw": 8.7, "vis": 10 }, { "sw": 11.4, "vis": 15 }, { "sw": 13.6, "vis": 20 }, { "sw": 17, "vis": 30 }], "500ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3, "vis": 3 }, { "sw": 4.9, "vis": 5 }, { "sw": 8.3, "vis": 10 }, { "sw": 11.3, "vis": 15 }, { "sw": 13.5, "vis": 20 }, { "sw": 16.8, "vis": 30 }], "750ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3, "vis": 3 }, { "sw": 4.9, "vis": 5 }, { "sw": 8.6, "vis": 10 }, { "sw": 11.3, "vis": 15 }, { "sw": 13.5, "vis": 20 }, { "sw": 16.8, "vis": 30 }], "1500ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 3, "vis": 3 }, { "sw": 4.9, "vis": 5 }, { "sw": 8.7, "vis": 10 }, { "sw": 11.4, "vis": 15 }, { "sw": 13.6, "vis": 20 }, { "sw": 16.9, "vis": 30 }], "2500ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 2.9, "vis": 3 }, { "sw": 4.9, "vis": 5 }, { "sw": 8.7, "vis": 10 }, { "sw": 11.5, "vis": 15 }, { "sw": 13.7, "vis": 20 }, { "sw": 17, "vis": 30 }], "300ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3, "vis": 3 }, { "sw": 4.9, "vis": 5 }, { "sw": 8.6, "vis": 10 }, { "sw": 11.3, "vis": 15 }, { "sw": 13.4, "vis": 20 }, { "sw": 16.7, "vis": 30 }] }, "Aircraft": { "2500ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 2.5, "vis": 3 }, { "sw": 4.3, "vis": 5 }, { "sw": 7.7, "vis": 10 }, { "sw": 10.2, "vis": 15 }, { "sw": 12.1, "vis": 20 }, { "sw": 15.1, "vis": 30 }], "1000ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.6, "vis": 3 }, { "sw": 4.3, "vis": 5 }, { "sw": 7.6, "vis": 10 }, { "sw": 10.9, "vis": 15 }, { "sw": 12, "vis": 20 }, { "sw": 14.9, "vis": 30 }], "750ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.6, "vis": 3 }, { "sw": 4.3, "vis": 5 }, { "sw": 7.6, "vis": 10 }, { "sw": 10, "vis": 15 }, { "sw": 11.9, "vis": 20 }, { "sw": 14.9, "vis": 30 }], "300ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.6, "vis": 3 }, { "sw": 4.3, "vis": 5 }, { "sw": 7.5, "vis": 10 }, { "sw": 10, "vis": 15 }, { "sw": 11.9, "vis": 20 }, { "sw": 14.8, "vis": 30 }], "500ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.6, "vis": 3 }, { "sw": 4.3, "vis": 5 }, { "sw": 7.6, "vis": 10 }, { "sw": 10, "vis": 15 }, { "sw": 11.9, "vis": 20 }, { "sw": 14.8, "vis": 30 }], "2000ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 2.5, "vis": 3 }, { "sw": 4.3, "vis": 5 }, { "sw": 7.7, "vis": 10 }, { "sw": 10.1, "vis": 15 }, { "sw": 12.1, "vis": 20 }, { "sw": 15, "vis": 30 }], "1500ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 2.6, "vis": 3 }, { "sw": 4.3, "vis": 5 }, { "sw": 7.6, "vis": 10 }, { "sw": 10.1, "vis": 15 }, { "sw": 12, "vis": 20 }, { "sw": 14.9, "vis": 30 }], "3000ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 2.4, "vis": 3 }, { "sw": 4.3, "vis": 5 }, { "sw": 7.7, "vis": 10 }, { "sw": 10.2, "vis": 15 }, { "sw": 12.1, "vis": 20 }, { "sw": 15.1, "vis": 30 }] }, "Boat": { "8ft": [{ "sw": 0.9, "vis": 1 }, { "sw": 2.3, "vis": 3 }, { "sw": 3.8, "vis": 5 }, { "sw": 6.6, "vis": 10 }, { "sw": 8.6, "vis": 15 }, { "sw": 10.3, "vis": 20 }], "14ft": [{ "sw": 1.2, "vis": 1 }, { "sw": 3, "vis": 3 }, { "sw": 4.9, "vis": 5 }, { "sw": 8.5, "vis": 10 }, { "sw": 11.2, "vis": 15 }, { "sw": 13.3, "vis": 20 }] } }, "Sail Boat 50ft": { "weather_corrections": "large", "speed_corrections": { "Aircraft": [{ "speed": 150, "correction": 1.1 }, { "speed": 180, "correction": 1 }], "Helicopter": [{ "speed": 60, "correction": 1.1 }, { "speed": 90, "correction": 1 }, { "speed": 120, "correction": 0.9 }] }, "Helicopter": { "3000ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 3, "vis": 3 }, { "sw": 5.3, "vis": 5 }, { "sw": 9.7, "vis": 10 }, { "sw": 13, "vis": 15 }, { "sw": 15.6, "vis": 20 }, { "sw": 19.7, "vis": 30 }], "1000ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 3.1, "vis": 3 }, { "sw": 5.3, "vis": 5 }, { "sw": 9.5, "vis": 10 }, { "sw": 12.8, "vis": 15 }, { "sw": 15.4, "vis": 20 }, { "sw": 19.5, "vis": 30 }], "2000ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 3.1, "vis": 3 }, { "sw": 5.3, "vis": 5 }, { "sw": 9.6, "vis": 10 }, { "sw": 12.9, "vis": 15 }, { "sw": 15.5, "vis": 20 }, { "sw": 19.6, "vis": 30 }], "500ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.1, "vis": 3 }, { "sw": 5.2, "vis": 5 }, { "sw": 9.5, "vis": 10 }, { "sw": 12.7, "vis": 15 }, { "sw": 15.3, "vis": 20 }, { "sw": 19.4, "vis": 30 }], "750ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.1, "vis": 3 }, { "sw": 5.3, "vis": 5 }, { "sw": 9.5, "vis": 10 }, { "sw": 12.7, "vis": 15 }, { "sw": 15.4, "vis": 20 }, { "sw": 19.4, "vis": 30 }], "1500ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 3.1, "vis": 3 }, { "sw": 5.3, "vis": 5 }, { "sw": 9.6, "vis": 10 }, { "sw": 12.8, "vis": 15 }, { "sw": 15.5, "vis": 20 }, { "sw": 19.5, "vis": 30 }], "2500ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 3.1, "vis": 3 }, { "sw": 5.3, "vis": 5 }, { "sw": 9.6, "vis": 10 }, { "sw": 12.9, "vis": 15 }, { "sw": 15.6, "vis": 20 }, { "sw": 19.7, "vis": 30 }], "300ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.1, "vis": 3 }, { "sw": 5.2, "vis": 5 }, { "sw": 9.5, "vis": 10 }, { "sw": 12.7, "vis": 15 }, { "sw": 15.3, "vis": 20 }, { "sw": 19.3, "vis": 30 }] }, "Aircraft": { "2500ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 2.6, "vis": 3 }, { "sw": 4.6, "vis": 5 }, { "sw": 8.6, "vis": 10 }, { "sw": 11.5, "vis": 15 }, { "sw": 13.9, "vis": 20 }, { "sw": 17.6, "vis": 30 }], "1000ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.7, "vis": 3 }, { "sw": 4.6, "vis": 5 }, { "sw": 8.5, "vis": 10 }, { "sw": 11.4, "vis": 15 }, { "sw": 13.7, "vis": 20 }, { "sw": 17.4, "vis": 30 }], "750ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.7, "vis": 3 }, { "sw": 4.6, "vis": 5 }, { "sw": 8.5, "vis": 10 }, { "sw": 11.4, "vis": 15 }, { "sw": 13.7, "vis": 20 }, { "sw": 17.4, "vis": 30 }], "300ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.7, "vis": 3 }, { "sw": 4.6, "vis": 5 }, { "sw": 8.4, "vis": 10 }, { "sw": 11.3, "vis": 15 }, { "sw": 13.6, "vis": 20 }, { "sw": 17.3, "vis": 30 }], "500ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.7, "vis": 3 }, { "sw": 4.6, "vis": 5 }, { "sw": 8.4, "vis": 10 }, { "sw": 11.3, "vis": 15 }, { "sw": 13.7, "vis": 20 }, { "sw": 17.3, "vis": 30 }], "2000ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 2.7, "vis": 3 }, { "sw": 4.6, "vis": 5 }, { "sw": 8.6, "vis": 10 }, { "sw": 11.5, "vis": 15 }, { "sw": 13.9, "vis": 20 }, { "sw": 17.5, "vis": 30 }], "1500ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 2.7, "vis": 3 }, { "sw": 4.6, "vis": 5 }, { "sw": 8.5, "vis": 10 }, { "sw": 11.4, "vis": 15 }, { "sw": 13.8, "vis": 20 }, { "sw": 17.5, "vis": 30 }], "3000ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 2.6, "vis": 3 }, { "sw": 4.6, "vis": 5 }, { "sw": 8.6, "vis": 10 }, { "sw": 11.6, "vis": 15 }, { "sw": 14, "vis": 20 }, { "sw": 17.7, "vis": 30 }] }, "Boat": { "8ft": [{ "sw": 0.9, "vis": 1 }, { "sw": 2.4, "vis": 3 }, { "sw": 4, "vis": 5 }, { "sw": 7.3, "vis": 10 }, { "sw": 9.7, "vis": 15 }, { "sw": 11.6, "vis": 20 }], "14ft": [{ "sw": 1.2, "vis": 1 }, { "sw": 3.1, "vis": 3 }, { "sw": 5.2, "vis": 5 }, { "sw": 9.4, "vis": 10 }, { "sw": 12.5, "vis": 15 }, { "sw": 15, "vis": 20 }] } }, "Sail Boat 70ft": { "weather_corrections": "large", "speed_corrections": { "Aircraft": [{ "speed": 150, "correction": 1.1 }, { "speed": 180, "correction": 1 }], "Helicopter": [{ "speed": 60, "correction": 1.1 }, { "speed": 90, "correction": 1 }, { "speed": 140, "correction": 0.9 }] }, "Helicopter": { "3000ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 3.1, "vis": 3 }, { "sw": 5.6, "vis": 5 }, { "sw": 10.5, "vis": 10 }, { "sw": 14.4, "vis": 15 }, { "sw": 17.5, "vis": 20 }, { "sw": 22.5, "vis": 30 }], "1000ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.2, "vis": 3 }, { "sw": 5.6, "vis": 5 }, { "sw": 10.4, "vis": 10 }, { "sw": 14.2, "vis": 15 }, { "sw": 17.3, "vis": 20 }, { "sw": 22.2, "vis": 30 }], "2000ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 3.2, "vis": 3 }, { "sw": 5.6, "vis": 5 }, { "sw": 10.5, "vis": 10 }, { "sw": 14.3, "vis": 15 }, { "sw": 17.4, "vis": 20 }, { "sw": 22.4, "vis": 30 }], "500ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.2, "vis": 3 }, { "sw": 5.5, "vis": 5 }, { "sw": 10.4, "vis": 10 }, { "sw": 14.1, "vis": 15 }, { "sw": 17.3, "vis": 20 }, { "sw": 22.2, "vis": 30 }], "750ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.2, "vis": 3 }, { "sw": 5.5, "vis": 5 }, { "sw": 10.4, "vis": 10 }, { "sw": 14.2, "vis": 15 }, { "sw": 17.3, "vis": 20 }, { "sw": 22.2, "vis": 30 }], "1500ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 3.2, "vis": 3 }, { "sw": 5.6, "vis": 5 }, { "sw": 10.4, "vis": 10 }, { "sw": 14.3, "vis": 15 }, { "sw": 17.4, "vis": 20 }, { "sw": 22.3, "vis": 30 }], "2500ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 3.1, "vis": 3 }, { "sw": 5.6, "vis": 5 }, { "sw": 10.5, "vis": 10 }, { "sw": 14.3, "vis": 15 }, { "sw": 17.5, "vis": 20 }, { "sw": 22.4, "vis": 30 }], "300ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.2, "vis": 3 }, { "sw": 5.5, "vis": 5 }, { "sw": 10.3, "vis": 10 }, { "sw": 14.1, "vis": 15 }, { "sw": 17.2, "vis": 20 }, { "sw": 22.1, "vis": 30 }] }, "Aircraft": { "2500ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 2.7, "vis": 3 }, { "sw": 4.9, "vis": 5 }, { "sw": 9.4, "vis": 10 }, { "sw": 12.9, "vis": 15 }, { "sw": 15.8, "vis": 20 }, { "sw": 20.3, "vis": 30 }], "1000ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.8, "vis": 3 }, { "sw": 4.9, "vis": 5 }, { "sw": 9.3, "vis": 10 }, { "sw": 12.8, "vis": 15 }, { "sw": 15.6, "vis": 20 }, { "sw": 20.1, "vis": 30 }], "750ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.8, "vis": 3 }, { "sw": 4.9, "vis": 5 }, { "sw": 9.3, "vis": 10 }, { "sw": 12.7, "vis": 15 }, { "sw": 15.6, "vis": 20 }, { "sw": 20, "vis": 30 }], "300ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.8, "vis": 3 }, { "sw": 4.9, "vis": 5 }, { "sw": 9.3, "vis": 10 }, { "sw": 12.7, "vis": 15 }, { "sw": 15.5, "vis": 20 }, { "sw": 20, "vis": 30 }], "500ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.8, "vis": 3 }, { "sw": 4.9, "vis": 5 }, { "sw": 9.3, "vis": 10 }, { "sw": 12.7, "vis": 15 }, { "sw": 15.5, "vis": 20 }, { "sw": 20, "vis": 30 }], "2000ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 2.7, "vis": 3 }, { "sw": 4.9, "vis": 5 }, { "sw": 9.4, "vis": 10 }, { "sw": 12.9, "vis": 15 }, { "sw": 15.7, "vis": 20 }, { "sw": 20.2, "vis": 30 }], "1500ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 2.8, "vis": 3 }, { "sw": 4.9, "vis": 5 }, { "sw": 9.4, "vis": 10 }, { "sw": 12.8, "vis": 15 }, { "sw": 15.7, "vis": 20 }, { "sw": 20.2, "vis": 30 }], "3000ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 2.6, "vis": 3 }, { "sw": 4.9, "vis": 5 }, { "sw": 9.4, "vis": 10 }, { "sw": 13, "vis": 15 }, { "sw": 15.8, "vis": 20 }, { "sw": 20.3, "vis": 30 }] }, "Boat": { "8ft": [{ "sw": 0.9, "vis": 1 }, { "sw": 2.5, "vis": 3 }, { "sw": 4.2, "vis": 5 }, { "sw": 7.9, "vis": 10 }, { "sw": 10.7, "vis": 15 }, { "sw": 13.1, "vis": 20 }], "14ft": [{ "sw": 1.2, "vis": 1 }, { "sw": 3.2, "vis": 3 }, { "sw": 5.5, "vis": 5 }, { "sw": 10.2, "vis": 10 }, { "sw": 13.9, "vis": 15 }, { "sw": 16.9, "vis": 20 }] } }, "Sail Boat 83ft": { "weather_corrections": "large", "speed_corrections": { "Aircraft": [{ "speed": 150, "correction": 1.1 }, { "speed": 180, "correction": 1 }], "Helicopter": [{ "speed": 60, "correction": 1.1 }, { "speed": 90, "correction": 1 }, { "speed": 140, "correction": 0.9 }] }, "Helicopter": { "3000ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 3.1, "vis": 3 }, { "sw": 5.7, "vis": 5 }, { "sw": 11.1, "vis": 10 }, { "sw": 15.4, "vis": 15 }, { "sw": 19, "vis": 20 }, { "sw": 24.7, "vis": 30 }], "1000ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.3, "vis": 3 }, { "sw": 5.7, "vis": 5 }, { "sw": 11, "vis": 10 }, { "sw": 15.3, "vis": 15 }, { "sw": 18.8, "vis": 20 }, { "sw": 24.4, "vis": 30 }], "2000ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 3.2, "vis": 3 }, { "sw": 5.7, "vis": 5 }, { "sw": 11.1, "vis": 10 }, { "sw": 15.4, "vis": 15 }, { "sw": 18.9, "vis": 20 }, { "sw": 24.6, "vis": 30 }], "500ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.3, "vis": 3 }, { "sw": 5.7, "vis": 5 }, { "sw": 11, "vis": 10 }, { "sw": 15.2, "vis": 15 }, { "sw": 18.7, "vis": 20 }, { "sw": 24.4, "vis": 30 }], "750ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.3, "vis": 3 }, { "sw": 5.7, "vis": 5 }, { "sw": 11, "vis": 10 }, { "sw": 15.2, "vis": 15 }, { "sw": 18.8, "vis": 20 }, { "sw": 24.4, "vis": 30 }], "1500ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 3.3, "vis": 3 }, { "sw": 5.7, "vis": 5 }, { "sw": 11.1, "vis": 10 }, { "sw": 15.3, "vis": 15 }, { "sw": 18.8, "vis": 20 }, { "sw": 24.5, "vis": 30 }], "2500ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 3.2, "vis": 3 }, { "sw": 5.7, "vis": 5 }, { "sw": 11.1, "vis": 10 }, { "sw": 15.4, "vis": 15 }, { "sw": 18.9, "vis": 20 }, { "sw": 24.6, "vis": 30 }], "300ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.3, "vis": 3 }, { "sw": 5.7, "vis": 5 }, { "sw": 11, "vis": 10 }, { "sw": 15.2, "vis": 15 }, { "sw": 18.7, "vis": 20 }, { "sw": 24.3, "vis": 30 }] }, "Aircraft": { "2500ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 2.8, "vis": 3 }, { "sw": 5.1, "vis": 5 }, { "sw": 10, "vis": 10 }, { "sw": 13.9, "vis": 15 }, { "sw": 17.2, "vis": 20 }, { "sw": 22.4, "vis": 30 }], "1000ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.8, "vis": 3 }, { "sw": 5.1, "vis": 5 }, { "sw": 9.9, "vis": 10 }, { "sw": 13.8, "vis": 15 }, { "sw": 17, "vis": 20 }, { "sw": 22.2, "vis": 30 }], "750ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.8, "vis": 3 }, { "sw": 5.1, "vis": 5 }, { "sw": 9.9, "vis": 10 }, { "sw": 13.8, "vis": 15 }, { "sw": 17, "vis": 20 }, { "sw": 22.2, "vis": 30 }], "300ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.8, "vis": 3 }, { "sw": 5.1, "vis": 5 }, { "sw": 9.9, "vis": 10 }, { "sw": 13.7, "vis": 15 }, { "sw": 16.9, "vis": 20 }, { "sw": 22.1, "vis": 30 }], "500ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.8, "vis": 3 }, { "sw": 5.1, "vis": 5 }, { "sw": 9.9, "vis": 10 }, { "sw": 13.7, "vis": 15 }, { "sw": 17, "vis": 20 }, { "sw": 22.1, "vis": 30 }], "2000ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 2.8, "vis": 3 }, { "sw": 5.1, "vis": 5 }, { "sw": 10, "vis": 10 }, { "sw": 13.9, "vis": 15 }, { "sw": 17.1, "vis": 20 }, { "sw": 22.3, "vis": 30 }], "1500ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 2.8, "vis": 3 }, { "sw": 5.1, "vis": 5 }, { "sw": 10, "vis": 10 }, { "sw": 13.8, "vis": 15 }, { "sw": 17.1, "vis": 20 }, { "sw": 22.3, "vis": 30 }], "3000ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 2.7, "vis": 3 }, { "sw": 5.1, "vis": 5 }, { "sw": 10, "vis": 10 }, { "sw": 14, "vis": 15 }, { "sw": 17.2, "vis": 20 }, { "sw": 22.5, "vis": 30 }] }, "Boat": { "8ft": [{ "sw": 0.9, "vis": 1 }, { "sw": 2.5, "vis": 3 }, { "sw": 4.4, "vis": 5 }, { "sw": 8.3, "vis": 10 }, { "sw": 11.6, "vis": 15 }, { "sw": 14.2, "vis": 20 }], "14ft": [{ "sw": 1.2, "vis": 1 }, { "sw": 3.3, "vis": 3 }, { "sw": 5.7, "vis": 5 }, { "sw": 10.8, "vis": 10 }, { "sw": 15, "vis": 15 }, { "sw": 18.4, "vis": 20 }] } }, "Ship 120ft": { "weather_corrections": "large", "speed_corrections": { "Aircraft": [{ "speed": 150, "correction": 1 }], "Helicopter": [{ "speed": 60, "correction": 1.1 }, { "speed": 90, "correction": 1 }, { "speed": 140, "correction": 0.9 }] }, "Helicopter": { "3000ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 3.2, "vis": 3 }, { "sw": 6, "vis": 5 }, { "sw": 12.2, "vis": 10 }, { "sw": 17.5, "vis": 15 }, { "sw": 22, "vis": 20 }, { "sw": 29.5, "vis": 30 }], "1000ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.4, "vis": 3 }, { "sw": 6, "vis": 5 }, { "sw": 12.2, "vis": 10 }, { "sw": 17.4, "vis": 15 }, { "sw": 21.9, "vis": 20 }, { "sw": 29.3, "vis": 30 }], "2000ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 3.3, "vis": 3 }, { "sw": 6, "vis": 5 }, { "sw": 12.2, "vis": 10 }, { "sw": 17.5, "vis": 15 }, { "sw": 22, "vis": 20 }, { "sw": 29.4, "vis": 30 }], "500ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.4, "vis": 3 }, { "sw": 6, "vis": 5 }, { "sw": 12.2, "vis": 10 }, { "sw": 17.4, "vis": 15 }, { "sw": 21.9, "vis": 20 }, { "sw": 29.3, "vis": 30 }], "750ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.4, "vis": 3 }, { "sw": 6, "vis": 5 }, { "sw": 12.2, "vis": 10 }, { "sw": 17.4, "vis": 15 }, { "sw": 21.9, "vis": 20 }, { "sw": 29.3, "vis": 30 }], "1500ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 3.3, "vis": 3 }, { "sw": 6, "vis": 5 }, { "sw": 12.2, "vis": 10 }, { "sw": 17.5, "vis": 15 }, { "sw": 22, "vis": 20 }, { "sw": 29.4, "vis": 30 }], "2500ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 3.3, "vis": 3 }, { "sw": 6, "vis": 5 }, { "sw": 12.2, "vis": 10 }, { "sw": 17.5, "vis": 15 }, { "sw": 22, "vis": 20 }, { "sw": 29.4, "vis": 30 }], "300ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.4, "vis": 3 }, { "sw": 6, "vis": 5 }, { "sw": 12.2, "vis": 10 }, { "sw": 17.4, "vis": 15 }, { "sw": 21.9, "vis": 20 }, { "sw": 29.3, "vis": 30 }] }, "Aircraft": { "2500ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 2.8, "vis": 3 }, { "sw": 5.4, "vis": 5 }, { "sw": 11.1, "vis": 10 }, { "sw": 16, "vis": 15 }, { "sw": 20.2, "vis": 20 }, { "sw": 27.1, "vis": 30 }], "1000ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.9, "vis": 3 }, { "sw": 5.4, "vis": 5 }, { "sw": 11.1, "vis": 10 }, { "sw": 15.9, "vis": 15 }, { "sw": 20.1, "vis": 20 }, { "sw": 27, "vis": 30 }], "750ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.9, "vis": 3 }, { "sw": 5.4, "vis": 5 }, { "sw": 11.1, "vis": 10 }, { "sw": 15.9, "vis": 15 }, { "sw": 20.1, "vis": 20 }, { "sw": 27, "vis": 30 }], "300ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.9, "vis": 3 }, { "sw": 5.4, "vis": 5 }, { "sw": 11.1, "vis": 10 }, { "sw": 15.9, "vis": 15 }, { "sw": 20, "vis": 20 }, { "sw": 26.9, "vis": 30 }], "500ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 2.9, "vis": 3 }, { "sw": 5.4, "vis": 5 }, { "sw": 11.1, "vis": 10 }, { "sw": 15.9, "vis": 15 }, { "sw": 20.1, "vis": 20 }, { "sw": 26.9, "vis": 30 }], "2000ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 2.9, "vis": 3 }, { "sw": 5.4, "vis": 5 }, { "sw": 11.1, "vis": 10 }, { "sw": 16, "vis": 15 }, { "sw": 20.1, "vis": 20 }, { "sw": 27.1, "vis": 30 }], "1500ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 2.9, "vis": 3 }, { "sw": 5.4, "vis": 5 }, { "sw": 11.1, "vis": 10 }, { "sw": 16, "vis": 15 }, { "sw": 20.1, "vis": 20 }, { "sw": 27, "vis": 30 }], "3000ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 2.8, "vis": 3 }, { "sw": 5.3, "vis": 5 }, { "sw": 11.1, "vis": 10 }, { "sw": 16, "vis": 15 }, { "sw": 20.2, "vis": 20 }, { "sw": 27.1, "vis": 30 }] }, "Boat": { "8ft": [{ "sw": 1.4, "vis": 1 }, { "sw": 2.5, "vis": 3 }, { "sw": 4.6, "vis": 5 }, { "sw": 9.3, "vis": 10 }, { "sw": 13.2, "vis": 15 }, { "sw": 16.6, "vis": 20 }], "14ft": [{ "sw": 1.8, "vis": 1 }, { "sw": 3.3, "vis": 3 }, { "sw": 6, "vis": 5 }, { "sw": 12, "vis": 10 }, { "sw": 17.1, "vis": 15 }, { "sw": 21.5, "vis": 20 }] } }, "Ship 225ft": { "weather_corrections": "large", "speed_corrections": { "Aircraft": [{ "speed": 150, "correction": 1 }], "Helicopter": [{ "speed": 60, "correction": 1.1 }, { "speed": 90, "correction": 1 }, { "speed": 140, "correction": 0.9 }] }, "Helicopter": { "3000ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 3.3, "vis": 3 }, { "sw": 6.3, "vis": 5 }, { "sw": 13.6, "vis": 10 }, { "sw": 20.4, "vis": 15 }, { "sw": 26.6, "vis": 20 }, { "sw": 37.4, "vis": 30 }], "1000ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.4, "vis": 3 }, { "sw": 6.3, "vis": 5 }, { "sw": 13.6, "vis": 10 }, { "sw": 20.4, "vis": 15 }, { "sw": 26.6, "vis": 20 }, { "sw": 37.3, "vis": 30 }], "2000ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 3.4, "vis": 3 }, { "sw": 6.3, "vis": 5 }, { "sw": 13.6, "vis": 10 }, { "sw": 20.4, "vis": 15 }, { "sw": 26.6, "vis": 20 }, { "sw": 37.4, "vis": 30 }], "500ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.4, "vis": 3 }, { "sw": 6.3, "vis": 5 }, { "sw": 13.6, "vis": 10 }, { "sw": 20.4, "vis": 15 }, { "sw": 26.6, "vis": 20 }, { "sw": 37.3, "vis": 30 }], "750ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.4, "vis": 3 }, { "sw": 6.3, "vis": 5 }, { "sw": 13.6, "vis": 10 }, { "sw": 20.4, "vis": 15 }, { "sw": 26.6, "vis": 20 }, { "sw": 37.3, "vis": 30 }], "1500ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 3.4, "vis": 3 }, { "sw": 6.3, "vis": 5 }, { "sw": 13.6, "vis": 10 }, { "sw": 20.4, "vis": 15 }, { "sw": 26.6, "vis": 20 }, { "sw": 37.3, "vis": 30 }], "2500ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 3.3, "vis": 3 }, { "sw": 6.3, "vis": 5 }, { "sw": 13.6, "vis": 10 }, { "sw": 20.4, "vis": 15 }, { "sw": 26.6, "vis": 20 }, { "sw": 37.4, "vis": 30 }], "300ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.4, "vis": 3 }, { "sw": 6.3, "vis": 5 }, { "sw": 13.6, "vis": 10 }, { "sw": 20.4, "vis": 15 }, { "sw": 26.6, "vis": 20 }, { "sw": 37.7, "vis": 30 }] }, "Aircraft": { "2500ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 2.9, "vis": 3 }, { "sw": 5.6, "vis": 5 }, { "sw": 12.5, "vis": 10 }, { "sw": 18.9, "vis": 15 }, { "sw": 24.8, "vis": 20 }, { "sw": 35, "vis": 30 }], "1000ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 3, "vis": 3 }, { "sw": 5.7, "vis": 5 }, { "sw": 12.5, "vis": 10 }, { "sw": 18.9, "vis": 15 }, { "sw": 24.7, "vis": 20 }, { "sw": 34.9, "vis": 30 }], "750ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 3, "vis": 3 }, { "sw": 5.7, "vis": 5 }, { "sw": 12.5, "vis": 10 }, { "sw": 18.9, "vis": 15 }, { "sw": 24.7, "vis": 20 }, { "sw": 34.9, "vis": 30 }], "300ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 3, "vis": 3 }, { "sw": 5.7, "vis": 5 }, { "sw": 12.5, "vis": 10 }, { "sw": 18.8, "vis": 15 }, { "sw": 24.7, "vis": 20 }, { "sw": 34.8, "vis": 30 }], "500ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 3, "vis": 3 }, { "sw": 5.7, "vis": 5 }, { "sw": 12.5, "vis": 10 }, { "sw": 18.9, "vis": 15 }, { "sw": 24.7, "vis": 20 }, { "sw": 34.8, "vis": 30 }], "2000ft": [{ "sw": 0.4, "vis": 1 }, { "sw": 3, "vis": 3 }, { "sw": 5.7, "vis": 5 }, { "sw": 12.5, "vis": 10 }, { "sw": 18.9, "vis": 15 }, { "sw": 24.7, "vis": 20 }, { "sw": 34.9, "vis": 30 }], "1500ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 3, "vis": 3 }, { "sw": 5.7, "vis": 5 }, { "sw": 12.5, "vis": 10 }, { "sw": 18.9, "vis": 15 }, { "sw": 24.7, "vis": 20 }, { "sw": 34.9, "vis": 30 }], "3000ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 2.8, "vis": 3 }, { "sw": 5.6, "vis": 5 }, { "sw": 12.5, "vis": 10 }, { "sw": 18.9, "vis": 15 }, { "sw": 24.8, "vis": 20 }, { "sw": 35, "vis": 30 }] }, "Boat": { "8ft": [{ "sw": 1.4, "vis": 1 }, { "sw": 2.6, "vis": 3 }, { "sw": 4.9, "vis": 5 }, { "sw": 10.3, "vis": 10 }, { "sw": 15.5, "vis": 15 }, { "sw": 20.2, "vis": 20 }], "14ft": [{ "sw": 1.8, "vis": 1 }, { "sw": 3.4, "vis": 3 }, { "sw": 6.3, "vis": 5 }, { "sw": 13.4, "vis": 10 }, { "sw": 20.1, "vis": 15 }, { "sw": 26, "vis": 20 }] } }, "Ship \u2265 300ft": { "weather_corrections": "large", "speed_corrections": { "Aircraft": [{ "speed": 150, "correction": 1 }], "Helicopter": [{ "speed": 60, "correction": 1.1 }, { "speed": 90, "correction": 1 }, { "speed": 140, "correction": 0.9 }] }, "Helicopter": { "3000ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 3.3, "vis": 3 }, { "sw": 6.4, "vis": 5 }, { "sw": 14.3, "vis": 10 }, { "sw": 22.2, "vis": 15 }, { "sw": 29.8, "vis": 20 }, { "sw": 43.9, "vis": 30 }], "1000ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.5, "vis": 3 }, { "sw": 6.4, "vis": 5 }, { "sw": 14.3, "vis": 10 }, { "sw": 22.2, "vis": 15 }, { "sw": 29.8, "vis": 20 }, { "sw": 43.9, "vis": 30 }], "2000ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 3.4, "vis": 3 }, { "sw": 6.4, "vis": 5 }, { "sw": 14.3, "vis": 10 }, { "sw": 22.2, "vis": 15 }, { "sw": 29.8, "vis": 20 }, { "sw": 43.9, "vis": 30 }], "500ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.5, "vis": 3 }, { "sw": 6.4, "vis": 5 }, { "sw": 14.3, "vis": 10 }, { "sw": 22.1, "vis": 15 }, { "sw": 29.8, "vis": 20 }, { "sw": 43.8, "vis": 30 }], "750ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.5, "vis": 3 }, { "sw": 6.4, "vis": 5 }, { "sw": 14.3, "vis": 10 }, { "sw": 22.2, "vis": 15 }, { "sw": 29.8, "vis": 20 }, { "sw": 43.8, "vis": 30 }], "1500ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 3.4, "vis": 3 }, { "sw": 6.4, "vis": 5 }, { "sw": 14.3, "vis": 10 }, { "sw": 22.2, "vis": 15 }, { "sw": 29.8, "vis": 20 }, { "sw": 43.9, "vis": 30 }], "2500ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 3.4, "vis": 3 }, { "sw": 6.4, "vis": 5 }, { "sw": 14.3, "vis": 10 }, { "sw": 22.2, "vis": 15 }, { "sw": 29.8, "vis": 20 }, { "sw": 43.9, "vis": 30 }], "300ft": [{ "sw": 0.8, "vis": 1 }, { "sw": 3.5, "vis": 3 }, { "sw": 6.4, "vis": 5 }, { "sw": 14.3, "vis": 10 }, { "sw": 22.1, "vis": 15 }, { "sw": 29.8, "vis": 20 }, { "sw": 43.8, "vis": 30 }] }, "Aircraft": { "2500ft": [{ "sw": 0.3, "vis": 1 }, { "sw": 2.9, "vis": 3 }, { "sw": 5.7, "vis": 5 }, { "sw": 13.2, "vis": 10 }, { "sw": 20.7, "vis": 15 }, { "sw": 27.9, "vis": 20 }, { "sw": 41.5, "vis": 30 }], "1000ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 3, "vis": 3 }, { "sw": 5.8, "vis": 5 }, { "sw": 13.2, "vis": 10 }, { "sw": 20.6, "vis": 15 }, { "sw": 27.9, "vis": 20 }, { "sw": 41.4, "vis": 30 }], "750ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 3, "vis": 3 }, { "sw": 5.8, "vis": 5 }, { "sw": 13.2, "vis": 10 }, { "sw": 20.6, "vis": 15 }, { "sw": 27.9, "vis": 20 }, { "sw": 41.4, "vis": 30 }], "300ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 3, "vis": 3 }, { "sw": 5.8, "vis": 5 }, { "sw": 13.2, "vis": 10 }, { "sw": 20.6, "vis": 15 }, { "sw": 27.9, "vis": 20 }, { "sw": 41.4, "vis": 30 }], "500ft": [{ "sw": 0.7, "vis": 1 }, { "sw": 3, "vis": 3 }, { "sw": 5.8, "vis": 5 }, { "sw": 13.2, "vis": 10 }, { "sw": 20.6, "vis": 15 }, { "sw": 27.9, "vis": 20 }, { "sw": 41.4, "vis": 30 }], "2000ft": [{ "sw": 0.5, "vis": 1 }, { "sw": 3, "vis": 3 }, { "sw": 5.8, "vis": 5 }, { "sw": 13.2, "vis": 10 }, { "sw": 20.7, "vis": 15 }, { "sw": 27.9, "vis": 20 }, { "sw": 41.5, "vis": 30 }], "1500ft": [{ "sw": 0.6, "vis": 1 }, { "sw": 3, "vis": 3 }, { "sw": 5.8, "vis": 5 }, { "sw": 13.2, "vis": 10 }, { "sw": 20.7, "vis": 15 }, { "sw": 27.9, "vis": 20 }, { "sw": 41.4, "vis": 30 }], "3000ft": [{ "sw": 0.2, "vis": 1 }, { "sw": 2.9, "vis": 3 }, { "sw": 5.7, "vis": 5 }, { "sw": 13.2, "vis": 10 }, { "sw": 20.7, "vis": 15 }, { "sw": 27.9, "vis": 20 }, { "sw": 41.5, "vis": 30 }] }, "Boat": { "8ft": [{ "sw": 1.4, "vis": 1 }, { "sw": 2.6, "vis": 3 }, { "sw": 4.9, "vis": 5 }, { "sw": 10.9, "vis": 10 }, { "sw": 16.8, "vis": 15 }, { "sw": 22.5, "vis": 20 }], "14ft": [{ "sw": 1.8, "vis": 1 }, { "sw": 3.4, "vis": 3 }, { "sw": 6.4, "vis": 5 }, { "sw": 14.1, "vis": 10 }, { "sw": 21.8, "vis": 15 }, { "sw": 29.2, "vis": 20 }] } } };
-
-  // node_modules/@canterbury-air-patrol/marine-sweep-width-data/marine-sweep-width-weather-corrects.js
-  var marine_sweep_width_weather_corrections = {
-    "small": {
-      "IAMSAR": {
-        "low": 1,
-        "medium": 0.5,
-        "high": 0.25
-      }
-    },
-    "large": {
-      "IAMSAR": {
-        "low": 1,
-        "medium": 0.9,
-        "high": 0.9
-      },
-      /* This data is from the Australian National Search and Rescue Manual - 2022 Edition Version 1 */
-      "au": {
-        "low": 1,
-        "medium": 0.8,
-        "high": 0.5
-      }
-    }
-  };
+  var import_marine_sweep_width_data = __toESM(require_marine_sweep_width_data());
 
   // node_modules/react-bootstrap/esm/Form.js
   var import_classnames13 = __toESM(require_classnames());
@@ -26469,30 +39692,34 @@
     Checkbox: InputGroupCheckbox
   });
 
-  // marine-sar-search-prep.js
+  // marine-sar-search-prep.tsx
   var TargetTypeSelector = class extends import_react11.default.Component {
     constructor(props) {
       super(props);
       this.handleChange = this.handleChange.bind(this);
     }
     handleChange(event) {
-      const target = event.target;
-      const value = target.value;
+      const { target } = event;
+      const { value } = target;
       this.props.targetTypeChange(value);
     }
     render() {
       const selectObjects = [];
       for (const idx in this.props.possible_targets) {
         const target = this.props.possible_targets[idx];
-        selectObjects.push(/* @__PURE__ */ import_react11.default.createElement("option", { key: target, value: target }, target));
+        selectObjects.push(
+          /* @__PURE__ */ import_react11.default.createElement("option", { key: target, value: target }, target)
+        );
       }
-      return /* @__PURE__ */ import_react11.default.createElement(Form_default.Select, { defaultValue: this.props.selected, onChange: this.handleChange }, selectObjects);
+      return /* @__PURE__ */ import_react11.default.createElement(
+        Form_default.Select,
+        {
+          defaultValue: this.props.selected,
+          onChange: this.handleChange
+        },
+        selectObjects
+      );
     }
-  };
-  TargetTypeSelector.propTypes = {
-    possible_targets: import_prop_types3.default.array.isRequired,
-    targetTypeChange: import_prop_types3.default.func.isRequired,
-    selected: import_prop_types3.default.string.isRequired
   };
   var AssetTypeSelector = class extends import_react11.default.Component {
     constructor(props) {
@@ -26500,23 +39727,27 @@
       this.handleChange = this.handleChange.bind(this);
     }
     handleChange(event) {
-      const target = event.target;
-      const value = target.value;
+      const { target } = event;
+      const { value } = target;
       this.props.assetTypeChange(value);
     }
     render() {
       const selectObjects = [];
       for (const idx in this.props.possibleAssets) {
         const assetType = this.props.possibleAssets[idx];
-        selectObjects.push(/* @__PURE__ */ import_react11.default.createElement("option", { key: assetType, value: assetType }, assetType));
+        selectObjects.push(
+          /* @__PURE__ */ import_react11.default.createElement("option", { key: assetType, value: assetType }, assetType)
+        );
       }
-      return /* @__PURE__ */ import_react11.default.createElement(Form_default.Select, { defaultValue: this.props.selected, onChange: this.handleChange }, selectObjects);
+      return /* @__PURE__ */ import_react11.default.createElement(
+        Form_default.Select,
+        {
+          defaultValue: this.props.selected,
+          onChange: this.handleChange
+        },
+        selectObjects
+      );
     }
-  };
-  AssetTypeSelector.propTypes = {
-    possibleAssets: import_prop_types3.default.array.isRequired,
-    assetTypeChange: import_prop_types3.default.func.isRequired,
-    selected: import_prop_types3.default.string.isRequired
   };
   var AssetHeightSelector = class extends import_react11.default.Component {
     constructor(props) {
@@ -26524,32 +39755,39 @@
       this.handleChange = this.handleChange.bind(this);
     }
     handleChange(event) {
-      const target = event.target;
-      const value = target.value;
+      const { target } = event;
+      const { value } = target;
       this.props.heightChange(value);
     }
     render() {
       const selectObjects = [];
       for (const idx in this.props.possibleHeights) {
         const height = this.props.possibleHeights[idx];
-        selectObjects.push(/* @__PURE__ */ import_react11.default.createElement("option", { key: height, value: height }, height));
+        selectObjects.push(
+          /* @__PURE__ */ import_react11.default.createElement("option", { key: height, value: height }, height)
+        );
       }
-      return /* @__PURE__ */ import_react11.default.createElement(Form_default.Select, { defaultValue: this.props.selected, onChange: this.handleChange }, selectObjects);
+      return /* @__PURE__ */ import_react11.default.createElement(
+        Form_default.Select,
+        {
+          defaultValue: this.props.selected,
+          onChange: this.handleChange
+        },
+        selectObjects
+      );
     }
-  };
-  AssetHeightSelector.propTypes = {
-    possibleHeights: import_prop_types3.default.array.isRequired,
-    heightChange: import_prop_types3.default.func.isRequired,
-    selected: import_prop_types3.default.string
   };
   var MarineSearchPrep = class extends import_react11.default.Component {
     constructor(props) {
       super(props);
-      this.possibleTargetsList = Object.keys(marine_sweep_widths);
-      this.possibleAssets = ["Boat", "Aircraft", "Heliocopter"];
-      const defaultTargetData = marine_sweep_widths[this.possibleTargetsList[0]];
+      this.possibleTargetsList = Object.keys(import_marine_sweep_width_data.marine_sweep_widths);
+      this.possibleAssets = ["Boat", "Aircraft", "Helicopter"];
+      const defaultTargetData = import_marine_sweep_width_data.marine_sweep_widths[this.possibleTargetsList[0]];
       const defaultAsset = this.possibleAssets[0];
-      const possibleDefaultAssetHeights = Object.keys(defaultTargetData[defaultAsset]);
+      const possibleDefaultAssetHeights = Object.keys(
+        // @ts-expect-error confused about the usage of the key
+        defaultTargetData[defaultAsset]
+      );
       this.state = {
         targetType: this.possibleTargetsList[0],
         targetData: defaultTargetData,
@@ -26567,19 +39805,22 @@
       this.heightChange = this.heightChange.bind(this);
     }
     targetTypeChange(newTargetType) {
-      this.setState({ targetType: newTargetType, targetData: marine_sweep_widths[newTargetType] });
+      this.setState({
+        targetType: newTargetType,
+        targetData: import_marine_sweep_width_data.marine_sweep_widths[newTargetType]
+      });
     }
     windSpeedChange(event) {
-      const target = event.target;
+      const { target } = event;
       this.setState({ windSpeed: Number(target.value) });
     }
     visibilityChange(event) {
-      const target = event.target;
+      const { target } = event;
       this.setState({ visibility: Number(target.value) });
     }
     waveHeightChange(event) {
-      const target = event.target;
-      this.setState({ waveHeight: target.value });
+      const { target } = event;
+      this.setState({ waveHeight: parseFloat(target.value) });
     }
     assetTypeChange(newAssetType) {
       this.setState({ assetType: newAssetType });
@@ -26588,28 +39829,97 @@
       this.setState({ height: newHeight });
     }
     render() {
-      const visibleDistanceData = this.state.targetData[this.state.assetType][this.state.height];
+      const targetData = this.state.assetType == "Boat" ? this.state.targetData.Boat : this.state.assetType === "Helicopter" ? this.state.targetData.Helicopter : this.state.assetType === "Aircraft" ? this.state.targetData.Aircraft : null;
+      const visibleDistanceData = targetData ? targetData[this.state.height] : null;
       let highestSeenSweepWidth = 0;
       let highestSeenVis = 0;
-      for (const idx in visibleDistanceData) {
-        const data = visibleDistanceData[idx];
-        if (data.vis <= this.state.visibility && data.vis > highestSeenVis) {
-          highestSeenSweepWidth = data.sw;
-          highestSeenVis = data.vis;
+      if (visibleDistanceData) {
+        for (const idx in visibleDistanceData) {
+          const data = visibleDistanceData[idx];
+          if (data.vis <= this.state.visibility && data.vis > highestSeenVis) {
+            highestSeenSweepWidth = data.sw;
+            highestSeenVis = data.vis;
+          }
         }
       }
       let weatherImpact = "low";
       if (this.state.windSpeed >= 25 || this.state.waveHeight >= 1.5) {
         weatherImpact = "high";
-      } else if (this.state.windSpeed >= 15 || this.state.seaHeight >= 1) {
+      } else if (this.state.windSpeed >= 15 || this.state.waveHeight >= 1) {
         weatherImpact = "medium";
       }
-      const weatherCorrection = marine_sweep_width_weather_corrections[this.state.targetData.weather_corrections].IAMSAR[weatherImpact];
-      return /* @__PURE__ */ import_react11.default.createElement(import_react11.default.Fragment, null, /* @__PURE__ */ import_react11.default.createElement(InputGroup_default, { className: "mb-3" }, /* @__PURE__ */ import_react11.default.createElement(InputGroup_default.Text, null, "Target Object:"), /* @__PURE__ */ import_react11.default.createElement(TargetTypeSelector, { possible_targets: this.possibleTargetsList, targetTypeChange: this.targetTypeChange, selected: this.state.targetType })), /* @__PURE__ */ import_react11.default.createElement(InputGroup_default, { className: "mb-3" }, /* @__PURE__ */ import_react11.default.createElement(InputGroup_default.Text, null, "Wind Speed (knots)"), /* @__PURE__ */ import_react11.default.createElement(Form_default.Control, { "aria-label": "Average Wind Speed in Knots", value: this.state.windSpeed, onChange: this.windSpeedChange })), /* @__PURE__ */ import_react11.default.createElement(InputGroup_default, { className: "mb-3" }, /* @__PURE__ */ import_react11.default.createElement(InputGroup_default.Text, null, "Visibility (NM)"), /* @__PURE__ */ import_react11.default.createElement(Form_default.Control, { "aria-label": "Met Visibility in NM", value: this.state.visibility, onChange: this.visibilityChange })), /* @__PURE__ */ import_react11.default.createElement(InputGroup_default, { className: "mb-3" }, /* @__PURE__ */ import_react11.default.createElement(InputGroup_default.Text, null, "Wave Height"), /* @__PURE__ */ import_react11.default.createElement(Form_default.Control, { "aria-label": "Average Wave Height in Meters", value: this.state.waveHeight, onChange: this.waveHeightChange })), /* @__PURE__ */ import_react11.default.createElement(InputGroup_default, { className: "mb-3" }, /* @__PURE__ */ import_react11.default.createElement(InputGroup_default.Text, null, "Asset Type"), /* @__PURE__ */ import_react11.default.createElement(AssetTypeSelector, { possibleAssets: this.possibleAssets, assetTypeChange: this.assetTypeChange, selected: this.state.assetType })), /* @__PURE__ */ import_react11.default.createElement(InputGroup_default, { className: "mb-3" }, /* @__PURE__ */ import_react11.default.createElement(InputGroup_default.Text, null, "Observer Height of Eye (ft)"), /* @__PURE__ */ import_react11.default.createElement(AssetHeightSelector, { possibleHeights: Object.keys(this.state.targetData[this.state.assetType]), heightChange: this.heightChange, selected: this.state.height })), /* @__PURE__ */ import_react11.default.createElement("h2", null, "Uncorrected Sweep Width: ", highestSeenSweepWidth), /* @__PURE__ */ import_react11.default.createElement("h2", null, "Weather Correction: ", weatherCorrection), /* @__PURE__ */ import_react11.default.createElement("h1", null, "Resulting Sweep Width: ", highestSeenSweepWidth * weatherCorrection));
+      const weatherCorrectionsTable = this.state.targetData.weather_corrections === "large" ? import_marine_sweep_width_data.marine_sweep_width_weather_corrections.large : import_marine_sweep_width_data.marine_sweep_width_weather_corrections.small;
+      const weatherCorrection = weatherImpact === "low" || weatherImpact === "medium" || weatherImpact === "high" ? weatherCorrectionsTable.IAMSAR[weatherImpact] : null;
+      const inputs = [
+        /* @__PURE__ */ import_react11.default.createElement(InputGroup_default, { key: "target_object", className: "mb-3" }, /* @__PURE__ */ import_react11.default.createElement(InputGroup_default.Text, null, "Target Object:"), /* @__PURE__ */ import_react11.default.createElement(
+          TargetTypeSelector,
+          {
+            possible_targets: this.possibleTargetsList,
+            targetTypeChange: this.targetTypeChange,
+            selected: this.state.targetType
+          }
+        )),
+        /* @__PURE__ */ import_react11.default.createElement(InputGroup_default, { key: "wind_speed", className: "mb-3" }, /* @__PURE__ */ import_react11.default.createElement(InputGroup_default.Text, null, "Wind Speed (knots)"), /* @__PURE__ */ import_react11.default.createElement(
+          Form_default.Control,
+          {
+            "aria-label": "Average Wind Speed in Knots",
+            value: this.state.windSpeed,
+            onChange: this.windSpeedChange
+          }
+        )),
+        /* @__PURE__ */ import_react11.default.createElement(InputGroup_default, { key: "visibility", className: "mb-3" }, /* @__PURE__ */ import_react11.default.createElement(InputGroup_default.Text, null, "Visibility (NM)"), /* @__PURE__ */ import_react11.default.createElement(
+          Form_default.Control,
+          {
+            "aria-label": "Met Visibility in NM",
+            value: this.state.visibility,
+            onChange: this.visibilityChange
+          }
+        )),
+        /* @__PURE__ */ import_react11.default.createElement(InputGroup_default, { key: "wave_height", className: "mb-3" }, /* @__PURE__ */ import_react11.default.createElement(InputGroup_default.Text, null, "Wave Height"), /* @__PURE__ */ import_react11.default.createElement(
+          Form_default.Control,
+          {
+            "aria-label": "Average Wave Height in Meters",
+            value: this.state.waveHeight,
+            onChange: this.waveHeightChange
+          }
+        )),
+        /* @__PURE__ */ import_react11.default.createElement(InputGroup_default, { key: "asset_type", className: "mb-3" }, /* @__PURE__ */ import_react11.default.createElement(InputGroup_default.Text, null, "Asset Type"), /* @__PURE__ */ import_react11.default.createElement(
+          AssetTypeSelector,
+          {
+            possibleAssets: this.possibleAssets,
+            assetTypeChange: this.assetTypeChange,
+            selected: this.state.assetType
+          }
+        ))
+      ];
+      if (targetData !== null) {
+        inputs.push(
+          /* @__PURE__ */ import_react11.default.createElement(InputGroup_default, { key: "height_of_eye", className: "mb-3" }, /* @__PURE__ */ import_react11.default.createElement(InputGroup_default.Text, null, "Observer Height of Eye (ft)"), /* @__PURE__ */ import_react11.default.createElement(
+            AssetHeightSelector,
+            {
+              possibleHeights: Object.keys(targetData),
+              heightChange: this.heightChange,
+              selected: this.state.height
+            }
+          ))
+        );
+      }
+      const outputs = [
+        /* @__PURE__ */ import_react11.default.createElement("h2", { key: "uncorrected_sw" }, "Uncorrected Sweep Width: ", highestSeenSweepWidth)
+      ];
+      if (weatherCorrection !== null) {
+        outputs.push(
+          /* @__PURE__ */ import_react11.default.createElement("h2", { key: "weather_correction_output" }, "Weather Correction: ", weatherCorrection)
+        );
+        outputs.push(
+          /* @__PURE__ */ import_react11.default.createElement("h1", { key: "corrected_sweep_width" }, "Resulting Sweep Width: ", highestSeenSweepWidth * weatherCorrection)
+        );
+      }
+      return /* @__PURE__ */ import_react11.default.createElement(import_react11.default.Fragment, null, inputs, outputs);
     }
   };
 
-  // example.js
+  // example.tsx
   var root = ReactDOM.createRoot(document.getElementById("root"));
   root.render(/* @__PURE__ */ import_react12.default.createElement(MarineSearchPrep, null));
 })();
@@ -26659,6 +39969,13 @@ react-dom/cjs/react-dom-client.development.js:
    * LICENSE file in the root directory of this source tree.
    *)
 
+classnames/index.js:
+  (*!
+  	Copyright (c) 2018 Jed Watson.
+  	Licensed under the MIT License (MIT), see
+  	http://jedwatson.github.io/classnames
+  *)
+
 react-is/cjs/react-is.development.js:
   (** @license React v16.13.1
    * react-is.development.js
@@ -26674,13 +39991,6 @@ object-assign/index.js:
   object-assign
   (c) Sindre Sorhus
   @license MIT
-  *)
-
-classnames/index.js:
-  (*!
-  	Copyright (c) 2018 Jed Watson.
-  	Licensed under the MIT License (MIT), see
-  	http://jedwatson.github.io/classnames
   *)
 
 react/cjs/react-jsx-runtime.development.js:
