@@ -4,8 +4,8 @@
   "description": "Marine Search Pattern Preparation Tool",
   "main": "marine-search-prep.js",
   "scripts": {
-    "build": "esbuild example.js --bundle --loader:.js=jsx --outdir=out",
-    "check": "eslint *.js",
+    "build": "esbuild example.tsx --bundle --outdir=out",
+    "check": "eslint *.tsx && prettier --check *.tsx",
     "start": "http-server -a localhost -p 8000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -30,9 +30,16 @@
     "esbuild": "^0.24.0",
     "eslint": "^9.17.0",
     "http-server": "^14.1.1",
-    "prop-types": "^15.8.1",
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.7",
     "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "eslint-plugin-react": "^7.37.2",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.1"
   }
 }
