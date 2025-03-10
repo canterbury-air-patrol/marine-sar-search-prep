@@ -27,7 +27,7 @@
   "dependencies": {
     "@canterbury-air-patrol/marine-sweep-width-data": "^0.2.0",
     "bootstrap": "^5.3.3",
-    "esbuild": "^0.25.0",
+    "esbuild": "^0.25.1",
     "eslint": "^9.22.0",
     "http-server": "^14.1.1",
     "react-bootstrap": "^2.10.9",
