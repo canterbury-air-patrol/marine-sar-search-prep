@@ -35400,7 +35400,7 @@
     });
   };
   var execute = (possibleCallback, args = [], defaultValue = possibleCallback) => {
-    return typeof possibleCallback === "function" ? possibleCallback(...args) : defaultValue;
+    return typeof possibleCallback === "function" ? possibleCallback.call(...args) : defaultValue;
   };
   var executeAfterTransition = (callback, transitionElement, waitForTransition = true) => {
     if (!waitForTransition) {
@@ -35677,7 +35677,7 @@
       const bsKeys = Object.keys(element.dataset).filter((key) => key.startsWith("bs") && !key.startsWith("bsConfig"));
       for (const key of bsKeys) {
         let pureKey = key.replace(/^bs/, "");
-        pureKey = pureKey.charAt(0).toLowerCase() + pureKey.slice(1, pureKey.length);
+        pureKey = pureKey.charAt(0).toLowerCase() + pureKey.slice(1);
         attributes[pureKey] = normalizeData(element.dataset[key]);
       }
       return attributes;
@@ -35725,7 +35725,7 @@
       }
     }
   };
-  var VERSION = "5.3.3";
+  var VERSION = "5.3.5";
   var BaseComponent = class extends Config {
     constructor(element, config) {
       super();
@@ -36709,7 +36709,7 @@
     }
     _createPopper() {
       if (typeof lib_exports === "undefined") {
-        throw new TypeError("Bootstrap's dropdowns require Popper (https://popper.js.org)");
+        throw new TypeError("Bootstrap's dropdowns require Popper (https://popper.js.org/docs/v2/)");
       }
       let referenceElement = this._element;
       if (this._config.reference === "parent") {
@@ -36784,7 +36784,7 @@
       }
       return {
         ...defaultBsPopperConfig,
-        ...execute(this._config.popperConfig, [defaultBsPopperConfig])
+        ...execute(this._config.popperConfig, [void 0, defaultBsPopperConfig])
       };
     }
     _selectMenuItem({
@@ -37765,7 +37765,7 @@
       return this._config.sanitize ? sanitizeHtml(arg, this._config.allowList, this._config.sanitizeFn) : arg;
     }
     _resolvePossibleFunction(arg) {
-      return execute(arg, [this]);
+      return execute(arg, [void 0, this]);
     }
     _putElementInTemplate(element, templateElement) {
       if (this._config.html) {
@@ -37846,7 +37846,7 @@
   var Tooltip = class _Tooltip extends BaseComponent {
     constructor(element, config) {
       if (typeof lib_exports === "undefined") {
-        throw new TypeError("Bootstrap's tooltips require Popper (https://popper.js.org)");
+        throw new TypeError("Bootstrap's tooltips require Popper (https://popper.js.org/docs/v2/)");
       }
       super(element, config);
       this._isEnabled = true;
@@ -37886,7 +37886,6 @@
       if (!this._isEnabled) {
         return;
       }
-      this._activeTrigger.click = !this._activeTrigger.click;
       if (this._isShown()) {
         this._leave();
         return;
@@ -38058,7 +38057,7 @@
       return offset2;
     }
     _resolvePossibleFunction(arg) {
-      return execute(arg, [this._element]);
+      return execute(arg, [this._element, this._element]);
     }
     _getPopperConfig(attachment) {
       const defaultBsPopperConfig = {
@@ -38094,7 +38093,7 @@
       };
       return {
         ...defaultBsPopperConfig,
-        ...execute(this._config.popperConfig, [defaultBsPopperConfig])
+        ...execute(this._config.popperConfig, [void 0, defaultBsPopperConfig])
       };
     }
     _setListeners() {
@@ -39843,8 +39842,8 @@ react/cjs/react-jsx-runtime.development.js:
 
 bootstrap/dist/js/bootstrap.esm.js:
   (*!
-    * Bootstrap v5.3.3 (https://getbootstrap.com/)
-    * Copyright 2011-2024 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+    * Bootstrap v5.3.5 (https://getbootstrap.com/)
+    * Copyright 2011-2025 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
     * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
     *)
 */
