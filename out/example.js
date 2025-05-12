@@ -35725,7 +35725,7 @@
       }
     }
   };
-  var VERSION = "5.3.5";
+  var VERSION = "5.3.6";
   var BaseComponent = class extends Config {
     constructor(element, config) {
       super();
@@ -35745,6 +35745,7 @@
         this[propertyName] = null;
       }
     }
+    // Private
     _queueCallback(callback, element, isAnimated = true) {
       executeAfterTransition(callback, element, isAnimated);
     }
@@ -36497,10 +36498,10 @@
       this._element.style[dimension] = "";
       this._queueCallback(complete, this._element, true);
     }
+    // Private
     _isShown(element = this._element) {
       return element.classList.contains(CLASS_NAME_SHOW$7);
     }
-    // Private
     _configAfterMerge(config) {
       config.toggle = Boolean(config.toggle);
       config.parent = getElement(config.parent);
@@ -36699,6 +36700,7 @@
       this._element.setAttribute("aria-expanded", "false");
       Manipulator.removeDataAttribute(this._menu, "popper");
       EventHandler.trigger(this._element, EVENT_HIDDEN$5, relatedTarget);
+      this._element.focus();
     }
     _getConfig(config) {
       config = super._getConfig(config);
@@ -39276,15 +39278,12 @@
       htmlFor,
       ...props
     });
-    return (
-      // eslint-disable-next-line jsx-a11y/label-has-for, jsx-a11y/label-has-associated-control
-      /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(Component, {
-        ref,
-        className: classes,
-        htmlFor,
-        ...props
-      })
-    );
+    return /* @__PURE__ */ (0, import_jsx_runtime12.jsx)(Component, {
+      ref,
+      className: classes,
+      htmlFor,
+      ...props
+    });
   });
   FormLabel.displayName = "FormLabel";
   var FormLabel_default = FormLabel;
@@ -39842,7 +39841,7 @@ react/cjs/react-jsx-runtime.development.js:
 
 bootstrap/dist/js/bootstrap.esm.js:
   (*!
-    * Bootstrap v5.3.5 (https://getbootstrap.com/)
+    * Bootstrap v5.3.6 (https://getbootstrap.com/)
     * Copyright 2011-2025 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
     * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
     *)
