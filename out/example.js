@@ -35736,7 +35736,7 @@
       }
     }
   };
-  var VERSION = "5.3.7";
+  var VERSION = "5.3.8";
   var BaseComponent = class extends Config {
     constructor(element, config) {
       super();
@@ -36711,7 +36711,6 @@
       this._element.setAttribute("aria-expanded", "false");
       Manipulator.removeDataAttribute(this._menu, "popper");
       EventHandler.trigger(this._element, EVENT_HIDDEN$5, relatedTarget);
-      this._element.focus();
     }
     _getConfig(config) {
       config = super._getConfig(config);
@@ -39853,7 +39852,7 @@ react/cjs/react-jsx-runtime.development.js:
 
 bootstrap/dist/js/bootstrap.esm.js:
   (*!
-    * Bootstrap v5.3.7 (https://getbootstrap.com/)
+    * Bootstrap v5.3.8 (https://getbootstrap.com/)
     * Copyright 2011-2025 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
     * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
     *)
