@@ -34,7 +34,7 @@
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
-    "@types/react": "^19.1.15",
+    "@types/react": "^19.2.7",
     "@types/react-dom": "^19.2.2",
     "eslint-plugin-react": "^7.37.5",
     "prettier": "^3.6.2",
