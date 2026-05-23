@@ -1,6 +1,6 @@
 {
   "name": "marine-sar-search-prep",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Marine Search Pattern Preparation Tool",
   "main": "marine-search-prep.js",
   "scripts": {
